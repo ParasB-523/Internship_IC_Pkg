@@ -653,7 +653,7 @@ C4BUMP,db_389,586,4126,R0,,
 C4BUMP,vss_103,704,4126,R0,vss,vss
 C4BUMP,ma_xaui_txD0_p,822,4126,R0,ma_xaui_txD0_p,ma_xaui_txD0_p
 C4BUMP,ma_xaui_txD0_n,940,4126,R0,ma_xaui_txD0_n,ma_xaui_txD0_n
-C4BUMP,ma_ xaui_txD2_p,1058,4126,R0,ma_ xaui_txD2_p,ma_ xaui_txD2_p
+C4BUMP,ma_xaui_txD2_p,1058,4126,R0,ma_xaui_txD2_p,ma_xaui_txD2_p
 C4BUMP,ma_xaui_txD2_n,1176,4126,R0,ma_xaui_txD2_n,ma_xaui_txD2_n
 C4BUMP,ma_xaui_clk,1294,4126,R0,ma_xaui_clk,ma_xaui_clk
 C4BUMP,ve_pcie_clk,1412,4126,R0,ve_pcie_clk,ve_pcie_clk

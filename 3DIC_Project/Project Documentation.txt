@@ -1,0 +1,118 @@
+ALNITAK DESIGN DOCUMENTATION
+
+PROCEDURE:
+1. Create the Bump Maps for the Die and the Interposer with all the dies and interposer alliance.
+
+2. Assign the Bump Pitch and Distance from the die edge and interposer edge to the bump. Also the Bump sizes and Stack up for each is being scrutinized/decided (for Dies/Interposer) for efficient design.
+
+3. Accordingly assign the Co-ordinates to the U-Bumps and the C4-Bumps complying with the bump map. Also a consolidated Bump Map and Placement Co-ordinates is assigned for efficient design.
+
+4. Creation of the U-Bumps and the C4-Bumps Libraries in the 3DIC Compiler using the LEF Files of it and creating .ndm Libraries. These are used as reference for the bumps of the Dies and the Interposer respectively while creation of the respective Blocks in respective Libraries.
+
+4. Creation of all the Dies and the Interposer Blocks in the 3DIC Compiler in separate libraries according to the specifications listed above.
+
+5. Placement and Orientation of the Dies and the Interposer is done according to the consolidated Bump Map as done before. This is done by configuring the Top Model of the Design.
+
+6. The Top Model Configuration is initiated by first the creation of a Netlist Verilog File in which we instantiate the Blocks of the Dies and Interposer and assign nets between the intended bumps. This step is crucial for creation of U-Bumps on the Interposer top-layer and also Routing of the Interposer as the U-bumps of Dies are mirrored onto the Interposer in this step.
+
+7. Top Model is assigned with the Verilog Netlist.
+
+8. 3D Placement of all the instances is done according to the plan said before.
+
+9. U-Bumps are mirrored onto the Top layer of the Interposer.
+
+
+
+
+
+
+
+
+
+SPECIFICATIONS:
+
+DIES
+1. Eridani
+	Bump Pitch : 45 um
+	Bump-edge to Die-edge : 12 um 
+	Bump Shape : Octagon
+	Bump Dimensions : 22.5 um x 22.5 um
+
+	Die Dimensions : 842 um x 2146.62 um
+	Die Origin     : 0 0
+
+	No. of Ubumps : 871
+				vccio    : 207
+				vccfwdio : 12
+				vddc     : 5
+				vdd1p8   : 4
+				vss      : 384
+				Non-Power: 259
+	Protocols : UCIe, I2C, GPIO, Tap
+
+	Placement Co-ordinates in Top Model : 
+
+
+2. Maia
+	Bump Pitch : 45 um
+	Bump-edge to Die-edge : 12 um 
+	Bump Shape : Octagon
+	Bump Dimensions : 22.5 um x 22.5 um
+
+	Die Dimensions : 396.52 um x 2273.9 um
+	Die Origin     : 0 0
+
+	No. of Ubumps : 426
+				vccio    : 94
+				vccfwdio : 5
+				vddc     : 4
+				vdd1p8   : 3
+				vss      : 133
+				Non-Power: 187
+	Protocols : UCIe, XAUI, GPIO, Tap
+
+	Placement Co-ordinates in Top Model : 
+
+3. Vega
+	Bump Pitch : 45 um
+	Bump-edge to Die-edge : 12 um 
+	Bump Shape : Octagon
+	Bump Dimensions : 22.5 um x 22.5 um
+
+	Die Dimensions : 396.52 um x 2273.9 um
+	Die Origin     : 0 0
+
+	No. of Ubumps : 426
+				vccio    : 127
+				vccfwdio : 7
+				vddc     : 4
+				vdd1p8   : 4
+				vss      : 177
+				Non-Power: 107
+	Protocols : UCIe, PCIe, GPIO, Tap
+
+	Placement Co-ordinates in Top Model : 
+
+
+
+INTERPOSER
+	Bump Pitch : 118 um
+	Bump-edge to Block-edge : 114 um 
+	Bump Shape : Octagon
+	Bump Dimensions : 70 um x 70 um
+
+	Block Dimensions : 2422 um x 5018 um
+	Block Origin     : 0 0
+
+	No. of Ubumps : 779
+				vccio    : 97
+				vccfwdio : 5
+				vddc     : 3
+				vdd1p8   : 4
+				vss      : 105
+				Non-Power: 65
+				Dummy    : 500
+
+	Protocols : UCIe, PCIe, XAUI, I2C, GPIO, Tap
+
+	Placement Co-ordinates in Top Model : 
