@@ -1,0 +1,50 @@
+ 
+                                 3DIC Compiler 
+
+                  Version W-2024.09 for linux64 - Aug 26, 2024
+  This release has significant feature enhancements. Please review the Release
+                       Notes associated with this release.
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Loading user preference file /home/01fe21bec256/.synopsys_3dic_gui/preferences.tcl
+Information: Term was not able to be set up using xterm-256color . Using "xterm" by default instead. (CLE-10)
+3dic_shell> create_lib -technology tech.tf -ref_libs {C4BUMP.ndm/ UBUMP.ndm/ interposer.ndm/ eridani.ndm/ maia.ndm/ vega.ndm/} top_alnitak_1.ndm
+Information: Loading technology file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_1/tech.tf' (FILE-007)
+{top_alnitak_1.ndm}
+3dic_shell> create_block top_alnitak_1 -origin_type bottom_left -dimensions {2422 5018} -design_type 3dic
+Information: Creating block 'top_alnitak_1.design' in library 'top_alnitak_1.ndm'. (DES-013)
+{top_alnitak_1.ndm:top_alnitak_1.design}
+3dic_shell> link_block
+3dic_shell> link_block
+Warning: Block 'top_alnitak_1.ndm:top_alnitak_1.design' is already linked. (LNK-067)
+0
+3dic_shell> read_verilog top_alnitak_1.v
+Loading verilog file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_1/top_alnitak_1.v'
+Information: Reading Verilog into new design 'Top_alnitak_1' in library 'top_alnitak_1.ndm'. (VR-012)
+Number of modules read: 2
+Top level ports: 279
+Total ports in all modules: 279
+Total nets in all modules: 528
+Total instances in all modules: 4
+Elapsed = 00:00:00.03, CPU = 00:00:00.01
+1
+3dic_shell> link_block
+3dic_shell> link_block
+Warning: Block 'top_alnitak_1.ndm:Top_alnitak_1.design' is already linked. (LNK-067)
+0
+3dic_shell> 

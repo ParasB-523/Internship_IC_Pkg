@@ -1,0 +1,170 @@
+#@ # 
+#@ # Running 3dic_shell Version W-2024.09 for linux64 -- Aug 25, 2024
+#@ # Date:   Sat May  3 14:02:15 2025
+#@ # Run by: 01fe21bec256@APL27.kletech.ac.in
+#@ 
+
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+create_lib -technology tech.tf -ref_libs {C4BUMP.ndm/ UBUMP.ndm/ interposer.ndm/ eridani.ndm/ maia.ndm/ vega.ndm/} top_alnitak_1.ndm
+create_block top_alnitak_1 -origin_type bottom_left -dimensions {2422 5018} -design_type 3dic
+gui_set_preset -category Layout -system -name {3dic}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathDataPaths -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathLaunchClockPaths -value green
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCaptureClockPaths -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCommonClockPaths -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCells -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Soft -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Hard -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Soft -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Hard -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Soft -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Hard -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Soft -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Hard -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Soft -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Hard -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Soft -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Hard -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Soft -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Hard -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Soft -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Hard -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Soft -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Hard -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Soft -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Hard -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Soft -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Hard -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Soft -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Hard -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Soft -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Hard -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Soft -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Hard -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Soft -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Hard -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMaskSame -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMaskSame -value Dense4Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorTopologyNodeIntermediate -value gray
+win_set_filter -visible -class cell -filter {assembly_die_margin bridge clock_margin core cover filler_allowed_margin ftv hard_macro_margin hard_margin hier physical_only route_blockage_margin seal_ring_margin soft_margin spare substrate} -layer {}
+win_set_filter -visible -class pseudo_bump -filter {deleted} -layer {}
+win_set_filter -visible -class pseudo_tsv -filter {deleted} -layer {}
+win_set_filter -start_level 0 -stop_level 2 -visible
+win_set_filter -expand_cell_types {io soft_macro ilm other  }
+win_set_select_class -visible {cell bump_region pseudo_bump pseudo_tsv block_shielding topology_node topology_edge topology_repeater annotation_shape die_area shape via terminal metal_area metal_area_hole }
+win_set_filter -class cell -filter {array assembly_die_margin bridge clock_margin core cover filler_allowed_margin ftv hard_macro_margin hard_margin hier physical_only route_blockage_margin seal_ring_margin soft_margin spare substrate} -layer {}
+win_set_filter -class pseudo_bump -filter {deleted} -layer {}
+win_set_filter -class pseudo_tsv -filter {deleted} -layer {}
+win_set_select_class {cell bump_region pseudo_bump pseudo_tsv topology_node topology_edge topology_repeater annotation_shape shape via terminal metal_area metal_area_hole }
+link_block
+link_block
+read_verilog top_alnitak_1.v
+gui_set_preset -category Layout -system -name {3dic}
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathDataPaths -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathLaunchClockPaths -value green
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCaptureClockPaths -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCommonClockPaths -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorPathCells -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Soft -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask1Hard -value red
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask1Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Soft -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask2Hard -value orange
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask2Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Soft -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask3Hard -value yellow
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask3Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Soft -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask4Hard -value green2
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask4Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Soft -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask5Hard -value cyan
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask5Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Soft -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask6Hard -value magenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask6Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Soft -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask7Hard -value lightsalmon
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask7Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Soft -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask8Hard -value pink
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask8Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Soft -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask9Hard -value lightgreen
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask9Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Soft -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask10Hard -value lightblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask10Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Soft -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask11Hard -value brown
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask11Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Soft -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask12Hard -value chocolate
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask12Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Soft -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask13Hard -value slateblue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask13Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Soft -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask14Hard -value darkmagenta
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask14Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Soft -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Soft -value Dense2Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMask15Hard -value orchid
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMask15Hard -value DiagCrossPattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorColorMaskSame -value blue
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting hatchColorMaskSame -value Dense4Pattern
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting colorTopologyNodeIntermediate -value gray
+link_block
+link_block
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {0.0000 0.0000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {0.0000 0.0000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {0.0000 0.0000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {0.0000 0.0000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {0.0000 0.0000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {0.0000 0.0000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {0.0000 0.0000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {0.0000 0.0000}
