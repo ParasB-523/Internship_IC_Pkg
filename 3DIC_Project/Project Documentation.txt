@@ -19,7 +19,7 @@ PROCEDURE:
 
 8. 3D Placement of all the instances is done according to the plan said before.
 
-9. U-Bumps are mirrored onto the Top layer of the Interposer. And, then the mirrored bumps on the Interposer are assigned the Signal Nets and saved hierarchially. 
+9. U-Bumps are mirrored onto the Top layer of the Interposer. And, then the mirrored bumps on the Interposer are assigned the Signal Nets and saved hierarchically. 
 
 
 
