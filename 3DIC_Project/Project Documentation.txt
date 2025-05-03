@@ -50,7 +50,9 @@ DIES
 				Non-Power: 259
 	Protocols : UCIe, I2C, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 0 0
+	Z-offset 			    : 1
+	Orientation			    : MX
 
 
 2. Maia
@@ -71,7 +73,10 @@ DIES
 				Non-Power: 187
 	Protocols : UCIe, XAUI, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 0 0
+	Z-offset 			    : 1
+	Orientation			    : MX
+
 
 3. Vega
 	Bump Pitch : 45 um
@@ -91,7 +96,9 @@ DIES
 				Non-Power: 107
 	Protocols : UCIe, PCIe, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 0 0
+	Z-offset 			    : 1
+	Orientation			    : MX
 
 
 
@@ -115,4 +122,6 @@ INTERPOSER
 
 	Protocols : UCIe, PCIe, XAUI, I2C, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 0 0
+	Z-offset 			    : 0
+	Orientation			    : MX
