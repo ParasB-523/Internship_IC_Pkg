@@ -496,7 +496,7 @@ UBUMP,er_vss_251,807.5,1189.34,R0,er_vss_251,vss
 UBUMP,er_vss_252,12,1221.16,R0,er_vss_252,vss
 UBUMP,er_vss_253,75.64,1221.16,R0,er_vss_253,vss
 UBUMP,er_ucie64b_rxdata[45],139.28,1221.16,R0,er_ucie64b_rxdata[45],er_ucie64b_rxdata[45]
-UBUMP,er_ucie64b_rxvldrd,202.92,1221.16,R0,er_ucie64b_rxvldrd,er_ucie64b_rxvldrd
+UBUMP,er_ucie64b_rxvldRD,202.92,1221.16,R0,er_ucie64b_rxvldRD,er_ucie64b_rxvldRD
 UBUMP,er_ucie64b_rxdata[24],266.56,1221.16,R0,er_ucie64b_rxdata[24],er_ucie64b_rxdata[24]
 UBUMP,er_ucie64b_rxdata[8],330.2,1221.16,R0,er_ucie64b_rxdata[8],er_ucie64b_rxdata[8]
 UBUMP,er_vss_254,393.84,1221.16,R0,er_vss_254,vss
