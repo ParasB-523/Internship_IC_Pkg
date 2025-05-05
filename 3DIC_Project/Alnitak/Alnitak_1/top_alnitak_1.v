@@ -3,7 +3,7 @@
 // Interposer -- 1
 // Library -- Top_Alnitak_1.ndm
 
-module Top_alnitak_1 (
+module top_alnitak_1 (
     // Power Supplies
     vccio_0, vccio_1, vccio_2, vccio_3, vccio_4, vccio_5, vccio_6, vccio_7, vccio_8, vccio_9,
     vccio_10, vccio_11, vccio_12, vccio_13, vccio_14, vccio_15, vccio_16, vccio_17, vccio_18, vccio_19,

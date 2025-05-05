@@ -1,0 +1,9 @@
+#@ # 
+#@ # Running 3dic_shell Version W-2024.09 for linux64 -- Aug 25, 2024
+#@ # Date:   Mon May  5 11:15:27 2025
+#@ # Run by: 01fe21bec256@CICS2.kletech.ac.in
+#@ 
+
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+source Eridani_Script.tcl
+create_lib -technology tech.tf -ref_libs UBUMP.ndm eridani.ndm
