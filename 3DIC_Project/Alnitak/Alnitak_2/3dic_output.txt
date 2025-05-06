@@ -23,113 +23,20 @@
 
 Loading user preference file /home/01fe21bec256/.synopsys_3dic_gui/preferences.tcl
 Information: Term was not able to be set up using xterm-256color . Using "xterm" by default instead. (CLE-10)
-3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/eridani.ndm:eridani.design
-Opening block 'eridani.ndm:eridani.design' in edit mode
-3dic_shell> link_block
-Using libraries: eridani.ndm UBUMP
-Visiting block eridani.ndm:eridani.design
-Design 'eridani' was successfully linked.
-1
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start RulerTool
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {-5.3200 -3.9400} -scale 2.66159
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {838.4000 9.3650} -scale 2.66159
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {10.6450 1.3800} -scale 2.66159
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {7.9850 2151.9450} -scale 2.66159
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {828.2100 1521.1600} -scale 0.4096
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {841.7300 1519.9300} -scale 0.4096
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {786.4300 2136.7900} -scale 0.4096
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {787.2500 2148.6700} -scale 0.4096
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -cancel
-3dic_shell> close_lib
-Information: The command 'close_lib' cleared the undo history. (UNDO-016)
-Closing library 'eridani.ndm'
-1
-3dic_shell> open_block maia.ndm:maia.design
+3dic_shell> open_lib top_alnitak_2.ndm
+Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/top_alnitak_2.ndm' (FILE-007)
+Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/C4BUMP.ndm' (FILE-007)
 Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/UBUMP.ndm' (FILE-007)
-Opening block 'maia.ndm:maia.design' in edit mode
-{maia.ndm:maia.design}
+Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/interposer.ndm' (FILE-007)
+Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/eridani.ndm' (FILE-007)
+Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/maia.ndm' (FILE-007)
+Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/vega.ndm' (FILE-007)
+{top_alnitak_2.ndm}
+3dic_shell> open_block top_alnitak_2
+Opening block 'top_alnitak_2.ndm:top_alnitak_2.design' in edit mode
+{top_alnitak_2.ndm:top_alnitak_2.design}
 3dic_shell> link_block
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start RulerTool
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {-5.7050 -2.4900} -scale 1.42631
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {402.2200 -2.4900} -scale 1.42631
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {-4.2750 -8.1950} -scale 1.42631
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {-11.4650 2282.0900} -scale 1.6384
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {310.9900 2261.3050} -scale 0.1024
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {311.2950 2273.1850} -scale 0.1024
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {384.8200 1933.5200} -scale 0.2048
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {398.1300 1932.9100} -scale 0.2048
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -cancel
 3dic_shell> close_lib
-Information: The command 'close_lib' cleared the undo history. (UNDO-016)
-Closing library 'maia.ndm'
+Closing library 'top_alnitak_2.ndm'
 1
-3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/vega.ndm:vega.design
-Opening block 'vega.ndm:vega.design' in edit mode
-3dic_shell> link_block
-Using libraries: vega.ndm UBUMP
-Visiting block vega.ndm:vega.design
-Design 'vega' was successfully linked.
-1
-3dic_shell> close_lib
-Closing library 'vega.ndm'
-3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/interposer.ndm:interposer.design
-Opening block 'interposer.ndm:interposer.design' in edit mode
-3dic_shell> link_block
-Using libraries: interposer.ndm C4BUMP UBUMP
-Visiting block interposer.ndm:interposer.design
-Design 'interposer' was successfully linked.
-1
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start RulerTool
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {85.6050 -69.4500} -scale 12.22945
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {2372.5150 3.9250} -scale 12.22945
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {-24.4550 40.6150} -scale 12.22945
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {-24.4550 4993.5400} -scale 12.22945
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {2302.1950 2624.0850} -scale 1.52868
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {2419.9000 2628.6700} -scale 1.52868
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {1444.6050 4909.4650} -scale 1.52868
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {1441.5450 5013.4150} -scale 1.52868
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {1482.8200 4748.7600} -scale 0.19109
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {1529.6350 4747.6150} -scale 0.19109
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {1446.5150 4634.4900} -scale 0.19109
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {1564.4150 4634.3000} -scale 0.19109
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -cancel
-3dic_shell> close_lib
-Information: The command 'close_lib' cleared the undo history. (UNDO-016)
-Closing library 'interposer.ndm'
-1
-3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/vega.ndm:vega.design
-Opening block 'vega.ndm:vega.design' in edit mode
-3dic_shell> link_block
-Using libraries: vega.ndm UBUMP
-Visiting block vega.ndm:vega.design
-Design 'vega' was successfully linked.
-1
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start RulerTool
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {214.6600 2220.4150} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {277.0600 2220.0550} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {215.0150 2218.6300} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {246.0400 2186.8950} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {215.0150 2217.2050} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {215.0150 2153.7350} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {214.6600 2219.7000} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {179.7150 2252.1500} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {152.9700 2157.6550} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {118.3850 2119.8600} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -cancel
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -start DeleteTool
-3dic_shell> gui_set_mouse_tool_option -tool DeleteTool -option {removeDisconnected} -value false
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {229.2800 2202.9400} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -add_point {231.0600 2202.2300} -scale 0.35658
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -reset
-3dic_shell> gui_mouse_tool -window [gui_get_current_window -types Layout -mru] -cancel
-3dic_shell> close_lib
-Information: The command 'close_lib' cleared the undo history. (UNDO-016)
-Closing library 'vega.ndm'
-1
-3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_2/top_alnitak_2.ndm:top_alnitak_2.design
-Error: 'open_block' failed. Block 'top_alnitak_2.ndm:top_alnitak_2.design' is being edited by process 282497 01fe21bec256@APL27.kletech.ac. (NDM-029)
 3dic_shell> 

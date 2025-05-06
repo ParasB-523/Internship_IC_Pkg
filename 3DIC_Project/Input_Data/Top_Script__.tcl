@@ -15,7 +15,9 @@ set_cell_location -coordinates {0 0} -orientation MX -mirror -z_offset 0 [get_ce
 
 report_3d_chip_placement
 
-save_lib
+save_lib; close_lib
+
+open_block -ref_libs_for_edit top_alnitak_*.ndm:top_alnitak_*.design
 
 create_3d_mirror_bumps -from eridani_inst -to interposer_inst -ref_cell UBUMP -prefix inst_
 create_3d_mirror_bumps -from maia_inst -to interposer_inst -ref_cell UBUMP -prefix inst_
