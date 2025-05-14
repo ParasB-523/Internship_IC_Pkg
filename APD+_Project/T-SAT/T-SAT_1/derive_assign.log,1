@@ -1,0 +1,53 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Derive Assignment                                                )
+(                                                                     )
+(    Drawing          : RF_Die.mcm                                    )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Wed May 14 11:58:08 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+DRC at (945.0 1222.86) not resolve. Both items are assigned to real nets.
+DRC at (845.0 1222.86) not resolve. Both items are assigned to real nets.
+DRC at (745.0 1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-355.0 1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-455.0 1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-555.0 1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 875.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 785.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 685.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 575.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 375.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 275.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 155.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 -197.79) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 -457.8) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 -655.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 -745.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 -835.0) not resolve. Both items are assigned to real nets.
+DRC at (-1322.86 -975.0) not resolve. Both items are assigned to real nets.
+DRC at (-965.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-885.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-805.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-535.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-345.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-158.19 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (-58.19 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (41.81 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (241.81 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (555.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (655.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (755.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (855.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (1055.0 -1222.86) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 -738.15) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 -85.0) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 15.0) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 233.22) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 595.0) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 695.0) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 795.0) not resolve. Both items are assigned to real nets.
+DRC at (1322.86 895.0) not resolve. Both items are assigned to real nets.
+Wed May 14 11:58:08 2025

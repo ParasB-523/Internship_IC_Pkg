@@ -1,0 +1,582 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Die Text-In Wizard                                               )
+(                                                                     )
+(    Drawing          : RF_Die.mcm                                    )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Wed May 14 11:53:56 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Text file contains a column header line. This has been used to pre-configure the columns for import.
+INFO(SPMHII-35): Adjusting width to encompass all pins. [help]
+INFO(SPMHII-36): The value changed from 0 UM to 2778 UM. [help]
+INFO(SPMHII-35): Adjusting height to encompass all pins. [help]
+INFO(SPMHII-36): The value changed from 0 UM to 2568 UM. [help]
+INFO(SPMHII-33): Adjusting lower-left x of symbol extents to encompass all pins in file. [help]
+INFO(SPMHII-36): The value changed from 0 UM to -1389 UM. [help]
+INFO(SPMHII-33): Adjusting lower-left y of symbol extents to encompass all pins in file. [help]
+INFO(SPMHII-36): The value changed from 0 UM to -1284 UM. [help]
+INFO(SPMHII-33): Adjusting upper-right x of symbol extents to encompass all pins in file. [help]
+INFO(SPMHII-36): The value changed from 0 UM to 1389 UM. [help]
+INFO(SPMHII-33): Adjusting upper-right y of symbol extents to encompass all pins in file. [help]
+INFO(SPMHII-36): The value changed from 0 UM to 1284 UM. [help]
+Text file contains a column header line. This has been used to pre-configure the columns for import.
+Beginning import of data. This may take some time.
+Beginning creation of logical component.
+Logical component creation completed.
+
+Attaching pins to their nets (creating new nets as required).
+Created new net DCOC1 from net name DCOC1.
+   Pin RF_DIE.1 was added to net DCOC1.
+Created new net DCOC2 from net name DCOC2.
+   Pin RF_DIE.2 was added to net DCOC2.
+Created new net AVDD_1V2 from net name AVDD_1V2.
+   Pin RF_DIE.3 was added to net AVDD_1V2.
+Created new net AGND from net name AGND.
+   Pin RF_DIE.4 was added to net AGND.
+Created new net NC from net name NC.
+   Pin RF_DIE.5 was added to net NC.
+   Pin RF_DIE.6 was added to net NC.
+Created new net BB_AG_VC from net name BB_AG_VC.
+   Pin RF_DIE.7 was added to net BB_AG_VC.
+   Pin RF_DIE.8 was added to net NC.
+   Pin RF_DIE.9 was added to net NC.
+Created new net CAP1 from net name CAP1.
+   Pin RF_DIE.10 was added to net CAP1.
+Created new net HARD_PD from net name HARD_PD.
+   Pin RF_DIE.11 was added to net HARD_PD.
+Created new net RF_IND_UV2 from net name RF_IND_UV2.
+   Pin RF_DIE.12 was added to net RF_IND_UV2.
+Created new net RF_IND_UV1 from net name RF_IND_UV1.
+   Pin RF_DIE.13 was added to net RF_IND_UV1.
+   Pin RF_DIE.14 was added to net AGND.
+   Pin RF_DIE.15 was added to net AGND.
+Created new net VC_RF from net name VC_RF.
+   Pin RF_DIE.16 was added to net VC_RF.
+   Pin RF_DIE.17 was added to net VC_RF.
+   Pin RF_DIE.18 was added to net AGND.
+Created new net RF_INP_UHF from net name RF_INP_UHF.
+   Pin RF_DIE.19 was added to net RF_INP_UHF.
+   Pin RF_DIE.20 was added to net AGND.
+   Pin RF_DIE.21 was added to net AVDD_1V2.
+   Pin RF_DIE.22 was added to net AVDD_1V2.
+   Pin RF_DIE.23 was added to net AVDD_1V2.
+   Pin RF_DIE.24 was added to net AGND.
+   Pin RF_DIE.25 was added to net AGND.
+Created new net VC3 from net name VC3.
+   Pin RF_DIE.26 was added to net VC3.
+   Pin RF_DIE.27 was added to net AGND.
+Created new net VCO_FLT from net name VCO_FLT.
+   Pin RF_DIE.28 was added to net VCO_FLT.
+   Pin RF_DIE.29 was added to net VCO_FLT.
+   Pin RF_DIE.30 was added to net AVDD_1V2.
+   Pin RF_DIE.31 was added to net AVDD_1V2.
+   Pin RF_DIE.32 was added to net AGND.
+   Pin RF_DIE.33 was added to net AGND.
+   Pin RF_DIE.34 was added to net AGND.
+Created new net AVDD18_TUNER from net name AVDD18_TUNER.
+   Pin RF_DIE.35 was added to net AVDD18_TUNER.
+Created new net TUN_CLKOUT from net name TUN_CLKOUT.
+   Pin RF_DIE.36 was added to net TUN_CLKOUT.
+   Pin RF_DIE.37 was added to net AGND.
+   Pin RF_DIE.38 was added to net AGND.
+   Pin RF_DIE.39 was added to net NC.
+   Pin RF_DIE.40 was added to net NC.
+Created new net EXT_CLK from net name EXT_CLK.
+   Pin RF_DIE.41 was added to net EXT_CLK.
+   Pin RF_DIE.42 was added to net AVDD18_TUNER.
+Created new net DVDD_3V3 from net name DVDD_3V3.
+   Pin RF_DIE.43 was added to net DVDD_3V3.
+   Pin RF_DIE.44 was added to net DVDD_3V3.
+Created new net TUN_DGND from net name TUN_DGND.
+   Pin RF_DIE.45 was added to net TUN_DGND.
+   Pin RF_DIE.46 was added to net TUN_DGND.
+   Pin RF_DIE.47 was added to net TUN_DGND.
+Created new net DVDD_1V2 from net name DVDD_1V2.
+   Pin RF_DIE.48 was added to net DVDD_1V2.
+   Pin RF_DIE.49 was added to net DVDD_1V2.
+   Pin RF_DIE.50 was added to net DVDD_1V2.
+   Pin RF_DIE.51 was added to net AVDD_1V2.
+Created new net CAP2 from net name CAP2.
+   Pin RF_DIE.52 was added to net CAP2.
+   Pin RF_DIE.53 was added to net NC.
+   Pin RF_DIE.54 was added to net NC.
+   Pin RF_DIE.55 was added to net AGND.
+   Pin RF_DIE.56 was added to net AVDD_1V2.
+Created new net I2CM_SCL from net name I2CM_SCL.
+   Pin RF_DIE.57 was added to net I2CM_SCL.
+Created new net I2CM_SDA from net name I2CM_SDA.
+   Pin RF_DIE.58 was added to net I2CM_SDA.
+Created new net TUNER_RESET from net name TUNER_RESET.
+   Pin RF_DIE.59 was added to net TUNER_RESET.
+Created new net IB_EXTR from net name IB_EXTR.
+   Pin RF_DIE.60 was added to net IB_EXTR.
+   Pin RF_DIE.61 was added to net NC.
+   Pin RF_DIE.62 was added to net AGND.
+Created new net AVDD_3V3 from net name AVDD_3V3.
+   Pin RF_DIE.63 was added to net AVDD_3V3.
+   Pin RF_DIE.64 was added to net AVDD_3V3.
+   Pin RF_DIE.65 was added to net AVDD_3V3.
+   Pin RF_DIE.66 was added to net NC.
+Created new net VINNQ from net name VINNQ.
+   Pin RF_DIE.67 was added to net VINNQ.
+Created new net VINPQ from net name VINPQ.
+   Pin RF_DIE.68 was added to net VINPQ.
+Created new net VINNI from net name VINNI.
+   Pin RF_DIE.69 was added to net VINNI.
+Created new net VINPI from net name VINPI.
+   Pin RF_DIE.70 was added to net VINPI.
+Net attachment phase completed.
+
+Beginning creation of physical symbol.
+The following symbol pins were created (coordinates relative to symbol origin):
+   "1" at (-1322.86 920).
+   "2" at (-1322.86 820).
+   "3" at (-1322.86 720).
+   "4" at (-1322.86 620).
+   "5" at (-1322.86 520).
+   "6" at (-1322.86 420).
+   "7" at (-1322.86 258.22).
+   "8" at (-1322.86 140).
+   "9" at (-1322.86 40).
+   "10" at (-1322.86 -60).
+   "11" at (-1322.86 -160).
+   "12" at (-1322.86 -713.15).
+   "13" at (-1322.86 -813.15).
+   "14" at (-1322.86 -1000).
+   "15" at (-1080 -1222.86).
+   "16" at (-980 -1222.86).
+   "17" at (-880 -1222.86).
+   "18" at (-780 -1222.86).
+   "19" at (-680 -1222.86).
+   "20" at (-580 -1222.86).
+   "21" at (-480 -1222.86).
+   "22" at (-376.81 -1222.86).
+   "23" at (-266.81 -1222.86).
+   "24" at (-166.81 -1222.86).
+   "25" at (-66.81 -1222.86).
+   "26" at (33.19 -1222.86).
+   "27" at (133.19 -1222.86).
+   "28" at (230 -1222.86).
+   "29" at (320 -1222.86).
+   "30" at (410 -1222.86).
+   "31" at (510 -1222.86).
+   "32" at (600 -1222.86).
+   "33" at (690 -1222.86).
+   "34" at (780 -1222.86).
+   "35" at (860 -1222.86).
+   "36" at (940 -1222.86).
+   "37" at (1020 -1222.86).
+   "38" at (1322.86 -1000).
+   "39" at (1322.86 -920).
+   "40" at (1322.86 -860).
+   "41" at (1322.86 -770).
+   "42" at (1322.86 -680).
+   "43" at (1322.86 -562.79).
+   "44" at (1322.86 -482.8).
+   "45" at (1322.86 -382.8).
+   "46" at (1322.86 -302.8).
+   "47" at (1322.86 -222.79).
+   "48" at (1322.86 -122.8).
+   "49" at (1322.86 30).
+   "50" at (1322.86 130).
+   "51" at (1322.86 250).
+   "52" at (1322.86 350).
+   "53" at (1322.86 450).
+   "54" at (1322.86 550).
+   "55" at (1322.86 660).
+   "56" at (1322.86 760).
+   "57" at (1322.86 850).
+   "58" at (1322.86 940).
+   "59" at (820 1222.86).
+   "60" at (580 1222.86).
+   "61" at (480 1222.86).
+   "62" at (380 1222.86).
+   "63" at (280 1222.86).
+   "64" at (180 1222.86).
+   "65" at (80 1222.86).
+   "66" at (-120 1222.86).
+   "67" at (-720 1222.86).
+   "68" at (-820 1222.86).
+   "69" at (-920 1222.86).
+   "70" at (-1020 1222.86).
+Physical symbol creation completed.
+
+Adding required pin and net properties.
+Property attachment phase completed.
+
+INFO(SPMHII-42): The data import successfully completed.
+Beginning import of data. This may take some time.
+Beginning creation of logical component.
+Logical component creation completed.
+
+Attaching pins to their nets (creating new nets as required).
+Created new net DCOC1 from net name DCOC1.
+   Pin RF_DIE.1 was added to net DCOC1.
+Created new net DCOC2 from net name DCOC2.
+   Pin RF_DIE.2 was added to net DCOC2.
+Created new net AVDD_1V2 from net name AVDD_1V2.
+   Pin RF_DIE.3 was added to net AVDD_1V2.
+Created new net AGND from net name AGND.
+   Pin RF_DIE.4 was added to net AGND.
+Created new net NC from net name NC.
+   Pin RF_DIE.5 was added to net NC.
+   Pin RF_DIE.6 was added to net NC.
+Created new net BB_AG_VC from net name BB_AG_VC.
+   Pin RF_DIE.7 was added to net BB_AG_VC.
+   Pin RF_DIE.8 was added to net NC.
+   Pin RF_DIE.9 was added to net NC.
+Created new net CAP1 from net name CAP1.
+   Pin RF_DIE.10 was added to net CAP1.
+Created new net HARD_PD from net name HARD_PD.
+   Pin RF_DIE.11 was added to net HARD_PD.
+Created new net RF_IND_UV2 from net name RF_IND_UV2.
+   Pin RF_DIE.12 was added to net RF_IND_UV2.
+Created new net RF_IND_UV1 from net name RF_IND_UV1.
+   Pin RF_DIE.13 was added to net RF_IND_UV1.
+   Pin RF_DIE.14 was added to net AGND.
+   Pin RF_DIE.15 was added to net AGND.
+Created new net VC_RF from net name VC_RF.
+   Pin RF_DIE.16 was added to net VC_RF.
+   Pin RF_DIE.17 was added to net VC_RF.
+   Pin RF_DIE.18 was added to net AGND.
+Created new net RF_INP_UHF from net name RF_INP_UHF.
+   Pin RF_DIE.19 was added to net RF_INP_UHF.
+   Pin RF_DIE.20 was added to net AGND.
+   Pin RF_DIE.21 was added to net AVDD_1V2.
+   Pin RF_DIE.22 was added to net AVDD_1V2.
+   Pin RF_DIE.23 was added to net AVDD_1V2.
+   Pin RF_DIE.24 was added to net AGND.
+   Pin RF_DIE.25 was added to net AGND.
+Created new net VC3 from net name VC3.
+   Pin RF_DIE.26 was added to net VC3.
+   Pin RF_DIE.27 was added to net AGND.
+Created new net VCO_FLT from net name VCO_FLT.
+   Pin RF_DIE.28 was added to net VCO_FLT.
+   Pin RF_DIE.29 was added to net VCO_FLT.
+   Pin RF_DIE.30 was added to net AVDD_1V2.
+   Pin RF_DIE.31 was added to net AVDD_1V2.
+   Pin RF_DIE.32 was added to net AGND.
+   Pin RF_DIE.33 was added to net AGND.
+   Pin RF_DIE.34 was added to net AGND.
+Created new net AVDD18_TUNER from net name AVDD18_TUNER.
+   Pin RF_DIE.35 was added to net AVDD18_TUNER.
+Created new net TUN_CLKOUT from net name TUN_CLKOUT.
+   Pin RF_DIE.36 was added to net TUN_CLKOUT.
+   Pin RF_DIE.37 was added to net AGND.
+   Pin RF_DIE.38 was added to net AGND.
+   Pin RF_DIE.39 was added to net NC.
+   Pin RF_DIE.40 was added to net NC.
+Created new net EXT_CLK from net name EXT_CLK.
+   Pin RF_DIE.41 was added to net EXT_CLK.
+   Pin RF_DIE.42 was added to net AVDD18_TUNER.
+Created new net DVDD_3V3 from net name DVDD_3V3.
+   Pin RF_DIE.43 was added to net DVDD_3V3.
+   Pin RF_DIE.44 was added to net DVDD_3V3.
+Created new net TUN_DGND from net name TUN_DGND.
+   Pin RF_DIE.45 was added to net TUN_DGND.
+   Pin RF_DIE.46 was added to net TUN_DGND.
+   Pin RF_DIE.47 was added to net TUN_DGND.
+Created new net DVDD_1V2 from net name DVDD_1V2.
+   Pin RF_DIE.48 was added to net DVDD_1V2.
+   Pin RF_DIE.49 was added to net DVDD_1V2.
+   Pin RF_DIE.50 was added to net DVDD_1V2.
+   Pin RF_DIE.51 was added to net AVDD_1V2.
+Created new net CAP2 from net name CAP2.
+   Pin RF_DIE.52 was added to net CAP2.
+   Pin RF_DIE.53 was added to net NC.
+   Pin RF_DIE.54 was added to net NC.
+   Pin RF_DIE.55 was added to net AGND.
+   Pin RF_DIE.56 was added to net AVDD_1V2.
+Created new net I2CM_SCL from net name I2CM_SCL.
+   Pin RF_DIE.57 was added to net I2CM_SCL.
+Created new net I2CM_SDA from net name I2CM_SDA.
+   Pin RF_DIE.58 was added to net I2CM_SDA.
+Created new net TUNER_RESET from net name TUNER_RESET.
+   Pin RF_DIE.59 was added to net TUNER_RESET.
+Created new net IB_EXTR from net name IB_EXTR.
+   Pin RF_DIE.60 was added to net IB_EXTR.
+   Pin RF_DIE.61 was added to net NC.
+   Pin RF_DIE.62 was added to net AGND.
+Created new net AVDD_3V3 from net name AVDD_3V3.
+   Pin RF_DIE.63 was added to net AVDD_3V3.
+   Pin RF_DIE.64 was added to net AVDD_3V3.
+   Pin RF_DIE.65 was added to net AVDD_3V3.
+   Pin RF_DIE.66 was added to net NC.
+Created new net VINNQ from net name VINNQ.
+   Pin RF_DIE.67 was added to net VINNQ.
+Created new net VINPQ from net name VINPQ.
+   Pin RF_DIE.68 was added to net VINPQ.
+Created new net VINNI from net name VINNI.
+   Pin RF_DIE.69 was added to net VINNI.
+Created new net VINPI from net name VINPI.
+   Pin RF_DIE.70 was added to net VINPI.
+Net attachment phase completed.
+
+Beginning creation of physical symbol.
+The following symbol pins were created (coordinates relative to symbol origin):
+   "1" at (-1322.86 920).
+   "2" at (-1322.86 820).
+   "3" at (-1322.86 720).
+   "4" at (-1322.86 620).
+   "5" at (-1322.86 520).
+   "6" at (-1322.86 420).
+   "7" at (-1322.86 258.22).
+   "8" at (-1322.86 140).
+   "9" at (-1322.86 40).
+   "10" at (-1322.86 -60).
+   "11" at (-1322.86 -160).
+   "12" at (-1322.86 -713.15).
+   "13" at (-1322.86 -813.15).
+   "14" at (-1322.86 -1000).
+   "15" at (-1080 -1222.86).
+   "16" at (-980 -1222.86).
+   "17" at (-880 -1222.86).
+   "18" at (-780 -1222.86).
+   "19" at (-680 -1222.86).
+   "20" at (-580 -1222.86).
+   "21" at (-480 -1222.86).
+   "22" at (-376.81 -1222.86).
+   "23" at (-266.81 -1222.86).
+   "24" at (-166.81 -1222.86).
+   "25" at (-66.81 -1222.86).
+   "26" at (33.19 -1222.86).
+   "27" at (133.19 -1222.86).
+   "28" at (230 -1222.86).
+   "29" at (320 -1222.86).
+   "30" at (410 -1222.86).
+   "31" at (510 -1222.86).
+   "32" at (600 -1222.86).
+   "33" at (690 -1222.86).
+   "34" at (780 -1222.86).
+   "35" at (860 -1222.86).
+   "36" at (940 -1222.86).
+   "37" at (1020 -1222.86).
+   "38" at (1322.86 -1000).
+   "39" at (1322.86 -920).
+   "40" at (1322.86 -860).
+   "41" at (1322.86 -770).
+   "42" at (1322.86 -680).
+   "43" at (1322.86 -562.79).
+   "44" at (1322.86 -482.8).
+   "45" at (1322.86 -382.8).
+   "46" at (1322.86 -302.8).
+   "47" at (1322.86 -222.79).
+   "48" at (1322.86 -122.8).
+   "49" at (1322.86 30).
+   "50" at (1322.86 130).
+   "51" at (1322.86 250).
+   "52" at (1322.86 350).
+   "53" at (1322.86 450).
+   "54" at (1322.86 550).
+   "55" at (1322.86 660).
+   "56" at (1322.86 760).
+   "57" at (1322.86 850).
+   "58" at (1322.86 940).
+   "59" at (820 1222.86).
+   "60" at (580 1222.86).
+   "61" at (480 1222.86).
+   "62" at (380 1222.86).
+   "63" at (280 1222.86).
+   "64" at (180 1222.86).
+   "65" at (80 1222.86).
+   "66" at (-120 1222.86).
+   "67" at (-720 1222.86).
+   "68" at (-820 1222.86).
+   "69" at (-920 1222.86).
+   "70" at (-1020 1222.86).
+Physical symbol creation completed.
+
+Adding required pin and net properties.
+Property attachment phase completed.
+
+INFO(SPMHII-42): The data import successfully completed.
+Beginning import of data. This may take some time.
+Beginning creation of logical component.
+Logical component creation completed.
+
+Attaching pins to their nets (creating new nets as required).
+Created new net DCOC1 from net name DCOC1.
+   Pin RF_DIE.1 was added to net DCOC1.
+Created new net DCOC2 from net name DCOC2.
+   Pin RF_DIE.2 was added to net DCOC2.
+Created new net AVDD_1V2 from net name AVDD_1V2.
+   Pin RF_DIE.3 was added to net AVDD_1V2.
+Created new net AGND from net name AGND.
+   Pin RF_DIE.4 was added to net AGND.
+Created new net NC from net name NC.
+   Pin RF_DIE.5 was added to net NC.
+   Pin RF_DIE.6 was added to net NC.
+Created new net BB_AG_VC from net name BB_AG_VC.
+   Pin RF_DIE.7 was added to net BB_AG_VC.
+   Pin RF_DIE.8 was added to net NC.
+   Pin RF_DIE.9 was added to net NC.
+Created new net CAP1 from net name CAP1.
+   Pin RF_DIE.10 was added to net CAP1.
+Created new net HARD_PD from net name HARD_PD.
+   Pin RF_DIE.11 was added to net HARD_PD.
+Created new net RF_IND_UV2 from net name RF_IND_UV2.
+   Pin RF_DIE.12 was added to net RF_IND_UV2.
+Created new net RF_IND_UV1 from net name RF_IND_UV1.
+   Pin RF_DIE.13 was added to net RF_IND_UV1.
+   Pin RF_DIE.14 was added to net AGND.
+   Pin RF_DIE.15 was added to net AGND.
+Created new net VC_RF from net name VC_RF.
+   Pin RF_DIE.16 was added to net VC_RF.
+   Pin RF_DIE.17 was added to net VC_RF.
+   Pin RF_DIE.18 was added to net AGND.
+Created new net RF_INP_UHF from net name RF_INP_UHF.
+   Pin RF_DIE.19 was added to net RF_INP_UHF.
+   Pin RF_DIE.20 was added to net AGND.
+   Pin RF_DIE.21 was added to net AVDD_1V2.
+   Pin RF_DIE.22 was added to net AVDD_1V2.
+   Pin RF_DIE.23 was added to net AVDD_1V2.
+   Pin RF_DIE.24 was added to net AGND.
+   Pin RF_DIE.25 was added to net AGND.
+Created new net VC3 from net name VC3.
+   Pin RF_DIE.26 was added to net VC3.
+   Pin RF_DIE.27 was added to net AGND.
+Created new net VCO_FLT from net name VCO_FLT.
+   Pin RF_DIE.28 was added to net VCO_FLT.
+   Pin RF_DIE.29 was added to net VCO_FLT.
+   Pin RF_DIE.30 was added to net AVDD_1V2.
+   Pin RF_DIE.31 was added to net AVDD_1V2.
+   Pin RF_DIE.32 was added to net AGND.
+   Pin RF_DIE.33 was added to net AGND.
+   Pin RF_DIE.34 was added to net AGND.
+Created new net AVDD18_TUNER from net name AVDD18_TUNER.
+   Pin RF_DIE.35 was added to net AVDD18_TUNER.
+Created new net TUN_CLKOUT from net name TUN_CLKOUT.
+   Pin RF_DIE.36 was added to net TUN_CLKOUT.
+   Pin RF_DIE.37 was added to net AGND.
+   Pin RF_DIE.38 was added to net AGND.
+   Pin RF_DIE.39 was added to net NC.
+   Pin RF_DIE.40 was added to net NC.
+Created new net EXT_CLK from net name EXT_CLK.
+   Pin RF_DIE.41 was added to net EXT_CLK.
+   Pin RF_DIE.42 was added to net AVDD18_TUNER.
+Created new net DVDD_3V3 from net name DVDD_3V3.
+   Pin RF_DIE.43 was added to net DVDD_3V3.
+   Pin RF_DIE.44 was added to net DVDD_3V3.
+Created new net TUN_DGND from net name TUN_DGND.
+   Pin RF_DIE.45 was added to net TUN_DGND.
+   Pin RF_DIE.46 was added to net TUN_DGND.
+   Pin RF_DIE.47 was added to net TUN_DGND.
+Created new net DVDD_1V2 from net name DVDD_1V2.
+   Pin RF_DIE.48 was added to net DVDD_1V2.
+   Pin RF_DIE.49 was added to net DVDD_1V2.
+   Pin RF_DIE.50 was added to net DVDD_1V2.
+   Pin RF_DIE.51 was added to net AVDD_1V2.
+Created new net CAP2 from net name CAP2.
+   Pin RF_DIE.52 was added to net CAP2.
+   Pin RF_DIE.53 was added to net NC.
+   Pin RF_DIE.54 was added to net NC.
+   Pin RF_DIE.55 was added to net AGND.
+   Pin RF_DIE.56 was added to net AVDD_1V2.
+Created new net I2CM_SCL from net name I2CM_SCL.
+   Pin RF_DIE.57 was added to net I2CM_SCL.
+Created new net I2CM_SDA from net name I2CM_SDA.
+   Pin RF_DIE.58 was added to net I2CM_SDA.
+Created new net TUNER_RESET from net name TUNER_RESET.
+   Pin RF_DIE.59 was added to net TUNER_RESET.
+Created new net IB_EXTR from net name IB_EXTR.
+   Pin RF_DIE.60 was added to net IB_EXTR.
+   Pin RF_DIE.61 was added to net NC.
+   Pin RF_DIE.62 was added to net AGND.
+Created new net AVDD_3V3 from net name AVDD_3V3.
+   Pin RF_DIE.63 was added to net AVDD_3V3.
+   Pin RF_DIE.64 was added to net AVDD_3V3.
+   Pin RF_DIE.65 was added to net AVDD_3V3.
+   Pin RF_DIE.66 was added to net NC.
+Created new net VINNQ from net name VINNQ.
+   Pin RF_DIE.67 was added to net VINNQ.
+Created new net VINPQ from net name VINPQ.
+   Pin RF_DIE.68 was added to net VINPQ.
+Created new net VINNI from net name VINNI.
+   Pin RF_DIE.69 was added to net VINNI.
+Created new net VINPI from net name VINPI.
+   Pin RF_DIE.70 was added to net VINPI.
+Net attachment phase completed.
+
+Beginning creation of physical symbol.
+The following symbol pins were created (coordinates relative to symbol origin):
+   "1" at (-1322.86 920).
+   "2" at (-1322.86 820).
+   "3" at (-1322.86 720).
+   "4" at (-1322.86 620).
+   "5" at (-1322.86 520).
+   "6" at (-1322.86 420).
+   "7" at (-1322.86 258.22).
+   "8" at (-1322.86 140).
+   "9" at (-1322.86 40).
+   "10" at (-1322.86 -60).
+   "11" at (-1322.86 -160).
+   "12" at (-1322.86 -713.15).
+   "13" at (-1322.86 -813.15).
+   "14" at (-1322.86 -1000).
+   "15" at (-1080 -1222.86).
+   "16" at (-980 -1222.86).
+   "17" at (-880 -1222.86).
+   "18" at (-780 -1222.86).
+   "19" at (-680 -1222.86).
+   "20" at (-580 -1222.86).
+   "21" at (-480 -1222.86).
+   "22" at (-376.81 -1222.86).
+   "23" at (-266.81 -1222.86).
+   "24" at (-166.81 -1222.86).
+   "25" at (-66.81 -1222.86).
+   "26" at (33.19 -1222.86).
+   "27" at (133.19 -1222.86).
+   "28" at (230 -1222.86).
+   "29" at (320 -1222.86).
+   "30" at (410 -1222.86).
+   "31" at (510 -1222.86).
+   "32" at (600 -1222.86).
+   "33" at (690 -1222.86).
+   "34" at (780 -1222.86).
+   "35" at (860 -1222.86).
+   "36" at (940 -1222.86).
+   "37" at (1020 -1222.86).
+   "38" at (1322.86 -1000).
+   "39" at (1322.86 -920).
+   "40" at (1322.86 -860).
+   "41" at (1322.86 -770).
+   "42" at (1322.86 -680).
+   "43" at (1322.86 -562.79).
+   "44" at (1322.86 -482.8).
+   "45" at (1322.86 -382.8).
+   "46" at (1322.86 -302.8).
+   "47" at (1322.86 -222.79).
+   "48" at (1322.86 -122.8).
+   "49" at (1322.86 30).
+   "50" at (1322.86 130).
+   "51" at (1322.86 250).
+   "52" at (1322.86 350).
+   "53" at (1322.86 450).
+   "54" at (1322.86 550).
+   "55" at (1322.86 660).
+   "56" at (1322.86 760).
+   "57" at (1322.86 850).
+   "58" at (1322.86 940).
+   "59" at (820 1222.86).
+   "60" at (580 1222.86).
+   "61" at (480 1222.86).
+   "62" at (380 1222.86).
+   "63" at (280 1222.86).
+   "64" at (180 1222.86).
+   "65" at (80 1222.86).
+   "66" at (-120 1222.86).
+   "67" at (-720 1222.86).
+   "68" at (-820 1222.86).
+   "69" at (-920 1222.86).
+   "70" at (-1020 1222.86).
+Physical symbol creation completed.
+
+Adding required pin and net properties.
+Property attachment phase completed.
+
+INFO(SPMHII-42): The data import successfully completed.
+Die Text-In Wizard completed.
+Wed May 14 11:58:08 2025

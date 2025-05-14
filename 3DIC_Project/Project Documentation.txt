@@ -19,7 +19,7 @@ PROCEDURE:
 
 8. 3D Placement of all the instances is done according to the plan said before.
 
-9. U-Bumps are mirrored onto the Top layer of the Interposer. And, then the mirrored bumps on the Interposer are assigned the Signal Nets and saved hierarchically. 
+9. U-Bumps are mirrored onto the Top layer of the Interposer.
 
 
 
@@ -49,11 +49,8 @@ DIES
 				vss      : 384
 				Non-Power: 259
 	Protocols : UCIe, I2C, GPIO, Tap
-	
-	Top_Model Instance Name 	    : eridani_inst
-	Placement Co-ordinates in Top Model : 790 2608.38
-	Z-offset 			    : 1
-	Orientation			    : MX
+
+	Placement Co-ordinates in Top Model : 
 
 
 2. Maia
@@ -74,11 +71,7 @@ DIES
 				Non-Power: 187
 	Protocols : UCIe, XAUI, GPIO, Tap
 
-	Top_Model Instance Name 	    : maia_inst
-	Placement Co-ordinates in Top Model : 790 263
-	Z-offset 			    : 1
-	Orientation			    : MX
-
+	Placement Co-ordinates in Top Model : 
 
 3. Vega
 	Bump Pitch : 45 um
@@ -98,10 +91,7 @@ DIES
 				Non-Power: 107
 	Protocols : UCIe, PCIe, GPIO, Tap
 
-	Top_Model Instance Name 	    : vega_inst
-	Placement Co-ordinates in Top Model : 1235.48 263
-	Z-offset 			    : 1
-	Orientation			    : MX
+	Placement Co-ordinates in Top Model : 
 
 
 
@@ -125,32 +115,4 @@ INTERPOSER
 
 	Protocols : UCIe, PCIe, XAUI, I2C, GPIO, Tap
 
-	Top_Model Instance Name 	    : interposer_inst
-	Placement Co-ordinates in Top Model : 0 0
-	Z-offset 			    : 0
-	Orientation			    : MX -mirror
-
-
-
-INTER DIE AND DIE-TO-INTERPOSER DISTANCES: 
-
-1. Maia - Vega : 48.96 um
-2. Vega - Eridani : 71.48 um
-3. Eridani - Maia : 71.48 um
-
-4. Die - Interposer Edge(V Dist.) : 263 um
-5. Die - Interposer Edge(H Dist.) : 790 um
-
-
-
-REPORT 3D CHIP PLACEMENT:
-
---------------------------------------------------------------------------------------------------------------
-chip_name                     design_type         stack_z   location            orientation    scaling_factor
---------------------------------------------------------------------------------------------------------------
-eridani_inst                  die                 1         (790.0000 2608.3800)    MX         1
-maia_inst                     die                 1         (790.0000 263.0000)    MX          1
-vega_inst                     die                 1         (1235.4800 263.0000)    MX         1
-interposer_inst               interposer          0         (0.0000 0.0000)        MX(MB)      1
---------------------------------------------------------------------------------------------------------------
-
+	Placement Co-ordinates in Top Model : 

@@ -1,0 +1,78 @@
+T-SAT DESIGN DOCUMENTATION
+
+PROCEDURE:
+
+1. Firstly, create/get the Bump Maps (Excel files/csv files) of the Dies and the Substrate with alliance (and analyze it).
+
+2. Assign the Co-ordinates to the Ubumps and the Balls with a certain pitch and pad dimension. Also, keep in mind the the limits of the dies and substrate, i.e. the Dimensions of the die and the bump to edge distance for efficient design.
+
+3. Create the text files of the Co-ordinates and the related bump information for input of Die and BGA symbol creation in Cadence APD+.
+The information needed are : Pin No., Pin Name, Padstack, Co-ordinates, Rotation, Pin Use, & Net Name. 
+ 
+4. Then create the mcm Files of all the dies and Substrate in APD+ using the txt files seperately for visualization according to the specifications listed in the above steps.
+
+
+
+SPECIFICATIONS:
+
+DIES
+1. P3 Die
+	Bump Pitch :  um
+	Bump-edge to Die-edge :  um 
+	Bump Shape : Rectangle
+	Bump Dimensions : 46.8 um x 46.8 um
+
+	Die Dimensions : 5054.4 um x 4788.9 um
+	Die Origin     : Centre
+
+	No. of Ubumps : 
+				vccio    : 
+				vccfwdio : 
+				vddc     : 
+				vdd1p8   : 
+				vss      : 
+				Non-Power: 
+	Protocols : 
+
+	Placement Co-ordinates in Multi-Chip Model :
+
+2. RF Die
+	Bump Pitch :  um
+	Bump-edge to Die-edge :  um 
+	Bump Shape : Rectangle
+	Bump Dimensions : 50 um x 50 um
+
+	Die Dimensions : 2700 um x 2500 um
+	Die Origin     : Centre
+
+	No. of Ubumps : 
+				vccio    : 
+				vccfwdio : 
+				vddc     : 
+				vdd1p8   : 
+				vss      : 
+				Non-Power: 
+	Protocols : 
+
+	Placement Co-ordinates in Multi-Chip Model :
+
+
+SUBSTRATE
+	Bump Pitch : 650 um
+	Bump-edge to Die-edge :  um 
+	Bump Shape : Circle
+	Bump Dimensions : 250 um x 250 um
+
+	Die Dimensions : 7100 um x 7100 um
+	Die Origin     : Centre
+
+	No. of Balls : 100
+				vccio    : 
+				vccfwdio : 
+				vddc     : 
+				vdd1p8   : 
+				vss      : 
+				Non-Power: 
+	Protocols : 
+
+	Placement Co-ordinates in Multi-Chip Model : 0 0
