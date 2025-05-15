@@ -2,12 +2,12 @@
 (                                                                     )
 (    Purge Unused Nets                                                )
 (                                                                     )
-(    Drawing          : BGA_100.mcm                                   )
-(    Software Version : 24.1P001                                      )
-(    Date/Time        : Wed May 14 12:32:37 2025                      )
+(    Drawing          : T-SAT_ass_1.mcm                               )
+(    Software Version : 24.1S001                                      )
+(    Date/Time        : Thu May 15 16:57:18 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 No unused nets found in design.
-Wed May 14 12:32:37 2025
+Thu May 15 16:57:18 2025

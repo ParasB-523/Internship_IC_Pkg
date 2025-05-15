@@ -1,4 +1,4 @@
-PinNumber	PinName_P3BB	Padstack	X Coordinate	Y Coordinate	Rotation	Pin Use	NetName					
+PinNumber	PinName_P3BB	Padstack	X Coordinate	Y Coordinate	Rotation	Pin Use	Net Name					
 1	ADC_PRG_AVDD18	P3_PAD	238.74	48.15	0	POWER	AVDD18_ADC					
 2	ADC_AVDD18	P3_PAD	294.54	48.15	0	POWER	AVDD18_ADC					
 3	ADC_PRG_VOUT10	P3_PAD	350.34	48.15	0	POWER	AVDD10_ADC					

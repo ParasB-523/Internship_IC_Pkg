@@ -2,206 +2,556 @@
 (                                                                     )
 (    Die Text-In Wizard                                               )
 (                                                                     )
-(    Drawing          : RF_Die.mcm                                    )
-(    Software Version : 24.1P001                                      )
-(    Date/Time        : Wed May 14 11:53:56 2025                      )
+(    Drawing          : T-SAT_ass_1.mcm                               )
+(    Software Version : 24.1S001                                      )
+(    Date/Time        : Thu May 15 14:44:41 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Text file contains a column header line. This has been used to pre-configure the columns for import.
 INFO(SPMHII-35): Adjusting width to encompass all pins. [help]
-INFO(SPMHII-36): The value changed from 0 UM to 2778 UM. [help]
+INFO(SPMHII-36): The value changed from 0 UM to 5182.34 UM. [help]
 INFO(SPMHII-35): Adjusting height to encompass all pins. [help]
-INFO(SPMHII-36): The value changed from 0 UM to 2568 UM. [help]
+INFO(SPMHII-36): The value changed from 0 UM to 4903.41 UM. [help]
 INFO(SPMHII-33): Adjusting lower-left x of symbol extents to encompass all pins in file. [help]
-INFO(SPMHII-36): The value changed from 0 UM to -1389 UM. [help]
+INFO(SPMHII-36): The value changed from 0 UM to -2591.16 UM. [help]
 INFO(SPMHII-33): Adjusting lower-left y of symbol extents to encompass all pins in file. [help]
-INFO(SPMHII-36): The value changed from 0 UM to -1284 UM. [help]
+INFO(SPMHII-36): The value changed from 0 UM to -2451.7 UM. [help]
 INFO(SPMHII-33): Adjusting upper-right x of symbol extents to encompass all pins in file. [help]
-INFO(SPMHII-36): The value changed from 0 UM to 1389 UM. [help]
+INFO(SPMHII-36): The value changed from 0 UM to 2591.16 UM. [help]
 INFO(SPMHII-33): Adjusting upper-right y of symbol extents to encompass all pins in file. [help]
-INFO(SPMHII-36): The value changed from 0 UM to 1284 UM. [help]
-Text file contains a column header line. This has been used to pre-configure the columns for import.
+INFO(SPMHII-36): The value changed from 0 UM to 2451.7 UM. [help]
 Beginning import of data. This may take some time.
 Beginning creation of logical component.
 Logical component creation completed.
 
 Attaching pins to their nets (creating new nets as required).
-Created new net DCOC1 from net name DCOC1.
-   Pin RF_DIE.1 was added to net DCOC1.
-Created new net DCOC2 from net name DCOC2.
-   Pin RF_DIE.2 was added to net DCOC2.
-Created new net AVDD_1V2 from net name AVDD_1V2.
-   Pin RF_DIE.3 was added to net AVDD_1V2.
-Created new net AGND from net name AGND.
-   Pin RF_DIE.4 was added to net AGND.
-Created new net NC from net name NC.
-   Pin RF_DIE.5 was added to net NC.
-   Pin RF_DIE.6 was added to net NC.
-Created new net BB_AG_VC from net name BB_AG_VC.
-   Pin RF_DIE.7 was added to net BB_AG_VC.
-   Pin RF_DIE.8 was added to net NC.
-   Pin RF_DIE.9 was added to net NC.
-Created new net CAP1 from net name CAP1.
-   Pin RF_DIE.10 was added to net CAP1.
-Created new net HARD_PD from net name HARD_PD.
-   Pin RF_DIE.11 was added to net HARD_PD.
-Created new net RF_IND_UV2 from net name RF_IND_UV2.
-   Pin RF_DIE.12 was added to net RF_IND_UV2.
-Created new net RF_IND_UV1 from net name RF_IND_UV1.
-   Pin RF_DIE.13 was added to net RF_IND_UV1.
-   Pin RF_DIE.14 was added to net AGND.
-   Pin RF_DIE.15 was added to net AGND.
-Created new net VC_RF from net name VC_RF.
-   Pin RF_DIE.16 was added to net VC_RF.
-   Pin RF_DIE.17 was added to net VC_RF.
-   Pin RF_DIE.18 was added to net AGND.
-Created new net RF_INP_UHF from net name RF_INP_UHF.
-   Pin RF_DIE.19 was added to net RF_INP_UHF.
-   Pin RF_DIE.20 was added to net AGND.
-   Pin RF_DIE.21 was added to net AVDD_1V2.
-   Pin RF_DIE.22 was added to net AVDD_1V2.
-   Pin RF_DIE.23 was added to net AVDD_1V2.
-   Pin RF_DIE.24 was added to net AGND.
-   Pin RF_DIE.25 was added to net AGND.
-Created new net VC3 from net name VC3.
-   Pin RF_DIE.26 was added to net VC3.
-   Pin RF_DIE.27 was added to net AGND.
-Created new net VCO_FLT from net name VCO_FLT.
-   Pin RF_DIE.28 was added to net VCO_FLT.
-   Pin RF_DIE.29 was added to net VCO_FLT.
-   Pin RF_DIE.30 was added to net AVDD_1V2.
-   Pin RF_DIE.31 was added to net AVDD_1V2.
-   Pin RF_DIE.32 was added to net AGND.
-   Pin RF_DIE.33 was added to net AGND.
-   Pin RF_DIE.34 was added to net AGND.
-Created new net AVDD18_TUNER from net name AVDD18_TUNER.
-   Pin RF_DIE.35 was added to net AVDD18_TUNER.
-Created new net TUN_CLKOUT from net name TUN_CLKOUT.
-   Pin RF_DIE.36 was added to net TUN_CLKOUT.
-   Pin RF_DIE.37 was added to net AGND.
-   Pin RF_DIE.38 was added to net AGND.
-   Pin RF_DIE.39 was added to net NC.
-   Pin RF_DIE.40 was added to net NC.
-Created new net EXT_CLK from net name EXT_CLK.
-   Pin RF_DIE.41 was added to net EXT_CLK.
-   Pin RF_DIE.42 was added to net AVDD18_TUNER.
-Created new net DVDD_3V3 from net name DVDD_3V3.
-   Pin RF_DIE.43 was added to net DVDD_3V3.
-   Pin RF_DIE.44 was added to net DVDD_3V3.
-Created new net TUN_DGND from net name TUN_DGND.
-   Pin RF_DIE.45 was added to net TUN_DGND.
-   Pin RF_DIE.46 was added to net TUN_DGND.
-   Pin RF_DIE.47 was added to net TUN_DGND.
-Created new net DVDD_1V2 from net name DVDD_1V2.
-   Pin RF_DIE.48 was added to net DVDD_1V2.
-   Pin RF_DIE.49 was added to net DVDD_1V2.
-   Pin RF_DIE.50 was added to net DVDD_1V2.
-   Pin RF_DIE.51 was added to net AVDD_1V2.
-Created new net CAP2 from net name CAP2.
-   Pin RF_DIE.52 was added to net CAP2.
-   Pin RF_DIE.53 was added to net NC.
-   Pin RF_DIE.54 was added to net NC.
-   Pin RF_DIE.55 was added to net AGND.
-   Pin RF_DIE.56 was added to net AVDD_1V2.
-Created new net I2CM_SCL from net name I2CM_SCL.
-   Pin RF_DIE.57 was added to net I2CM_SCL.
-Created new net I2CM_SDA from net name I2CM_SDA.
-   Pin RF_DIE.58 was added to net I2CM_SDA.
-Created new net TUNER_RESET from net name TUNER_RESET.
-   Pin RF_DIE.59 was added to net TUNER_RESET.
-Created new net IB_EXTR from net name IB_EXTR.
-   Pin RF_DIE.60 was added to net IB_EXTR.
-   Pin RF_DIE.61 was added to net NC.
-   Pin RF_DIE.62 was added to net AGND.
-Created new net AVDD_3V3 from net name AVDD_3V3.
-   Pin RF_DIE.63 was added to net AVDD_3V3.
-   Pin RF_DIE.64 was added to net AVDD_3V3.
-   Pin RF_DIE.65 was added to net AVDD_3V3.
-   Pin RF_DIE.66 was added to net NC.
-Created new net VINNQ from net name VINNQ.
-   Pin RF_DIE.67 was added to net VINNQ.
-Created new net VINPQ from net name VINPQ.
-   Pin RF_DIE.68 was added to net VINPQ.
-Created new net VINNI from net name VINNI.
-   Pin RF_DIE.69 was added to net VINNI.
+   Pin P3_DIE.1 was added to net AVDD18_ADC.
+   Pin P3_DIE.2 was added to net AVDD18_ADC.
+Created new net AVDD10_ADC from net name AVDD10_ADC.
+   Pin P3_DIE.3 was added to net AVDD10_ADC.
+   Pin P3_DIE.4 was added to net AVDD10_ADC.
+   Pin P3_DIE.5 was added to net AVDD10_ADC.
+   Pin P3_DIE.6 was added to net AGND_ADC.
+   Pin P3_DIE.7 was added to net AGND_ADC.
+   Pin P3_DIE.8 was added to net AGND_ADC.
 Created new net VINPI from net name VINPI.
-   Pin RF_DIE.70 was added to net VINPI.
+   Pin P3_DIE.9 was added to net VINPI.
+Created new net VINNI from net name VINNI.
+   Pin P3_DIE.10 was added to net VINNI.
+Created new net VINPQ from net name VINPQ.
+   Pin P3_DIE.11 was added to net VINPQ.
+Created new net VINNQ from net name VINNQ.
+   Pin P3_DIE.12 was added to net VINNQ.
+Created new net NC from net name NC.
+   Pin P3_DIE.13 was added to net NC.
+   Pin P3_DIE.14 was added to net AGND_ADC.
+   Pin P3_DIE.15 was added to net AGND_ADC.
+   Pin P3_DIE.16 was added to net AGND_ADC.
+Created new net VREFH from net name VREFH.
+   Pin P3_DIE.17 was added to net VREFH.
+   Pin P3_DIE.18 was added to net VREFH.
+   Pin P3_DIE.19 was added to net VREFH.
+   Pin P3_DIE.20 was added to net NC.
+   Pin P3_DIE.21 was added to net NC.
+   Pin P3_DIE.22 was added to net AGND_DAC.
+   Pin P3_DIE.23 was added to net AGND_DAC.
+   Pin P3_DIE.24 was added to net AGND_DAC.
+   Pin P3_DIE.25 was added to net NC.
+   Pin P3_DIE.26 was added to net NC.
+   Pin P3_DIE.27 was added to net AVDD18_DAC.
+   Pin P3_DIE.28 was added to net AVDD18_DAC.
+   Pin P3_DIE.29 was added to net AVDD18_DAC.
+   Pin P3_DIE.30 was added to net NC.
+   Pin P3_DIE.31 was added to net NC.
+   Pin P3_DIE.32 was added to net VSS.
+   Pin P3_DIE.33 was added to net VDD.
+   Pin P3_DIE.34 was added to net VDD.
+   Pin P3_DIE.35 was added to net VSS.
+   Pin P3_DIE.36 was added to net VSS.
+   Pin P3_DIE.37 was added to net VDDE18.
+   Pin P3_DIE.38 was added to net VDDE18.
+   Pin P3_DIE.39 was added to net VSS.
+   Pin P3_DIE.40 was added to net VSS.
+   Pin P3_DIE.41 was added to net VSS.
+   Pin P3_DIE.42 was added to net VSS.
+   Pin P3_DIE.43 was added to net VDD.
+   Pin P3_DIE.44 was added to net VDD.
+   Pin P3_DIE.45 was added to net VDD.
+   Pin P3_DIE.46 was added to net VDD.
+   Pin P3_DIE.47 was added to net VSS.
+   Pin P3_DIE.48 was added to net VSS.
+   Pin P3_DIE.49 was added to net VSS.
+   Pin P3_DIE.50 was added to net VSS.
+   Pin P3_DIE.51 was added to net VDDE18.
+   Pin P3_DIE.52 was added to net VDDE18.
+   Pin P3_DIE.53 was added to net VSS.
+   Pin P3_DIE.54 was added to net VSS.
+   Pin P3_DIE.55 was added to net VDD.
+   Pin P3_DIE.56 was added to net VDD.
+   Pin P3_DIE.57 was added to net VDD.
+   Pin P3_DIE.58 was added to net VDD.
+   Pin P3_DIE.59 was added to net VSS.
+   Pin P3_DIE.60 was added to net VSS.
+   Pin P3_DIE.61 was added to net JTAG_CLK.
+   Pin P3_DIE.62 was added to net JTAG_TDO.
+   Pin P3_DIE.63 was added to net VSS.
+   Pin P3_DIE.64 was added to net VSS.
+   Pin P3_DIE.65 was added to net VDDE18.
+   Pin P3_DIE.66 was added to net VDDE18.
+   Pin P3_DIE.67 was added to net JTAG_TMS.
+   Pin P3_DIE.68 was added to net JTAG_TDI.
+   Pin P3_DIE.69 was added to net IF_AGC.
+   Pin P3_DIE.70 was added to net RF_AGC.
+   Pin P3_DIE.71 was added to net VSS.
+   Pin P3_DIE.72 was added to net VSS.
+   Pin P3_DIE.73 was added to net VDD.
+   Pin P3_DIE.74 was added to net VDD.
+   Pin P3_DIE.75 was added to net VDDE18.
+   Pin P3_DIE.76 was added to net VDDE18.
+   Pin P3_DIE.77 was added to net VSS.
+   Pin P3_DIE.78 was added to net VSS.
+   Pin P3_DIE.79 was added to net VDD.
+   Pin P3_DIE.80 was added to net VDD.
+   Pin P3_DIE.81 was added to net VSS.
+   Pin P3_DIE.82 was added to net VSS.
+   Pin P3_DIE.83 was added to net UART_TX/BOOTMODE0/SDIO_DATA2.
+   Pin P3_DIE.84 was added to net UART_RX_SDIODATA3.
+   Pin P3_DIE.85 was added to net BOOTMODE1.
+   Pin P3_DIE.86 was added to net S_SPI_MOSI/S_I2C_SDA.
+   Pin P3_DIE.87 was added to net S_SPI_MISO/I2C_ADD0.
+   Pin P3_DIE.88 was added to net VSS.
+   Pin P3_DIE.89 was added to net VSS.
+   Pin P3_DIE.90 was added to net VDDE18.
+   Pin P3_DIE.91 was added to net VDDE18.
+   Pin P3_DIE.92 was added to net VSS.
+   Pin P3_DIE.93 was added to net VSS.
+   Pin P3_DIE.94 was added to net VDD.
+   Pin P3_DIE.95 was added to net VDD.
+   Pin P3_DIE.96 was added to net VDD.
+   Pin P3_DIE.97 was added to net VDD.
+   Pin P3_DIE.98 was added to net VSS.
+   Pin P3_DIE.99 was added to net VSS.
+   Pin P3_DIE.100 was added to net S_SPI_CLK/S_I2C_SCL.
+   Pin P3_DIE.101 was added to net S_SPI_CSN0/I2C_ADD1.
+   Pin P3_DIE.102 was added to net NC.
+   Pin P3_DIE.103 was added to net VDDE18.
+   Pin P3_DIE.104 was added to net VDDE18.
+   Pin P3_DIE.105 was added to net VSS.
+   Pin P3_DIE.106 was added to net VSS.
+   Pin P3_DIE.107 was added to net NC.
+   Pin P3_DIE.108 was added to net NC.
+   Pin P3_DIE.109 was added to net NC.
+   Pin P3_DIE.110 was added to net VSS.
+   Pin P3_DIE.111 was added to net VSS.
+   Pin P3_DIE.112 was added to net VDD.
+   Pin P3_DIE.113 was added to net VDD.
+   Pin P3_DIE.114 was added to net NC.
+   Pin P3_DIE.115 was added to net NC.
+   Pin P3_DIE.116 was added to net NC.
+   Pin P3_DIE.117 was added to net NC.
+   Pin P3_DIE.118 was added to net VSS.
+   Pin P3_DIE.119 was added to net VSS.
+   Pin P3_DIE.120 was added to net VDD.
+   Pin P3_DIE.121 was added to net VDD.
+   Pin P3_DIE.122 was added to net VSS.
+   Pin P3_DIE.123 was added to net VSS.
+   Pin P3_DIE.124 was added to net VDDE18.
+   Pin P3_DIE.125 was added to net VDDE18.
+   Pin P3_DIE.126 was added to net NC.
+   Pin P3_DIE.127 was added to net NC.
+   Pin P3_DIE.128 was added to net NC.
+   Pin P3_DIE.129 was added to net NC.
+   Pin P3_DIE.130 was added to net VDD.
+   Pin P3_DIE.131 was added to net VDD.
+   Pin P3_DIE.132 was added to net VSS.
+   Pin P3_DIE.133 was added to net VSS.
+   Pin P3_DIE.134 was added to net NC.
+   Pin P3_DIE.135 was added to net NC.
+   Pin P3_DIE.136 was added to net NC.
+   Pin P3_DIE.137 was added to net NC.
+   Pin P3_DIE.138 was added to net DEMOD_RESET.
+   Pin P3_DIE.139 was added to net VDDE18.
+   Pin P3_DIE.140 was added to net VDDE18.
+   Pin P3_DIE.141 was added to net VSS.
+   Pin P3_DIE.142 was added to net VSS.
+   Pin P3_DIE.143 was added to net SDIO_DATA0.
+   Pin P3_DIE.144 was added to net NC.
+   Pin P3_DIE.145 was added to net NC.
+   Pin P3_DIE.146 was added to net VSS.
+   Pin P3_DIE.147 was added to net VSS.
+   Pin P3_DIE.148 was added to net VDD.
+   Pin P3_DIE.149 was added to net VDD.
+   Pin P3_DIE.150 was added to net VDD.
+   Pin P3_DIE.151 was added to net VDD.
+   Pin P3_DIE.152 was added to net VSS.
+   Pin P3_DIE.153 was added to net VSS.
+   Pin P3_DIE.154 was added to net VDDE18.
+   Pin P3_DIE.155 was added to net VDDE18.
+   Pin P3_DIE.156 was added to net VSS.
+   Pin P3_DIE.157 was added to net VSS.
+   Pin P3_DIE.158 was added to net NC.
+   Pin P3_DIE.159 was added to net NC.
+   Pin P3_DIE.160 was added to net NC.
+   Pin P3_DIE.161 was added to net NC.
+   Pin P3_DIE.162 was added to net VSS.
+   Pin P3_DIE.163 was added to net VSS.
+   Pin P3_DIE.164 was added to net VDD.
+   Pin P3_DIE.165 was added to net VDD.
+   Pin P3_DIE.166 was added to net VDD.
+   Pin P3_DIE.167 was added to net VDD.
+   Pin P3_DIE.168 was added to net VSS.
+   Pin P3_DIE.169 was added to net VSS.
+   Pin P3_DIE.170 was added to net VDDE18.
+   Pin P3_DIE.171 was added to net VDDE18.
+   Pin P3_DIE.172 was added to net VSS.
+   Pin P3_DIE.173 was added to net VSS.
+   Pin P3_DIE.174 was added to net NC.
+   Pin P3_DIE.175 was added to net SDIO_CLK.
+   Pin P3_DIE.176 was added to net SDIO_DATA1.
+   Pin P3_DIE.177 was added to net SDIO_CMD.
+   Pin P3_DIE.178 was added to net VSS.
+   Pin P3_DIE.179 was added to net VSS.
+   Pin P3_DIE.180 was added to net VDD.
+   Pin P3_DIE.181 was added to net VDD.
+   Pin P3_DIE.182 was added to net VDD.
+   Pin P3_DIE.183 was added to net VDD.
+   Pin P3_DIE.184 was added to net VSS.
+   Pin P3_DIE.185 was added to net VSS.
+   Pin P3_DIE.186 was added to net VDDE18.
+   Pin P3_DIE.187 was added to net VDDE18.
+   Pin P3_DIE.188 was added to net VDDE18.
+   Pin P3_DIE.189 was added to net VSS.
+   Pin P3_DIE.190 was added to net VSS.
+   Pin P3_DIE.191 was added to net VSS.
+   Pin P3_DIE.192 was added to net TEST_MODE_1.
+   Pin P3_DIE.193 was added to net TEST_MODE_0.
+   Pin P3_DIE.194 was added to net I2C_ADD2.
+   Pin P3_DIE.195 was added to net SPIM_MISO.
+   Pin P3_DIE.196 was added to net VSS.
+   Pin P3_DIE.197 was added to net VSS.
+   Pin P3_DIE.198 was added to net VDD.
+   Pin P3_DIE.199 was added to net VDD.
+   Pin P3_DIE.200 was added to net VDDE18.
+   Pin P3_DIE.201 was added to net VDDE18.
+   Pin P3_DIE.202 was added to net VSS.
+   Pin P3_DIE.203 was added to net VSS.
+   Pin P3_DIE.204 was added to net I2CM_SDA.
+   Pin P3_DIE.205 was added to net I2C_ADD3.
+   Pin P3_DIE.206 was added to net I2CM_SCL.
+   Pin P3_DIE.207 was added to net SPIM_CS1.
+   Pin P3_DIE.208 was added to net VSS.
+   Pin P3_DIE.209 was added to net VSS.
+   Pin P3_DIE.210 was added to net VDD.
+   Pin P3_DIE.211 was added to net VDD.
+   Pin P3_DIE.212 was added to net NC.
+   Pin P3_DIE.213 was added to net NC.
+   Pin P3_DIE.214 was added to net NC.
+Created new net TUNER_RESET from net name TUNER_RESET.
+   Pin P3_DIE.215 was added to net TUNER_RESET.
+Created new net HARD_PD from net name HARD_PD.
+   Pin P3_DIE.216 was added to net HARD_PD.
+   Pin P3_DIE.217 was added to net VDDE18.
+   Pin P3_DIE.218 was added to net VDDE18.
+   Pin P3_DIE.219 was added to net VDDE18.
+   Pin P3_DIE.220 was added to net VSS.
+   Pin P3_DIE.221 was added to net VSS.
+   Pin P3_DIE.222 was added to net VSS.
+   Pin P3_DIE.223 was added to net VSS.
+   Pin P3_DIE.224 was added to net VDD.
+   Pin P3_DIE.225 was added to net VDD.
+   Pin P3_DIE.226 was added to net VDD.
+   Pin P3_DIE.227 was added to net VDD.
+   Pin P3_DIE.228 was added to net VSS.
+   Pin P3_DIE.229 was added to net VSS.
+   Pin P3_DIE.230 was added to net VDDE18.
+   Pin P3_DIE.231 was added to net VDDE18.
+   Pin P3_DIE.232 was added to net VSS.
+   Pin P3_DIE.233 was added to net VSS.
+   Pin P3_DIE.234 was added to net VSS.
+   Pin P3_DIE.235 was added to net VSS.
+   Pin P3_DIE.236 was added to net VDD.
+   Pin P3_DIE.237 was added to net VDD.
+Created new net AVDD10_OTP from net name AVDD10_OTP.
+   Pin P3_DIE.238 was added to net AVDD10_OTP.
+   Pin P3_DIE.239 was added to net AVDD10_OTP.
+   Pin P3_DIE.240 was added to net AVDD10_OTP.
+Created new net AVDD10_PLL from net name AVDD10_PLL.
+   Pin P3_DIE.241 was added to net AVDD10_PLL.
+   Pin P3_DIE.242 was added to net AVDD10_PLL.
+   Pin P3_DIE.243 was added to net AVDD10_PLL.
+   Pin P3_DIE.244 was added to net XTAL_GND.
+   Pin P3_DIE.245 was added to net XTAL_GND.
+   Pin P3_DIE.246 was added to net NC.
+   Pin P3_DIE.247 was added to net DEMOD_CLKIN.
+   Pin P3_DIE.248 was added to net AVDD18_PLL.
+   Pin P3_DIE.249 was added to net AVDD18_PLL.
+   Pin P3_DIE.250 was added to net AVDD18_PLL.
+   Pin P3_DIE.251 was added to net AGND_PLL.
+   Pin P3_DIE.252 was added to net AGND_PLL.
+   Pin P3_DIE.253 was added to net AGND_PLL.
+   Pin P3_DIE.254 was added to net VSS.
+   Pin P3_DIE.255 was added to net VSS.
 Net attachment phase completed.
 
 Beginning creation of physical symbol.
 The following symbol pins were created (coordinates relative to symbol origin):
-   "1" at (-1322.86 920).
-   "2" at (-1322.86 820).
-   "3" at (-1322.86 720).
-   "4" at (-1322.86 620).
-   "5" at (-1322.86 520).
-   "6" at (-1322.86 420).
-   "7" at (-1322.86 258.22).
-   "8" at (-1322.86 140).
-   "9" at (-1322.86 40).
-   "10" at (-1322.86 -60).
-   "11" at (-1322.86 -160).
-   "12" at (-1322.86 -713.15).
-   "13" at (-1322.86 -813.15).
-   "14" at (-1322.86 -1000).
-   "15" at (-1080 -1222.86).
-   "16" at (-980 -1222.86).
-   "17" at (-880 -1222.86).
-   "18" at (-780 -1222.86).
-   "19" at (-680 -1222.86).
-   "20" at (-580 -1222.86).
-   "21" at (-480 -1222.86).
-   "22" at (-376.81 -1222.86).
-   "23" at (-266.81 -1222.86).
-   "24" at (-166.81 -1222.86).
-   "25" at (-66.81 -1222.86).
-   "26" at (33.19 -1222.86).
-   "27" at (133.19 -1222.86).
-   "28" at (230 -1222.86).
-   "29" at (320 -1222.86).
-   "30" at (410 -1222.86).
-   "31" at (510 -1222.86).
-   "32" at (600 -1222.86).
-   "33" at (690 -1222.86).
-   "34" at (780 -1222.86).
-   "35" at (860 -1222.86).
-   "36" at (940 -1222.86).
-   "37" at (1020 -1222.86).
-   "38" at (1322.86 -1000).
-   "39" at (1322.86 -920).
-   "40" at (1322.86 -860).
-   "41" at (1322.86 -770).
-   "42" at (1322.86 -680).
-   "43" at (1322.86 -562.79).
-   "44" at (1322.86 -482.8).
-   "45" at (1322.86 -382.8).
-   "46" at (1322.86 -302.8).
-   "47" at (1322.86 -222.79).
-   "48" at (1322.86 -122.8).
-   "49" at (1322.86 30).
-   "50" at (1322.86 130).
-   "51" at (1322.86 250).
-   "52" at (1322.86 350).
-   "53" at (1322.86 450).
-   "54" at (1322.86 550).
-   "55" at (1322.86 660).
-   "56" at (1322.86 760).
-   "57" at (1322.86 850).
-   "58" at (1322.86 940).
-   "59" at (820 1222.86).
-   "60" at (580 1222.86).
-   "61" at (480 1222.86).
-   "62" at (380 1222.86).
-   "63" at (280 1222.86).
-   "64" at (180 1222.86).
-   "65" at (80 1222.86).
-   "66" at (-120 1222.86).
-   "67" at (-720 1222.86).
-   "68" at (-820 1222.86).
-   "69" at (-920 1222.86).
-   "70" at (-1020 1222.86).
+   "1" at (-2277.19 -2334.96).
+   "2" at (-2221.39 -2334.96).
+   "3" at (-2165.59 -2334.96).
+   "4" at (-2109.79 -2334.96).
+   "5" at (-2053.99 -2334.96).
+   "6" at (-1998.19 -2334.96).
+   "7" at (-1942.39 -2334.96).
+   "8" at (-1886.59 -2334.96).
+   "9" at (-1830.79 -2334.96).
+   "10" at (-1774.99 -2334.96).
+   "11" at (-1719.19 -2334.96).
+   "12" at (-1663.39 -2334.96).
+   "13" at (-1607.59 -2334.96).
+   "14" at (-1551.79 -2334.96).
+   "15" at (-1495.99 -2334.96).
+   "16" at (-1440.19 -2334.96).
+   "17" at (-1384.39 -2334.96).
+   "18" at (-1328.59 -2334.96).
+   "19" at (-1272.79 -2334.96).
+   "20" at (-1216.99 -2334.96).
+   "21" at (-1161.19 -2334.96).
+   "22" at (-1105.39 -2334.96).
+   "23" at (-1049.59 -2334.96).
+   "24" at (-993.79 -2334.96).
+   "25" at (-937.99 -2334.96).
+   "26" at (-882.19 -2334.96).
+   "27" at (-826.39 -2334.96).
+   "28" at (-770.59 -2334.96).
+   "29" at (-671.59 -2334.96).
+   "30" at (-615.79 -2334.96).
+   "31" at (-559.99 -2334.96).
+   "32" at (-486.55 -2334.96).
+   "33" at (-310.03 -2307.06).
+   "34" at (-253.78 -2307.06).
+   "35" at (-197.53 -2307.06).
+   "36" at (-141.28 -2307.06).
+   "37" at (-85.03 -2307.06).
+   "38" at (-28.78 -2307.06).
+   "39" at (27.47 -2307.06).
+   "40" at (83.72 -2307.06).
+   "41" at (139.97 -2307.06).
+   "42" at (196.22 -2307.06).
+   "43" at (252.47 -2307.06).
+   "44" at (308.72 -2307.06).
+   "45" at (668.72 -2307.06).
+   "46" at (724.97 -2307.06).
+   "47" at (781.22 -2307.06).
+   "48" at (837.47 -2307.06).
+   "49" at (893.72 -2307.06).
+   "50" at (949.97 -2307.06).
+   "51" at (1006.22 -2307.06).
+   "52" at (1062.47 -2307.06).
+   "53" at (1118.72 -2307.06).
+   "54" at (1174.97 -2307.06).
+   "55" at (1231.22 -2307.06).
+   "56" at (1287.47 -2307.06).
+   "57" at (1776.85 -2307.06).
+   "58" at (1833.1 -2307.06).
+   "59" at (1889.35 -2307.06).
+   "60" at (1945.6 -2307.06).
+   "61" at (2001.85 -2307.06).
+   "62" at (2058.1 -2307.06).
+   "63" at (2114.35 -2307.06).
+   "64" at (2170.6 -2307.06).
+   "65" at (2226.85 -2307.06).
+   "66" at (2283.1 -2307.06).
+   "67" at (2339.35 -2307.06).
+   "68" at (2395.6 -2307.06).
+   "69" at (2467.79 -2150.46).
+   "70" at (2467.79 -2094.66).
+   "71" at (2467.79 -2038.86).
+   "72" at (2467.79 -1983.06).
+   "73" at (2467.79 -1927.26).
+   "74" at (2467.79 -1871.46).
+   "75" at (2467.79 -1620.36).
+   "76" at (2467.79 -1564.56).
+   "77" at (2467.79 -1508.76).
+   "78" at (2467.79 -1452.96).
+   "79" at (2467.79 -1397.16).
+   "80" at (2467.79 -1341.36).
+   "81" at (2467.79 -1285.56).
+   "82" at (2467.79 -1229.76).
+   "83" at (2467.79 -1173.96).
+   "84" at (2467.79 -1118.16).
+   "85" at (2467.79 -1062.36).
+   "86" at (2467.79 -1006.56).
+   "87" at (2467.79 -950.76).
+   "88" at (2467.79 -894.96).
+   "89" at (2467.79 -839.16).
+   "90" at (2467.79 -783.36).
+   "91" at (2467.79 -727.56).
+   "92" at (2467.79 -671.76).
+   "93" at (2467.79 -615.96).
+   "94" at (2467.79 -560.16).
+   "95" at (2467.79 -504.36).
+   "96" at (2467.79 -225.36).
+   "97" at (2467.79 -169.56).
+   "98" at (2467.79 -113.76).
+   "99" at (2467.79 -57.96).
+   "100" at (2467.79 25.74).
+   "101" at (2467.79 81.54).
+   "102" at (2467.79 137.34).
+   "103" at (2467.79 193.14).
+   "104" at (2467.79 248.94).
+   "105" at (2467.79 304.74).
+   "106" at (2467.79 360.54).
+   "107" at (2467.79 416.34).
+   "108" at (2467.79 472.14).
+   "109" at (2467.79 527.94).
+   "110" at (2467.79 583.74).
+   "111" at (2467.79 639.54).
+   "112" at (2467.79 695.34).
+   "113" at (2467.79 751.14).
+   "114" at (2467.79 862.74).
+   "115" at (2467.79 918.54).
+   "116" at (2467.79 974.34).
+   "117" at (2467.79 1030.14).
+   "118" at (2467.79 1085.94).
+   "119" at (2467.79 1141.74).
+   "120" at (2467.79 1197.54).
+   "121" at (2467.79 1253.34).
+   "122" at (2467.79 1364.94).
+   "123" at (2467.79 1420.74).
+   "124" at (2467.79 1476.54).
+   "125" at (2467.79 1532.34).
+   "126" at (2467.79 1588.14).
+   "127" at (2467.79 1643.94).
+   "128" at (2467.79 1699.74).
+   "129" at (2467.79 1755.54).
+   "130" at (2467.79 1811.34).
+   "131" at (2467.79 1867.14).
+   "132" at (2467.79 1922.94).
+   "133" at (2467.79 1978.74).
+   "134" at (2467.79 2034.54).
+   "135" at (2467.79 2090.34).
+   "136" at (2467.79 2146.14).
+   "137" at (2467.79 2201.94).
+   "138" at (2467.79 2257.74).
+   "139" at (2395.6 2334.96).
+   "140" at (2339.35 2334.96).
+   "141" at (2277.47 2334.96).
+   "142" at (2221.22 2334.96).
+   "143" at (2164.97 2334.96).
+   "144" at (2103.1 2334.96).
+   "145" at (2046.85 2334.96).
+   "146" at (1984.97 2334.96).
+   "147" at (1928.72 2334.96).
+   "148" at (1872.47 2334.96).
+   "149" at (1810.6 2334.96).
+   "150" at (1512.47 2334.96).
+   "151" at (1456.22 2334.96).
+   "152" at (1399.97 2334.96).
+   "153" at (1343.72 2334.96).
+   "154" at (1287.47 2334.96).
+   "155" at (1231.22 2334.96).
+   "156" at (1174.97 2334.96).
+   "157" at (1118.72 2334.96).
+   "158" at (1062.47 2334.96).
+   "159" at (1006.22 2334.96).
+   "160" at (949.97 2334.96).
+   "161" at (893.72 2334.96).
+   "162" at (837.47 2334.96).
+   "163" at (781.22 2334.96).
+   "164" at (724.97 2334.96).
+   "165" at (668.72 2334.96).
+   "166" at (89.35 2334.96).
+   "167" at (33.1 2334.96).
+   "168" at (-23.15 2334.96).
+   "169" at (-79.4 2334.96).
+   "170" at (-135.65 2334.96).
+   "171" at (-191.9 2334.96).
+   "172" at (-248.15 2334.96).
+   "173" at (-304.4 2334.96).
+   "174" at (-360.65 2334.96).
+   "175" at (-416.9 2334.96).
+   "176" at (-473.15 2334.96).
+   "177" at (-529.4 2334.96).
+   "178" at (-585.65 2334.96).
+   "179" at (-641.9 2334.96).
+   "180" at (-698.15 2334.96).
+   "181" at (-754.4 2334.96).
+   "182" at (-1401.28 2334.96).
+   "183" at (-1457.53 2334.96).
+   "184" at (-1513.78 2334.96).
+   "185" at (-1570.03 2334.96).
+   "186" at (-1626.28 2334.96).
+   "187" at (-1682.53 2334.96).
+   "188" at (-1738.78 2334.96).
+   "189" at (-1795.03 2334.96).
+   "190" at (-1851.28 2334.96).
+   "191" at (-1907.53 2334.96).
+   "192" at (-1963.78 2334.96).
+   "193" at (-2020.03 2334.96).
+   "194" at (-2076.28 2334.96).
+   "195" at (-2132.53 2334.96).
+   "196" at (-2188.78 2334.96).
+   "197" at (-2245.03 2334.96).
+   "198" at (-2301.28 2334.96).
+   "199" at (-2357.53 2334.96).
+   "200" at (-2439.88 2257.74).
+   "201" at (-2439.88 2201.94).
+   "202" at (-2439.88 2146.14).
+   "203" at (-2439.88 2090.34).
+   "204" at (-2439.88 2034.54).
+   "205" at (-2439.88 1978.74).
+   "206" at (-2439.88 1922.94).
+   "207" at (-2439.88 1867.14).
+   "208" at (-2439.88 1811.34).
+   "209" at (-2439.88 1755.54).
+   "210" at (-2439.88 1699.74).
+   "211" at (-2439.88 1643.94).
+   "212" at (-2439.88 1588.14).
+   "213" at (-2439.88 1532.34).
+   "214" at (-2439.88 1476.54).
+   "215" at (-2439.88 1420.74).
+   "216" at (-2439.88 1364.94).
+   "217" at (-2439.88 1309.14).
+   "218" at (-2439.88 1253.34).
+   "219" at (-2439.88 1197.54).
+   "220" at (-2439.88 1141.74).
+   "221" at (-2439.88 1085.94).
+   "222" at (-2439.88 1030.14).
+   "223" at (-2439.88 974.34).
+   "224" at (-2439.88 918.54).
+   "225" at (-2439.88 862.74).
+   "226" at (-2439.88 388.44).
+   "227" at (-2439.88 332.64).
+   "228" at (-2439.88 276.84).
+   "229" at (-2439.88 221.04).
+   "230" at (-2439.88 165.24).
+   "231" at (-2439.88 109.44).
+   "232" at (-2439.88 53.64).
+   "233" at (-2439.88 -2.16).
+   "234" at (-2439.88 -57.96).
+   "235" at (-2439.88 -113.76).
+   "236" at (-2439.88 -169.56).
+   "237" at (-2439.88 -225.36).
+   "238" at (-2467.78 -716.17).
+   "239" at (-2467.78 -771.97).
+   "240" at (-2467.78 -827.77).
+   "241" at (-2467.78 -1030.18).
+   "242" at (-2467.78 -1085.98).
+   "243" at (-2467.78 -1141.78).
+   "244" at (-2467.78 -1197.58).
+   "245" at (-2467.78 -1253.38).
+   "246" at (-2467.78 -1309.18).
+   "247" at (-2467.78 -1364.98).
+   "248" at (-2467.78 -1420.78).
+   "249" at (-2467.78 -1492.86).
+   "250" at (-2467.78 -1548.66).
+   "251" at (-2467.78 -1604.46).
+   "252" at (-2467.78 -1660.26).
+   "253" at (-2467.78 -1716.06).
+   "254" at (-2467.78 -1771.86).
+   "255" at (-2467.78 -2226.4).
 Physical symbol creation completed.
 
 Adding required pin and net properties.
@@ -213,365 +563,531 @@ Beginning creation of logical component.
 Logical component creation completed.
 
 Attaching pins to their nets (creating new nets as required).
-Created new net DCOC1 from net name DCOC1.
-   Pin RF_DIE.1 was added to net DCOC1.
-Created new net DCOC2 from net name DCOC2.
-   Pin RF_DIE.2 was added to net DCOC2.
-Created new net AVDD_1V2 from net name AVDD_1V2.
-   Pin RF_DIE.3 was added to net AVDD_1V2.
-Created new net AGND from net name AGND.
-   Pin RF_DIE.4 was added to net AGND.
-Created new net NC from net name NC.
-   Pin RF_DIE.5 was added to net NC.
-   Pin RF_DIE.6 was added to net NC.
-Created new net BB_AG_VC from net name BB_AG_VC.
-   Pin RF_DIE.7 was added to net BB_AG_VC.
-   Pin RF_DIE.8 was added to net NC.
-   Pin RF_DIE.9 was added to net NC.
-Created new net CAP1 from net name CAP1.
-   Pin RF_DIE.10 was added to net CAP1.
-Created new net HARD_PD from net name HARD_PD.
-   Pin RF_DIE.11 was added to net HARD_PD.
-Created new net RF_IND_UV2 from net name RF_IND_UV2.
-   Pin RF_DIE.12 was added to net RF_IND_UV2.
-Created new net RF_IND_UV1 from net name RF_IND_UV1.
-   Pin RF_DIE.13 was added to net RF_IND_UV1.
-   Pin RF_DIE.14 was added to net AGND.
-   Pin RF_DIE.15 was added to net AGND.
-Created new net VC_RF from net name VC_RF.
-   Pin RF_DIE.16 was added to net VC_RF.
-   Pin RF_DIE.17 was added to net VC_RF.
-   Pin RF_DIE.18 was added to net AGND.
-Created new net RF_INP_UHF from net name RF_INP_UHF.
-   Pin RF_DIE.19 was added to net RF_INP_UHF.
-   Pin RF_DIE.20 was added to net AGND.
-   Pin RF_DIE.21 was added to net AVDD_1V2.
-   Pin RF_DIE.22 was added to net AVDD_1V2.
-   Pin RF_DIE.23 was added to net AVDD_1V2.
-   Pin RF_DIE.24 was added to net AGND.
-   Pin RF_DIE.25 was added to net AGND.
-Created new net VC3 from net name VC3.
-   Pin RF_DIE.26 was added to net VC3.
-   Pin RF_DIE.27 was added to net AGND.
-Created new net VCO_FLT from net name VCO_FLT.
-   Pin RF_DIE.28 was added to net VCO_FLT.
-   Pin RF_DIE.29 was added to net VCO_FLT.
-   Pin RF_DIE.30 was added to net AVDD_1V2.
-   Pin RF_DIE.31 was added to net AVDD_1V2.
-   Pin RF_DIE.32 was added to net AGND.
-   Pin RF_DIE.33 was added to net AGND.
-   Pin RF_DIE.34 was added to net AGND.
-Created new net AVDD18_TUNER from net name AVDD18_TUNER.
-   Pin RF_DIE.35 was added to net AVDD18_TUNER.
-Created new net TUN_CLKOUT from net name TUN_CLKOUT.
-   Pin RF_DIE.36 was added to net TUN_CLKOUT.
-   Pin RF_DIE.37 was added to net AGND.
-   Pin RF_DIE.38 was added to net AGND.
-   Pin RF_DIE.39 was added to net NC.
-   Pin RF_DIE.40 was added to net NC.
-Created new net EXT_CLK from net name EXT_CLK.
-   Pin RF_DIE.41 was added to net EXT_CLK.
-   Pin RF_DIE.42 was added to net AVDD18_TUNER.
-Created new net DVDD_3V3 from net name DVDD_3V3.
-   Pin RF_DIE.43 was added to net DVDD_3V3.
-   Pin RF_DIE.44 was added to net DVDD_3V3.
-Created new net TUN_DGND from net name TUN_DGND.
-   Pin RF_DIE.45 was added to net TUN_DGND.
-   Pin RF_DIE.46 was added to net TUN_DGND.
-   Pin RF_DIE.47 was added to net TUN_DGND.
-Created new net DVDD_1V2 from net name DVDD_1V2.
-   Pin RF_DIE.48 was added to net DVDD_1V2.
-   Pin RF_DIE.49 was added to net DVDD_1V2.
-   Pin RF_DIE.50 was added to net DVDD_1V2.
-   Pin RF_DIE.51 was added to net AVDD_1V2.
-Created new net CAP2 from net name CAP2.
-   Pin RF_DIE.52 was added to net CAP2.
-   Pin RF_DIE.53 was added to net NC.
-   Pin RF_DIE.54 was added to net NC.
-   Pin RF_DIE.55 was added to net AGND.
-   Pin RF_DIE.56 was added to net AVDD_1V2.
-Created new net I2CM_SCL from net name I2CM_SCL.
-   Pin RF_DIE.57 was added to net I2CM_SCL.
-Created new net I2CM_SDA from net name I2CM_SDA.
-   Pin RF_DIE.58 was added to net I2CM_SDA.
-Created new net TUNER_RESET from net name TUNER_RESET.
-   Pin RF_DIE.59 was added to net TUNER_RESET.
-Created new net IB_EXTR from net name IB_EXTR.
-   Pin RF_DIE.60 was added to net IB_EXTR.
-   Pin RF_DIE.61 was added to net NC.
-   Pin RF_DIE.62 was added to net AGND.
-Created new net AVDD_3V3 from net name AVDD_3V3.
-   Pin RF_DIE.63 was added to net AVDD_3V3.
-   Pin RF_DIE.64 was added to net AVDD_3V3.
-   Pin RF_DIE.65 was added to net AVDD_3V3.
-   Pin RF_DIE.66 was added to net NC.
-Created new net VINNQ from net name VINNQ.
-   Pin RF_DIE.67 was added to net VINNQ.
-Created new net VINPQ from net name VINPQ.
-   Pin RF_DIE.68 was added to net VINPQ.
-Created new net VINNI from net name VINNI.
-   Pin RF_DIE.69 was added to net VINNI.
+   Pin P3_DIE.1 was added to net AVDD18_ADC.
+   Pin P3_DIE.2 was added to net AVDD18_ADC.
+Created new net AVDD10_ADC from net name AVDD10_ADC.
+   Pin P3_DIE.3 was added to net AVDD10_ADC.
+   Pin P3_DIE.4 was added to net AVDD10_ADC.
+   Pin P3_DIE.5 was added to net AVDD10_ADC.
+   Pin P3_DIE.6 was added to net AGND_ADC.
+   Pin P3_DIE.7 was added to net AGND_ADC.
+   Pin P3_DIE.8 was added to net AGND_ADC.
 Created new net VINPI from net name VINPI.
-   Pin RF_DIE.70 was added to net VINPI.
+   Pin P3_DIE.9 was added to net VINPI.
+Created new net VINNI from net name VINNI.
+   Pin P3_DIE.10 was added to net VINNI.
+Created new net VINPQ from net name VINPQ.
+   Pin P3_DIE.11 was added to net VINPQ.
+Created new net VINNQ from net name VINNQ.
+   Pin P3_DIE.12 was added to net VINNQ.
+Created new net NC from net name NC.
+   Pin P3_DIE.13 was added to net NC.
+   Pin P3_DIE.14 was added to net AGND_ADC.
+   Pin P3_DIE.15 was added to net AGND_ADC.
+   Pin P3_DIE.16 was added to net AGND_ADC.
+Created new net VREFH from net name VREFH.
+   Pin P3_DIE.17 was added to net VREFH.
+   Pin P3_DIE.18 was added to net VREFH.
+   Pin P3_DIE.19 was added to net VREFH.
+   Pin P3_DIE.20 was added to net NC.
+   Pin P3_DIE.21 was added to net NC.
+   Pin P3_DIE.22 was added to net AGND_DAC.
+   Pin P3_DIE.23 was added to net AGND_DAC.
+   Pin P3_DIE.24 was added to net AGND_DAC.
+   Pin P3_DIE.25 was added to net NC.
+   Pin P3_DIE.26 was added to net NC.
+   Pin P3_DIE.27 was added to net AVDD18_DAC.
+   Pin P3_DIE.28 was added to net AVDD18_DAC.
+   Pin P3_DIE.29 was added to net AVDD18_DAC.
+   Pin P3_DIE.30 was added to net NC.
+   Pin P3_DIE.31 was added to net NC.
+   Pin P3_DIE.32 was added to net VSS.
+   Pin P3_DIE.33 was added to net VDD.
+   Pin P3_DIE.34 was added to net VDD.
+   Pin P3_DIE.35 was added to net VSS.
+   Pin P3_DIE.36 was added to net VSS.
+   Pin P3_DIE.37 was added to net VDDE18.
+   Pin P3_DIE.38 was added to net VDDE18.
+   Pin P3_DIE.39 was added to net VSS.
+   Pin P3_DIE.40 was added to net VSS.
+   Pin P3_DIE.41 was added to net VSS.
+   Pin P3_DIE.42 was added to net VSS.
+   Pin P3_DIE.43 was added to net VDD.
+   Pin P3_DIE.44 was added to net VDD.
+   Pin P3_DIE.45 was added to net VDD.
+   Pin P3_DIE.46 was added to net VDD.
+   Pin P3_DIE.47 was added to net VSS.
+   Pin P3_DIE.48 was added to net VSS.
+   Pin P3_DIE.49 was added to net VSS.
+   Pin P3_DIE.50 was added to net VSS.
+   Pin P3_DIE.51 was added to net VDDE18.
+   Pin P3_DIE.52 was added to net VDDE18.
+   Pin P3_DIE.53 was added to net VSS.
+   Pin P3_DIE.54 was added to net VSS.
+   Pin P3_DIE.55 was added to net VDD.
+   Pin P3_DIE.56 was added to net VDD.
+   Pin P3_DIE.57 was added to net VDD.
+   Pin P3_DIE.58 was added to net VDD.
+   Pin P3_DIE.59 was added to net VSS.
+   Pin P3_DIE.60 was added to net VSS.
+   Pin P3_DIE.61 was added to net JTAG_CLK.
+   Pin P3_DIE.62 was added to net JTAG_TDO.
+   Pin P3_DIE.63 was added to net VSS.
+   Pin P3_DIE.64 was added to net VSS.
+   Pin P3_DIE.65 was added to net VDDE18.
+   Pin P3_DIE.66 was added to net VDDE18.
+   Pin P3_DIE.67 was added to net JTAG_TMS.
+   Pin P3_DIE.68 was added to net JTAG_TDI.
+   Pin P3_DIE.69 was added to net IF_AGC.
+   Pin P3_DIE.70 was added to net RF_AGC.
+   Pin P3_DIE.71 was added to net VSS.
+   Pin P3_DIE.72 was added to net VSS.
+   Pin P3_DIE.73 was added to net VDD.
+   Pin P3_DIE.74 was added to net VDD.
+   Pin P3_DIE.75 was added to net VDDE18.
+   Pin P3_DIE.76 was added to net VDDE18.
+   Pin P3_DIE.77 was added to net VSS.
+   Pin P3_DIE.78 was added to net VSS.
+   Pin P3_DIE.79 was added to net VDD.
+   Pin P3_DIE.80 was added to net VDD.
+   Pin P3_DIE.81 was added to net VSS.
+   Pin P3_DIE.82 was added to net VSS.
+   Pin P3_DIE.83 was added to net UART_TX/BOOTMODE0/SDIO_DATA2.
+   Pin P3_DIE.84 was added to net UART_RX_SDIODATA3.
+   Pin P3_DIE.85 was added to net BOOTMODE1.
+   Pin P3_DIE.86 was added to net S_SPI_MOSI/S_I2C_SDA.
+   Pin P3_DIE.87 was added to net S_SPI_MISO/I2C_ADD0.
+   Pin P3_DIE.88 was added to net VSS.
+   Pin P3_DIE.89 was added to net VSS.
+   Pin P3_DIE.90 was added to net VDDE18.
+   Pin P3_DIE.91 was added to net VDDE18.
+   Pin P3_DIE.92 was added to net VSS.
+   Pin P3_DIE.93 was added to net VSS.
+   Pin P3_DIE.94 was added to net VDD.
+   Pin P3_DIE.95 was added to net VDD.
+   Pin P3_DIE.96 was added to net VDD.
+   Pin P3_DIE.97 was added to net VDD.
+   Pin P3_DIE.98 was added to net VSS.
+   Pin P3_DIE.99 was added to net VSS.
+   Pin P3_DIE.100 was added to net S_SPI_CLK/S_I2C_SCL.
+   Pin P3_DIE.101 was added to net S_SPI_CSN0/I2C_ADD1.
+   Pin P3_DIE.102 was added to net NC.
+   Pin P3_DIE.103 was added to net VDDE18.
+   Pin P3_DIE.104 was added to net VDDE18.
+   Pin P3_DIE.105 was added to net VSS.
+   Pin P3_DIE.106 was added to net VSS.
+   Pin P3_DIE.107 was added to net NC.
+   Pin P3_DIE.108 was added to net NC.
+   Pin P3_DIE.109 was added to net NC.
+   Pin P3_DIE.110 was added to net VSS.
+   Pin P3_DIE.111 was added to net VSS.
+   Pin P3_DIE.112 was added to net VDD.
+   Pin P3_DIE.113 was added to net VDD.
+   Pin P3_DIE.114 was added to net NC.
+   Pin P3_DIE.115 was added to net NC.
+   Pin P3_DIE.116 was added to net NC.
+   Pin P3_DIE.117 was added to net NC.
+   Pin P3_DIE.118 was added to net VSS.
+   Pin P3_DIE.119 was added to net VSS.
+   Pin P3_DIE.120 was added to net VDD.
+   Pin P3_DIE.121 was added to net VDD.
+   Pin P3_DIE.122 was added to net VSS.
+   Pin P3_DIE.123 was added to net VSS.
+   Pin P3_DIE.124 was added to net VDDE18.
+   Pin P3_DIE.125 was added to net VDDE18.
+   Pin P3_DIE.126 was added to net NC.
+   Pin P3_DIE.127 was added to net NC.
+   Pin P3_DIE.128 was added to net NC.
+   Pin P3_DIE.129 was added to net NC.
+   Pin P3_DIE.130 was added to net VDD.
+   Pin P3_DIE.131 was added to net VDD.
+   Pin P3_DIE.132 was added to net VSS.
+   Pin P3_DIE.133 was added to net VSS.
+   Pin P3_DIE.134 was added to net NC.
+   Pin P3_DIE.135 was added to net NC.
+   Pin P3_DIE.136 was added to net NC.
+   Pin P3_DIE.137 was added to net NC.
+   Pin P3_DIE.138 was added to net DEMOD_RESET.
+   Pin P3_DIE.139 was added to net VDDE18.
+   Pin P3_DIE.140 was added to net VDDE18.
+   Pin P3_DIE.141 was added to net VSS.
+   Pin P3_DIE.142 was added to net VSS.
+   Pin P3_DIE.143 was added to net SDIO_DATA0.
+   Pin P3_DIE.144 was added to net NC.
+   Pin P3_DIE.145 was added to net NC.
+   Pin P3_DIE.146 was added to net VSS.
+   Pin P3_DIE.147 was added to net VSS.
+   Pin P3_DIE.148 was added to net VDD.
+   Pin P3_DIE.149 was added to net VDD.
+   Pin P3_DIE.150 was added to net VDD.
+   Pin P3_DIE.151 was added to net VDD.
+   Pin P3_DIE.152 was added to net VSS.
+   Pin P3_DIE.153 was added to net VSS.
+   Pin P3_DIE.154 was added to net VDDE18.
+   Pin P3_DIE.155 was added to net VDDE18.
+   Pin P3_DIE.156 was added to net VSS.
+   Pin P3_DIE.157 was added to net VSS.
+   Pin P3_DIE.158 was added to net NC.
+   Pin P3_DIE.159 was added to net NC.
+   Pin P3_DIE.160 was added to net NC.
+   Pin P3_DIE.161 was added to net NC.
+   Pin P3_DIE.162 was added to net VSS.
+   Pin P3_DIE.163 was added to net VSS.
+   Pin P3_DIE.164 was added to net VDD.
+   Pin P3_DIE.165 was added to net VDD.
+   Pin P3_DIE.166 was added to net VDD.
+   Pin P3_DIE.167 was added to net VDD.
+   Pin P3_DIE.168 was added to net VSS.
+   Pin P3_DIE.169 was added to net VSS.
+   Pin P3_DIE.170 was added to net VDDE18.
+   Pin P3_DIE.171 was added to net VDDE18.
+   Pin P3_DIE.172 was added to net VSS.
+   Pin P3_DIE.173 was added to net VSS.
+   Pin P3_DIE.174 was added to net NC.
+   Pin P3_DIE.175 was added to net SDIO_CLK.
+   Pin P3_DIE.176 was added to net SDIO_DATA1.
+   Pin P3_DIE.177 was added to net SDIO_CMD.
+   Pin P3_DIE.178 was added to net VSS.
+   Pin P3_DIE.179 was added to net VSS.
+   Pin P3_DIE.180 was added to net VDD.
+   Pin P3_DIE.181 was added to net VDD.
+   Pin P3_DIE.182 was added to net VDD.
+   Pin P3_DIE.183 was added to net VDD.
+   Pin P3_DIE.184 was added to net VSS.
+   Pin P3_DIE.185 was added to net VSS.
+   Pin P3_DIE.186 was added to net VDDE18.
+   Pin P3_DIE.187 was added to net VDDE18.
+   Pin P3_DIE.188 was added to net VDDE18.
+   Pin P3_DIE.189 was added to net VSS.
+   Pin P3_DIE.190 was added to net VSS.
+   Pin P3_DIE.191 was added to net VSS.
+   Pin P3_DIE.192 was added to net TEST_MODE_1.
+   Pin P3_DIE.193 was added to net TEST_MODE_0.
+   Pin P3_DIE.194 was added to net I2C_ADD2.
+   Pin P3_DIE.195 was added to net SPIM_MISO.
+   Pin P3_DIE.196 was added to net VSS.
+   Pin P3_DIE.197 was added to net VSS.
+   Pin P3_DIE.198 was added to net VDD.
+   Pin P3_DIE.199 was added to net VDD.
+   Pin P3_DIE.200 was added to net VDDE18.
+   Pin P3_DIE.201 was added to net VDDE18.
+   Pin P3_DIE.202 was added to net VSS.
+   Pin P3_DIE.203 was added to net VSS.
+   Pin P3_DIE.204 was added to net I2CM_SDA.
+   Pin P3_DIE.205 was added to net I2C_ADD3.
+   Pin P3_DIE.206 was added to net I2CM_SCL.
+   Pin P3_DIE.207 was added to net SPIM_CS1.
+   Pin P3_DIE.208 was added to net VSS.
+   Pin P3_DIE.209 was added to net VSS.
+   Pin P3_DIE.210 was added to net VDD.
+   Pin P3_DIE.211 was added to net VDD.
+   Pin P3_DIE.212 was added to net NC.
+   Pin P3_DIE.213 was added to net NC.
+   Pin P3_DIE.214 was added to net NC.
+Created new net TUNER_RESET from net name TUNER_RESET.
+   Pin P3_DIE.215 was added to net TUNER_RESET.
+Created new net HARD_PD from net name HARD_PD.
+   Pin P3_DIE.216 was added to net HARD_PD.
+   Pin P3_DIE.217 was added to net VDDE18.
+   Pin P3_DIE.218 was added to net VDDE18.
+   Pin P3_DIE.219 was added to net VDDE18.
+   Pin P3_DIE.220 was added to net VSS.
+   Pin P3_DIE.221 was added to net VSS.
+   Pin P3_DIE.222 was added to net VSS.
+   Pin P3_DIE.223 was added to net VSS.
+   Pin P3_DIE.224 was added to net VDD.
+   Pin P3_DIE.225 was added to net VDD.
+   Pin P3_DIE.226 was added to net VDD.
+   Pin P3_DIE.227 was added to net VDD.
+   Pin P3_DIE.228 was added to net VSS.
+   Pin P3_DIE.229 was added to net VSS.
+   Pin P3_DIE.230 was added to net VDDE18.
+   Pin P3_DIE.231 was added to net VDDE18.
+   Pin P3_DIE.232 was added to net VSS.
+   Pin P3_DIE.233 was added to net VSS.
+   Pin P3_DIE.234 was added to net VSS.
+   Pin P3_DIE.235 was added to net VSS.
+   Pin P3_DIE.236 was added to net VDD.
+   Pin P3_DIE.237 was added to net VDD.
+Created new net AVDD10_OTP from net name AVDD10_OTP.
+   Pin P3_DIE.238 was added to net AVDD10_OTP.
+   Pin P3_DIE.239 was added to net AVDD10_OTP.
+   Pin P3_DIE.240 was added to net AVDD10_OTP.
+Created new net AVDD10_PLL from net name AVDD10_PLL.
+   Pin P3_DIE.241 was added to net AVDD10_PLL.
+   Pin P3_DIE.242 was added to net AVDD10_PLL.
+   Pin P3_DIE.243 was added to net AVDD10_PLL.
+   Pin P3_DIE.244 was added to net XTAL_GND.
+   Pin P3_DIE.245 was added to net XTAL_GND.
+   Pin P3_DIE.246 was added to net NC.
+   Pin P3_DIE.247 was added to net DEMOD_CLKIN.
+   Pin P3_DIE.248 was added to net AVDD18_PLL.
+   Pin P3_DIE.249 was added to net AVDD18_PLL.
+   Pin P3_DIE.250 was added to net AVDD18_PLL.
+   Pin P3_DIE.251 was added to net AGND_PLL.
+   Pin P3_DIE.252 was added to net AGND_PLL.
+   Pin P3_DIE.253 was added to net AGND_PLL.
+   Pin P3_DIE.254 was added to net VSS.
+   Pin P3_DIE.255 was added to net VSS.
 Net attachment phase completed.
 
 Beginning creation of physical symbol.
 The following symbol pins were created (coordinates relative to symbol origin):
-   "1" at (-1322.86 920).
-   "2" at (-1322.86 820).
-   "3" at (-1322.86 720).
-   "4" at (-1322.86 620).
-   "5" at (-1322.86 520).
-   "6" at (-1322.86 420).
-   "7" at (-1322.86 258.22).
-   "8" at (-1322.86 140).
-   "9" at (-1322.86 40).
-   "10" at (-1322.86 -60).
-   "11" at (-1322.86 -160).
-   "12" at (-1322.86 -713.15).
-   "13" at (-1322.86 -813.15).
-   "14" at (-1322.86 -1000).
-   "15" at (-1080 -1222.86).
-   "16" at (-980 -1222.86).
-   "17" at (-880 -1222.86).
-   "18" at (-780 -1222.86).
-   "19" at (-680 -1222.86).
-   "20" at (-580 -1222.86).
-   "21" at (-480 -1222.86).
-   "22" at (-376.81 -1222.86).
-   "23" at (-266.81 -1222.86).
-   "24" at (-166.81 -1222.86).
-   "25" at (-66.81 -1222.86).
-   "26" at (33.19 -1222.86).
-   "27" at (133.19 -1222.86).
-   "28" at (230 -1222.86).
-   "29" at (320 -1222.86).
-   "30" at (410 -1222.86).
-   "31" at (510 -1222.86).
-   "32" at (600 -1222.86).
-   "33" at (690 -1222.86).
-   "34" at (780 -1222.86).
-   "35" at (860 -1222.86).
-   "36" at (940 -1222.86).
-   "37" at (1020 -1222.86).
-   "38" at (1322.86 -1000).
-   "39" at (1322.86 -920).
-   "40" at (1322.86 -860).
-   "41" at (1322.86 -770).
-   "42" at (1322.86 -680).
-   "43" at (1322.86 -562.79).
-   "44" at (1322.86 -482.8).
-   "45" at (1322.86 -382.8).
-   "46" at (1322.86 -302.8).
-   "47" at (1322.86 -222.79).
-   "48" at (1322.86 -122.8).
-   "49" at (1322.86 30).
-   "50" at (1322.86 130).
-   "51" at (1322.86 250).
-   "52" at (1322.86 350).
-   "53" at (1322.86 450).
-   "54" at (1322.86 550).
-   "55" at (1322.86 660).
-   "56" at (1322.86 760).
-   "57" at (1322.86 850).
-   "58" at (1322.86 940).
-   "59" at (820 1222.86).
-   "60" at (580 1222.86).
-   "61" at (480 1222.86).
-   "62" at (380 1222.86).
-   "63" at (280 1222.86).
-   "64" at (180 1222.86).
-   "65" at (80 1222.86).
-   "66" at (-120 1222.86).
-   "67" at (-720 1222.86).
-   "68" at (-820 1222.86).
-   "69" at (-920 1222.86).
-   "70" at (-1020 1222.86).
-Physical symbol creation completed.
-
-Adding required pin and net properties.
-Property attachment phase completed.
-
-INFO(SPMHII-42): The data import successfully completed.
-Beginning import of data. This may take some time.
-Beginning creation of logical component.
-Logical component creation completed.
-
-Attaching pins to their nets (creating new nets as required).
-Created new net DCOC1 from net name DCOC1.
-   Pin RF_DIE.1 was added to net DCOC1.
-Created new net DCOC2 from net name DCOC2.
-   Pin RF_DIE.2 was added to net DCOC2.
-Created new net AVDD_1V2 from net name AVDD_1V2.
-   Pin RF_DIE.3 was added to net AVDD_1V2.
-Created new net AGND from net name AGND.
-   Pin RF_DIE.4 was added to net AGND.
-Created new net NC from net name NC.
-   Pin RF_DIE.5 was added to net NC.
-   Pin RF_DIE.6 was added to net NC.
-Created new net BB_AG_VC from net name BB_AG_VC.
-   Pin RF_DIE.7 was added to net BB_AG_VC.
-   Pin RF_DIE.8 was added to net NC.
-   Pin RF_DIE.9 was added to net NC.
-Created new net CAP1 from net name CAP1.
-   Pin RF_DIE.10 was added to net CAP1.
-Created new net HARD_PD from net name HARD_PD.
-   Pin RF_DIE.11 was added to net HARD_PD.
-Created new net RF_IND_UV2 from net name RF_IND_UV2.
-   Pin RF_DIE.12 was added to net RF_IND_UV2.
-Created new net RF_IND_UV1 from net name RF_IND_UV1.
-   Pin RF_DIE.13 was added to net RF_IND_UV1.
-   Pin RF_DIE.14 was added to net AGND.
-   Pin RF_DIE.15 was added to net AGND.
-Created new net VC_RF from net name VC_RF.
-   Pin RF_DIE.16 was added to net VC_RF.
-   Pin RF_DIE.17 was added to net VC_RF.
-   Pin RF_DIE.18 was added to net AGND.
-Created new net RF_INP_UHF from net name RF_INP_UHF.
-   Pin RF_DIE.19 was added to net RF_INP_UHF.
-   Pin RF_DIE.20 was added to net AGND.
-   Pin RF_DIE.21 was added to net AVDD_1V2.
-   Pin RF_DIE.22 was added to net AVDD_1V2.
-   Pin RF_DIE.23 was added to net AVDD_1V2.
-   Pin RF_DIE.24 was added to net AGND.
-   Pin RF_DIE.25 was added to net AGND.
-Created new net VC3 from net name VC3.
-   Pin RF_DIE.26 was added to net VC3.
-   Pin RF_DIE.27 was added to net AGND.
-Created new net VCO_FLT from net name VCO_FLT.
-   Pin RF_DIE.28 was added to net VCO_FLT.
-   Pin RF_DIE.29 was added to net VCO_FLT.
-   Pin RF_DIE.30 was added to net AVDD_1V2.
-   Pin RF_DIE.31 was added to net AVDD_1V2.
-   Pin RF_DIE.32 was added to net AGND.
-   Pin RF_DIE.33 was added to net AGND.
-   Pin RF_DIE.34 was added to net AGND.
-Created new net AVDD18_TUNER from net name AVDD18_TUNER.
-   Pin RF_DIE.35 was added to net AVDD18_TUNER.
-Created new net TUN_CLKOUT from net name TUN_CLKOUT.
-   Pin RF_DIE.36 was added to net TUN_CLKOUT.
-   Pin RF_DIE.37 was added to net AGND.
-   Pin RF_DIE.38 was added to net AGND.
-   Pin RF_DIE.39 was added to net NC.
-   Pin RF_DIE.40 was added to net NC.
-Created new net EXT_CLK from net name EXT_CLK.
-   Pin RF_DIE.41 was added to net EXT_CLK.
-   Pin RF_DIE.42 was added to net AVDD18_TUNER.
-Created new net DVDD_3V3 from net name DVDD_3V3.
-   Pin RF_DIE.43 was added to net DVDD_3V3.
-   Pin RF_DIE.44 was added to net DVDD_3V3.
-Created new net TUN_DGND from net name TUN_DGND.
-   Pin RF_DIE.45 was added to net TUN_DGND.
-   Pin RF_DIE.46 was added to net TUN_DGND.
-   Pin RF_DIE.47 was added to net TUN_DGND.
-Created new net DVDD_1V2 from net name DVDD_1V2.
-   Pin RF_DIE.48 was added to net DVDD_1V2.
-   Pin RF_DIE.49 was added to net DVDD_1V2.
-   Pin RF_DIE.50 was added to net DVDD_1V2.
-   Pin RF_DIE.51 was added to net AVDD_1V2.
-Created new net CAP2 from net name CAP2.
-   Pin RF_DIE.52 was added to net CAP2.
-   Pin RF_DIE.53 was added to net NC.
-   Pin RF_DIE.54 was added to net NC.
-   Pin RF_DIE.55 was added to net AGND.
-   Pin RF_DIE.56 was added to net AVDD_1V2.
-Created new net I2CM_SCL from net name I2CM_SCL.
-   Pin RF_DIE.57 was added to net I2CM_SCL.
-Created new net I2CM_SDA from net name I2CM_SDA.
-   Pin RF_DIE.58 was added to net I2CM_SDA.
-Created new net TUNER_RESET from net name TUNER_RESET.
-   Pin RF_DIE.59 was added to net TUNER_RESET.
-Created new net IB_EXTR from net name IB_EXTR.
-   Pin RF_DIE.60 was added to net IB_EXTR.
-   Pin RF_DIE.61 was added to net NC.
-   Pin RF_DIE.62 was added to net AGND.
-Created new net AVDD_3V3 from net name AVDD_3V3.
-   Pin RF_DIE.63 was added to net AVDD_3V3.
-   Pin RF_DIE.64 was added to net AVDD_3V3.
-   Pin RF_DIE.65 was added to net AVDD_3V3.
-   Pin RF_DIE.66 was added to net NC.
-Created new net VINNQ from net name VINNQ.
-   Pin RF_DIE.67 was added to net VINNQ.
-Created new net VINPQ from net name VINPQ.
-   Pin RF_DIE.68 was added to net VINPQ.
-Created new net VINNI from net name VINNI.
-   Pin RF_DIE.69 was added to net VINNI.
-Created new net VINPI from net name VINPI.
-   Pin RF_DIE.70 was added to net VINPI.
-Net attachment phase completed.
-
-Beginning creation of physical symbol.
-The following symbol pins were created (coordinates relative to symbol origin):
-   "1" at (-1322.86 920).
-   "2" at (-1322.86 820).
-   "3" at (-1322.86 720).
-   "4" at (-1322.86 620).
-   "5" at (-1322.86 520).
-   "6" at (-1322.86 420).
-   "7" at (-1322.86 258.22).
-   "8" at (-1322.86 140).
-   "9" at (-1322.86 40).
-   "10" at (-1322.86 -60).
-   "11" at (-1322.86 -160).
-   "12" at (-1322.86 -713.15).
-   "13" at (-1322.86 -813.15).
-   "14" at (-1322.86 -1000).
-   "15" at (-1080 -1222.86).
-   "16" at (-980 -1222.86).
-   "17" at (-880 -1222.86).
-   "18" at (-780 -1222.86).
-   "19" at (-680 -1222.86).
-   "20" at (-580 -1222.86).
-   "21" at (-480 -1222.86).
-   "22" at (-376.81 -1222.86).
-   "23" at (-266.81 -1222.86).
-   "24" at (-166.81 -1222.86).
-   "25" at (-66.81 -1222.86).
-   "26" at (33.19 -1222.86).
-   "27" at (133.19 -1222.86).
-   "28" at (230 -1222.86).
-   "29" at (320 -1222.86).
-   "30" at (410 -1222.86).
-   "31" at (510 -1222.86).
-   "32" at (600 -1222.86).
-   "33" at (690 -1222.86).
-   "34" at (780 -1222.86).
-   "35" at (860 -1222.86).
-   "36" at (940 -1222.86).
-   "37" at (1020 -1222.86).
-   "38" at (1322.86 -1000).
-   "39" at (1322.86 -920).
-   "40" at (1322.86 -860).
-   "41" at (1322.86 -770).
-   "42" at (1322.86 -680).
-   "43" at (1322.86 -562.79).
-   "44" at (1322.86 -482.8).
-   "45" at (1322.86 -382.8).
-   "46" at (1322.86 -302.8).
-   "47" at (1322.86 -222.79).
-   "48" at (1322.86 -122.8).
-   "49" at (1322.86 30).
-   "50" at (1322.86 130).
-   "51" at (1322.86 250).
-   "52" at (1322.86 350).
-   "53" at (1322.86 450).
-   "54" at (1322.86 550).
-   "55" at (1322.86 660).
-   "56" at (1322.86 760).
-   "57" at (1322.86 850).
-   "58" at (1322.86 940).
-   "59" at (820 1222.86).
-   "60" at (580 1222.86).
-   "61" at (480 1222.86).
-   "62" at (380 1222.86).
-   "63" at (280 1222.86).
-   "64" at (180 1222.86).
-   "65" at (80 1222.86).
-   "66" at (-120 1222.86).
-   "67" at (-720 1222.86).
-   "68" at (-820 1222.86).
-   "69" at (-920 1222.86).
-   "70" at (-1020 1222.86).
+   "1" at (-2277.19 -2334.96).
+   "2" at (-2221.39 -2334.96).
+   "3" at (-2165.59 -2334.96).
+   "4" at (-2109.79 -2334.96).
+   "5" at (-2053.99 -2334.96).
+   "6" at (-1998.19 -2334.96).
+   "7" at (-1942.39 -2334.96).
+   "8" at (-1886.59 -2334.96).
+   "9" at (-1830.79 -2334.96).
+   "10" at (-1774.99 -2334.96).
+   "11" at (-1719.19 -2334.96).
+   "12" at (-1663.39 -2334.96).
+   "13" at (-1607.59 -2334.96).
+   "14" at (-1551.79 -2334.96).
+   "15" at (-1495.99 -2334.96).
+   "16" at (-1440.19 -2334.96).
+   "17" at (-1384.39 -2334.96).
+   "18" at (-1328.59 -2334.96).
+   "19" at (-1272.79 -2334.96).
+   "20" at (-1216.99 -2334.96).
+   "21" at (-1161.19 -2334.96).
+   "22" at (-1105.39 -2334.96).
+   "23" at (-1049.59 -2334.96).
+   "24" at (-993.79 -2334.96).
+   "25" at (-937.99 -2334.96).
+   "26" at (-882.19 -2334.96).
+   "27" at (-826.39 -2334.96).
+   "28" at (-770.59 -2334.96).
+   "29" at (-671.59 -2334.96).
+   "30" at (-615.79 -2334.96).
+   "31" at (-559.99 -2334.96).
+   "32" at (-486.55 -2334.96).
+   "33" at (-310.03 -2307.06).
+   "34" at (-253.78 -2307.06).
+   "35" at (-197.53 -2307.06).
+   "36" at (-141.28 -2307.06).
+   "37" at (-85.03 -2307.06).
+   "38" at (-28.78 -2307.06).
+   "39" at (27.47 -2307.06).
+   "40" at (83.72 -2307.06).
+   "41" at (139.97 -2307.06).
+   "42" at (196.22 -2307.06).
+   "43" at (252.47 -2307.06).
+   "44" at (308.72 -2307.06).
+   "45" at (668.72 -2307.06).
+   "46" at (724.97 -2307.06).
+   "47" at (781.22 -2307.06).
+   "48" at (837.47 -2307.06).
+   "49" at (893.72 -2307.06).
+   "50" at (949.97 -2307.06).
+   "51" at (1006.22 -2307.06).
+   "52" at (1062.47 -2307.06).
+   "53" at (1118.72 -2307.06).
+   "54" at (1174.97 -2307.06).
+   "55" at (1231.22 -2307.06).
+   "56" at (1287.47 -2307.06).
+   "57" at (1776.85 -2307.06).
+   "58" at (1833.1 -2307.06).
+   "59" at (1889.35 -2307.06).
+   "60" at (1945.6 -2307.06).
+   "61" at (2001.85 -2307.06).
+   "62" at (2058.1 -2307.06).
+   "63" at (2114.35 -2307.06).
+   "64" at (2170.6 -2307.06).
+   "65" at (2226.85 -2307.06).
+   "66" at (2283.1 -2307.06).
+   "67" at (2339.35 -2307.06).
+   "68" at (2395.6 -2307.06).
+   "69" at (2467.79 -2150.46).
+   "70" at (2467.79 -2094.66).
+   "71" at (2467.79 -2038.86).
+   "72" at (2467.79 -1983.06).
+   "73" at (2467.79 -1927.26).
+   "74" at (2467.79 -1871.46).
+   "75" at (2467.79 -1620.36).
+   "76" at (2467.79 -1564.56).
+   "77" at (2467.79 -1508.76).
+   "78" at (2467.79 -1452.96).
+   "79" at (2467.79 -1397.16).
+   "80" at (2467.79 -1341.36).
+   "81" at (2467.79 -1285.56).
+   "82" at (2467.79 -1229.76).
+   "83" at (2467.79 -1173.96).
+   "84" at (2467.79 -1118.16).
+   "85" at (2467.79 -1062.36).
+   "86" at (2467.79 -1006.56).
+   "87" at (2467.79 -950.76).
+   "88" at (2467.79 -894.96).
+   "89" at (2467.79 -839.16).
+   "90" at (2467.79 -783.36).
+   "91" at (2467.79 -727.56).
+   "92" at (2467.79 -671.76).
+   "93" at (2467.79 -615.96).
+   "94" at (2467.79 -560.16).
+   "95" at (2467.79 -504.36).
+   "96" at (2467.79 -225.36).
+   "97" at (2467.79 -169.56).
+   "98" at (2467.79 -113.76).
+   "99" at (2467.79 -57.96).
+   "100" at (2467.79 25.74).
+   "101" at (2467.79 81.54).
+   "102" at (2467.79 137.34).
+   "103" at (2467.79 193.14).
+   "104" at (2467.79 248.94).
+   "105" at (2467.79 304.74).
+   "106" at (2467.79 360.54).
+   "107" at (2467.79 416.34).
+   "108" at (2467.79 472.14).
+   "109" at (2467.79 527.94).
+   "110" at (2467.79 583.74).
+   "111" at (2467.79 639.54).
+   "112" at (2467.79 695.34).
+   "113" at (2467.79 751.14).
+   "114" at (2467.79 862.74).
+   "115" at (2467.79 918.54).
+   "116" at (2467.79 974.34).
+   "117" at (2467.79 1030.14).
+   "118" at (2467.79 1085.94).
+   "119" at (2467.79 1141.74).
+   "120" at (2467.79 1197.54).
+   "121" at (2467.79 1253.34).
+   "122" at (2467.79 1364.94).
+   "123" at (2467.79 1420.74).
+   "124" at (2467.79 1476.54).
+   "125" at (2467.79 1532.34).
+   "126" at (2467.79 1588.14).
+   "127" at (2467.79 1643.94).
+   "128" at (2467.79 1699.74).
+   "129" at (2467.79 1755.54).
+   "130" at (2467.79 1811.34).
+   "131" at (2467.79 1867.14).
+   "132" at (2467.79 1922.94).
+   "133" at (2467.79 1978.74).
+   "134" at (2467.79 2034.54).
+   "135" at (2467.79 2090.34).
+   "136" at (2467.79 2146.14).
+   "137" at (2467.79 2201.94).
+   "138" at (2467.79 2257.74).
+   "139" at (2395.6 2334.96).
+   "140" at (2339.35 2334.96).
+   "141" at (2277.47 2334.96).
+   "142" at (2221.22 2334.96).
+   "143" at (2164.97 2334.96).
+   "144" at (2103.1 2334.96).
+   "145" at (2046.85 2334.96).
+   "146" at (1984.97 2334.96).
+   "147" at (1928.72 2334.96).
+   "148" at (1872.47 2334.96).
+   "149" at (1810.6 2334.96).
+   "150" at (1512.47 2334.96).
+   "151" at (1456.22 2334.96).
+   "152" at (1399.97 2334.96).
+   "153" at (1343.72 2334.96).
+   "154" at (1287.47 2334.96).
+   "155" at (1231.22 2334.96).
+   "156" at (1174.97 2334.96).
+   "157" at (1118.72 2334.96).
+   "158" at (1062.47 2334.96).
+   "159" at (1006.22 2334.96).
+   "160" at (949.97 2334.96).
+   "161" at (893.72 2334.96).
+   "162" at (837.47 2334.96).
+   "163" at (781.22 2334.96).
+   "164" at (724.97 2334.96).
+   "165" at (668.72 2334.96).
+   "166" at (89.35 2334.96).
+   "167" at (33.1 2334.96).
+   "168" at (-23.15 2334.96).
+   "169" at (-79.4 2334.96).
+   "170" at (-135.65 2334.96).
+   "171" at (-191.9 2334.96).
+   "172" at (-248.15 2334.96).
+   "173" at (-304.4 2334.96).
+   "174" at (-360.65 2334.96).
+   "175" at (-416.9 2334.96).
+   "176" at (-473.15 2334.96).
+   "177" at (-529.4 2334.96).
+   "178" at (-585.65 2334.96).
+   "179" at (-641.9 2334.96).
+   "180" at (-698.15 2334.96).
+   "181" at (-754.4 2334.96).
+   "182" at (-1401.28 2334.96).
+   "183" at (-1457.53 2334.96).
+   "184" at (-1513.78 2334.96).
+   "185" at (-1570.03 2334.96).
+   "186" at (-1626.28 2334.96).
+   "187" at (-1682.53 2334.96).
+   "188" at (-1738.78 2334.96).
+   "189" at (-1795.03 2334.96).
+   "190" at (-1851.28 2334.96).
+   "191" at (-1907.53 2334.96).
+   "192" at (-1963.78 2334.96).
+   "193" at (-2020.03 2334.96).
+   "194" at (-2076.28 2334.96).
+   "195" at (-2132.53 2334.96).
+   "196" at (-2188.78 2334.96).
+   "197" at (-2245.03 2334.96).
+   "198" at (-2301.28 2334.96).
+   "199" at (-2357.53 2334.96).
+   "200" at (-2439.88 2257.74).
+   "201" at (-2439.88 2201.94).
+   "202" at (-2439.88 2146.14).
+   "203" at (-2439.88 2090.34).
+   "204" at (-2439.88 2034.54).
+   "205" at (-2439.88 1978.74).
+   "206" at (-2439.88 1922.94).
+   "207" at (-2439.88 1867.14).
+   "208" at (-2439.88 1811.34).
+   "209" at (-2439.88 1755.54).
+   "210" at (-2439.88 1699.74).
+   "211" at (-2439.88 1643.94).
+   "212" at (-2439.88 1588.14).
+   "213" at (-2439.88 1532.34).
+   "214" at (-2439.88 1476.54).
+   "215" at (-2439.88 1420.74).
+   "216" at (-2439.88 1364.94).
+   "217" at (-2439.88 1309.14).
+   "218" at (-2439.88 1253.34).
+   "219" at (-2439.88 1197.54).
+   "220" at (-2439.88 1141.74).
+   "221" at (-2439.88 1085.94).
+   "222" at (-2439.88 1030.14).
+   "223" at (-2439.88 974.34).
+   "224" at (-2439.88 918.54).
+   "225" at (-2439.88 862.74).
+   "226" at (-2439.88 388.44).
+   "227" at (-2439.88 332.64).
+   "228" at (-2439.88 276.84).
+   "229" at (-2439.88 221.04).
+   "230" at (-2439.88 165.24).
+   "231" at (-2439.88 109.44).
+   "232" at (-2439.88 53.64).
+   "233" at (-2439.88 -2.16).
+   "234" at (-2439.88 -57.96).
+   "235" at (-2439.88 -113.76).
+   "236" at (-2439.88 -169.56).
+   "237" at (-2439.88 -225.36).
+   "238" at (-2467.78 -716.17).
+   "239" at (-2467.78 -771.97).
+   "240" at (-2467.78 -827.77).
+   "241" at (-2467.78 -1030.18).
+   "242" at (-2467.78 -1085.98).
+   "243" at (-2467.78 -1141.78).
+   "244" at (-2467.78 -1197.58).
+   "245" at (-2467.78 -1253.38).
+   "246" at (-2467.78 -1309.18).
+   "247" at (-2467.78 -1364.98).
+   "248" at (-2467.78 -1420.78).
+   "249" at (-2467.78 -1492.86).
+   "250" at (-2467.78 -1548.66).
+   "251" at (-2467.78 -1604.46).
+   "252" at (-2467.78 -1660.26).
+   "253" at (-2467.78 -1716.06).
+   "254" at (-2467.78 -1771.86).
+   "255" at (-2467.78 -2226.4).
 Physical symbol creation completed.
 
 Adding required pin and net properties.
@@ -579,4 +1095,4 @@ Property attachment phase completed.
 
 INFO(SPMHII-42): The data import successfully completed.
 Die Text-In Wizard completed.
-Wed May 14 11:58:08 2025
+Thu May 15 16:51:08 2025

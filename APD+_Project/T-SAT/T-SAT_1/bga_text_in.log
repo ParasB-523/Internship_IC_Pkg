@@ -2,9 +2,9 @@
 (                                                                     )
 (    BGA Text-In Wizard                                               )
 (                                                                     )
-(    Drawing          : BGA_100.mcm                                   )
-(    Software Version : 24.1P001                                      )
-(    Date/Time        : Wed May 14 15:14:33 2025                      )
+(    Drawing          : T-SAT_ass_1.mcm                               )
+(    Software Version : 24.1S001                                      )
+(    Date/Time        : Thu May 15 14:39:19 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -260,4 +260,4 @@ Property attachment phase completed.
 
 INFO(SPMHII-42): The data import successfully completed.
 BGA Text-In Wizard completed.
-Wed May 14 15:14:57 2025
+Thu May 15 14:39:47 2025
