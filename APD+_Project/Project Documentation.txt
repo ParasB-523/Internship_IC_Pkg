@@ -63,7 +63,7 @@ SUBSTRATE
 	Bump Shape : Circle
 	Bump Dimensions : 250 um x 250 um
 
-	Die Dimensions : 7100 um x 7100 um
+	Die Dimensions : 8000 um x 8000 um
 	Die Origin     : Centre
 
 	No. of Balls : 100

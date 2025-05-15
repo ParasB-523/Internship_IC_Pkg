@@ -6,7 +6,7 @@ RefDes: BGA
 Origin: (0.00 0.00)
 Rotation: 0.000
 Pad Layer: BOTTOM
-Extents: ((-3550.00 -3550.00) (3550.00 3550.00))
+Extents: ((-4000.00 -4000.00) (4000.00 4000.00))
 
 Pin Number	Padstack	X Coord	Y Coord	Rotation	Pin Use	Net Name
 
