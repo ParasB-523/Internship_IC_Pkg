@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ERJ-XGNF1801Y"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-09-30-15:27:14)
+    (mountForm default
+        (footprintRef "ERJXGN__01005_")
+        (spec "System")
+    )
+)

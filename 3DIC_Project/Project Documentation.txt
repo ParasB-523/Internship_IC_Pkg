@@ -50,7 +50,7 @@ DIES
 				Non-Power: 259
 	Protocols : UCIe, I2C, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 790 2608.38
 
 
 2. Maia
@@ -69,9 +69,10 @@ DIES
 				vdd1p8   : 3
 				vss      : 133
 				Non-Power: 187
+	
 	Protocols : UCIe, XAUI, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 790 263
 
 3. Vega
 	Bump Pitch : 45 um
@@ -89,9 +90,10 @@ DIES
 				vdd1p8   : 4
 				vss      : 177
 				Non-Power: 107
+	
 	Protocols : UCIe, PCIe, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 1235.48 263
 
 
 
@@ -115,4 +117,13 @@ INTERPOSER
 
 	Protocols : UCIe, PCIe, XAUI, I2C, GPIO, Tap
 
-	Placement Co-ordinates in Top Model : 
+	Placement Co-ordinates in Top Model : 0 0
+
+
+
+DISTANCES
+
+1. Die to Die (Eridani -- Maia & Vega) 	: 71.48 um
+2. Die to Die (Maia -- Vega) 		: 48.96 um
+3. Die to Interposer Edge (Vertical) 	: 263 um
+4. Die to Interposer Edge (Horizontal) 	: 790 um

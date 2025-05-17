@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_866958"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-11-02-03:55:23)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CRCW01001K00FREL")
+)
+
+
+(pinAssign "ECS_866958"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-11-02-03:55:23)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_866958")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CRCW01001K00FREL")
+)
+
+
+(part "CRCW01001K00FREL"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-11-02-03:55:23)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "CRCW01001K00FREL")
+    (pinAssignRef "ECS_866958")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Thick Film Resistors - SMD 01005 1Kohm 1% 250ppm 0.031watts")
+    (property "Mouser_Part_Number" "71-CRCW01001K00FREL")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW01001K00FREL?qs=3CaSHoNeR5tXOLxUWuMhpA%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "CRCW01001K00FREL")
+    (property "Datasheet_Link" "http://www.vishay.com/docs/20056/crcw01005e3.pdf")
+    (property "compAreaTopHeight" 0.15)
+)
+
+

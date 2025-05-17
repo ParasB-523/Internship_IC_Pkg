@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CRCW01001K00FREL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "CRCW01001K00FREL" (!) = "", "RESC0402X15N", "Resistor Chip", "71-CRCW01001K00FREL", "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW01001K00FREL?qs=3CaSHoNeR5tXOLxUWuMhpA%3D%3D", "Thick Film Resistors - SMD 01005 1Kohm 1% 250ppm 0.031watts", "http://www.vishay.com/docs/20056/crcw01005e3.pdf", "0.15 mm"
+END_PART
+
+END.

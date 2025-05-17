@@ -9,7 +9,7 @@ PROCEDURE:
 3. Create the text files of the Co-ordinates and the related bump information for input of Die and BGA symbol creation in Cadence APD+.
 The information needed are : Pin No., Pin Name, Padstack, Co-ordinates, Rotation, Pin Use, & Net Name. 
  
-4. Then create the mcm Files of all the dies and Substrate in APD+ using the txt files seperately for visualization according to the specifications listed in the above steps.
+4. Then create the mcm Files of all the dies and Substrate in APD+ using the txt files separately for visualization according to the specifications listed in the above steps.
 
 
 
@@ -17,49 +17,61 @@ SPECIFICATIONS:
 
 DIES
 1. P3 Die
-	Bump Pitch :  um
-	Bump-edge to Die-edge :  um 
+	Bump Pitch : Variable um
+	Bump-edge to Die-edge : Variable um 
 	Bump Shape : Rectangle
+	Bump Pattern : Periphery
 	Bump Dimensions : 46.8 um x 46.8 um
 
 	Die Dimensions : 5054.4 um x 4788.9 um
 	Die Origin     : Centre
 
-	No. of Ubumps : 
-				vccio    : 
-				vccfwdio : 
-				vddc     : 
-				vdd1p8   : 
-				vss      : 
-				Non-Power: 
-	Protocols : 
+	No. of Ubumps : 256
+				AGND    	: 12
+				AVDD10  	: 9
+				AVDD18  	: 8
+				VDD     	: 46
+				VDDE18  	: 30
+				VREFH   	: 3
+				VSS     	: 76
+				XTAL_GND 	: 2
+				NC	 	: 34		
+				Signals  	: 46
+	
+	Protocols : I2C, GPIO, SPI, UART, SDIO, JTAG
+	Peripherals : ADC, DAC, PLL, XTAL_OSC
 
-	Placement Co-ordinates in Multi-Chip Model :
+	Placement Co-ordinates in Multi-Chip Model : 0 1305.55
 
 2. RF Die
-	Bump Pitch :  um
-	Bump-edge to Die-edge :  um 
+	Bump Pitch : Variable um
+	Bump-edge to Die-edge : Variable um 
 	Bump Shape : Rectangle
+	Bump Pattern : Periphery
 	Bump Dimensions : 50 um x 50 um
 
 	Die Dimensions : 2700 um x 2500 um
 	Die Origin     : Centre
 
-	No. of Ubumps : 
-				vccio    : 
-				vccfwdio : 
-				vddc     : 
-				vdd1p8   : 
-				vss      : 
-				Non-Power: 
-	Protocols : 
+	No. of Ubumps : 70
+				AGND    	: 15
+				AVDD_1V2 	: 8
+				AVDD_3V3 	: 3
+				AVDD18_TUNER 	: 2
+				DVDD1V2 	: 3
+				DVDD_3V3 	: 2
+				TUN_DGND 	: 3
+				NC	 	: 10		
+				Signals  	: 24
+	
+	Protocols : I2C
 
-	Placement Co-ordinates in Multi-Chip Model :
+	Placement Co-ordinates in Multi-Chip Model : 0 -2450
 
 
 SUBSTRATE
 	Bump Pitch : 650 um
-	Bump-edge to Die-edge :  um 
+	Bump-edge to Die-edge : 950 um 
 	Bump Shape : Circle
 	Bump Dimensions : 250 um x 250 um
 
@@ -67,12 +79,26 @@ SUBSTRATE
 	Die Origin     : Centre
 
 	No. of Balls : 100
-				vccio    : 
-				vccfwdio : 
-				vddc     : 
-				vdd1p8   : 
-				vss      : 
+				VDD    : 8
+				VDDE18 : 4
+				VDD18  : 1
+				AGND     : 25
+				AVDD18   : 4
+				DVDD_1V2 : 1
+				AVDD_1V2 : 2
+				AVDD_3V3 : 2
+				GND	 : 2
+				VSS      : 15
 				Non-Power: 
 	Protocols : 
 
 	Placement Co-ordinates in Multi-Chip Model : 0 0
+
+
+
+DISTANCES
+
+1. Die to Die (P3 -- RF) 			: 111.1 um
+2. Die to Substrate Edge (Vertical) 		: 300 um
+3. Die (P3) to Substrate Edge (Horizontal) 	: 1472.8 um
+4. Die (RF) to Substrate Edge (Horizontal) 	: 2650 um

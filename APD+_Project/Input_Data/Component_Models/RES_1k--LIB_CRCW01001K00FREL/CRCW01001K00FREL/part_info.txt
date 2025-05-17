@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=CRCW01001K00FREL
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2021-11-02 03:55:23
+Downloaded=2025-05-16 12:17:10
+3D=Y

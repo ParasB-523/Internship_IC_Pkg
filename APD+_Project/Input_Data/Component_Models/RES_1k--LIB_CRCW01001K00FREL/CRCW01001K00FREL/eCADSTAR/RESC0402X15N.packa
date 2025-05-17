@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CRCW01001K00FREL"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-11-02-03:55:23)
+    (mountForm default
+        (footprintRef "RESC0402X15N")
+        (spec "System")
+    )
+)
