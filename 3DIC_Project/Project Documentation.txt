@@ -19,8 +19,13 @@ PROCEDURE:
 
 8. 3D Placement of all the instances is done according to the plan said before.
 
-9. U-Bumps are mirrored onto the Top layer of the Interposer.
+9. U-Bumps are mirrored onto the Top layer of the Interposer. After that the mirrored bumps are auto-assigned the nets for maintaining the connectivity between the die and interposer.
 
+10. We can view the Dies and the Interposer in 3D and check for 3D errors if any in 3D-View. Then we shall save the blocks hierarchially to save the changed data in each block if any in the Top ibrary as well as in their respective die libraries.
+
+11. Then we start the Routing of the Interposer inn its library. Initially we route the PG Mesh and then finish it up with the vertical connentions to the PG pins(both C4 Bumps and Ubumps).
+
+12. Then, we route in groups the D2D Signals and then the other signals in the series of routing steps-- global, tracing, detailed and eco. This completes the routing of Interposer and further we may check for errors or any open nets being created. 
 
 
 
