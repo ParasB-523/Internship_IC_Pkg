@@ -1,0 +1,178 @@
+\t (00:00:05) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Wed May 21 16:13:12 2025
+\t (00:00:05)         Host=PARAS_523 User=paras Pid=1488 CPUs=20
+\t (00:00:05) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\Component_Models\Bijeta\RES_1_8k--LIB_ERJ-XGNF1801Y\ERJ-XGNF1801Y\Allegro\1_8k_mod_ERJXGN__01005_.dra
+\t (00:00:05) 
+\t (00:00:05) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "1_8k_mod_ERJXGN__01005_"
+\d (00:00:08) Design opened: F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/Component_Models/Bijeta/RES_1_8k--LIB_ERJ-XGNF1801Y/ERJ-XGNF1801Y/Allegro/1_8k_mod_ERJXGN__01005_.dra
+\t (00:00:08) Loading cmds.cxt 
+\i (00:00:08) trapsize 72
+\i (00:00:08) trapsize 75
+\i (00:00:08) trapsize 72
+\i (00:00:08) trapsize 72
+\t (00:00:08) Loading NV GPU Plugin
+\i (00:00:08) trapsize 45
+\i (00:00:08) generaledit 
+\t (00:00:08) [16:13:15.424712] Periodic Lic check successful
+[16:13:15.949000] Feature usage summary:
+
+\i (00:07:58) zoom out 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom out -0.2007 0.1343
+\t (00:07:58) [16:21:05.386712] Periodic Lic check successful
+[16:21:05.911000] Feature usage summary:
+
+\i (00:07:58) trapsize 90
+\i (00:07:58) zoom out 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom out -0.2006 0.1343
+\i (00:07:58) trapsize 180
+\i (00:07:59) zoom in 1 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom in 0.0770 -0.1037
+\i (00:07:59) trapsize 90
+\i (00:07:59) zoom in 1 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom in 0.0752 -0.1037
+\i (00:07:59) trapsize 45
+\i (00:08:00) zoom in 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom in 0.0753 -0.1037
+\i (00:08:00) trapsize 23
+\i (00:08:00) zoom out 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom out 0.0789 -0.0775
+\i (00:08:00) trapsize 45
+\i (00:08:00) zoom out 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom out 0.0790 -0.0775
+\i (00:08:00) trapsize 90
+\i (00:08:00) zoom out 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom out 0.0789 -0.0775
+\i (00:08:00) trapsize 180
+\i (00:08:00) zoom in 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom in 0.0213 0.0595
+\i (00:08:00) trapsize 90
+\i (00:08:00) zoom in 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom in 0.0213 0.0613
+\i (00:08:00) trapsize 45
+\i (00:08:01) zoom in 1 
+\i (00:08:01) setwindow pcb
+\i (00:08:01) zoom in 0.0213 0.0613
+\i (00:08:01) trapsize 23
+\i (00:08:01) zoom out 1 
+\i (00:08:01) setwindow pcb
+\i (00:08:01) zoom out 0.0137 0.0325
+\i (00:08:01) trapsize 45
+\i (00:08:44) zoom in 1 
+\i (00:08:44) setwindow pcb
+\i (00:08:44) zoom in -0.0333 0.0163
+\i (00:08:44) trapsize 23
+\i (00:08:44) zoom in 1 
+\i (00:08:44) setwindow pcb
+\i (00:08:44) zoom in -0.0333 0.0163
+\i (00:08:44) trapsize 11
+\i (00:08:44) zoom out 1 
+\i (00:08:44) setwindow pcb
+\i (00:08:44) zoom out -0.0333 0.0164
+\i (00:08:44) trapsize 23
+\i (00:08:44) zoom out 1 
+\i (00:08:44) setwindow pcb
+\i (00:08:44) zoom out -0.0334 0.0163
+\i (00:08:44) trapsize 45
+\i (00:08:44) zoom out 1 
+\i (00:08:44) setwindow pcb
+\i (00:08:44) zoom out -0.0342 0.0173
+\i (00:08:44) trapsize 90
+\i (00:08:45) zoom in 1 
+\i (00:08:45) setwindow pcb
+\i (00:08:45) zoom in 0.0597 0.0100
+\i (00:08:45) trapsize 45
+\i (00:08:45) zoom in 1 
+\i (00:08:45) setwindow pcb
+\i (00:08:45) zoom in 0.0597 0.0091
+\i (00:08:45) trapsize 23
+\i (00:08:47) zoom out 1 
+\i (00:08:47) setwindow pcb
+\i (00:08:47) zoom out 0.0295 0.0217
+\i (00:08:47) trapsize 45
+\i (00:08:47) zoom out 1 
+\i (00:08:47) setwindow pcb
+\i (00:08:47) zoom out 0.0296 0.0218
+\i (00:08:47) trapsize 90
+\i (00:08:47) zoom out 1 
+\i (00:08:47) setwindow pcb
+\i (00:08:47) zoom out 0.0296 0.0218
+\i (00:08:47) trapsize 180
+\i (00:08:48) zoom in 1 
+\i (00:08:48) setwindow pcb
+\i (00:08:48) zoom in 0.0043 0.1192
+\i (00:08:48) trapsize 90
+\i (00:08:48) zoom in 1 
+\i (00:08:48) setwindow pcb
+\i (00:08:48) zoom in 0.0026 0.1192
+\i (00:08:48) trapsize 45
+\i (00:08:48) zoom in 1 
+\i (00:08:49) setwindow pcb
+\i (00:08:49) zoom in 0.0026 0.1193
+\i (00:08:49) trapsize 23
+\i (00:08:52) setwindow form.find
+\i (00:08:52) FORM find pins YES 
+\i (00:09:03) setwindow pcb
+\i (00:09:03) replace padstack 
+\i (00:09:05) setwindow form.mini
+\i (00:09:05) FORM mini oldname_browse  
+\i (00:09:06) fillin "R22_5_21_3"
+\i (00:09:07) FORM mini newname_browse  
+\i (00:09:11) fillin "1_8K_Mod_R22_5_21_3"
+\i (00:09:12) FORM mini replace  
+\t (00:09:12) Done, updated padstack.
+\t (00:09:12) 2 out of 2 old padstack R22_5_21_3 were replaced with new padstack 1_8K_MOD_R22_5_21_3.
+\i (00:09:14) setwindow pcb
+\i (00:09:14) zoom out 1 
+\i (00:09:14) setwindow pcb
+\i (00:09:14) zoom out -0.0907 0.1888
+\i (00:09:14) trapsize 45
+\i (00:09:14) zoom out 1 
+\i (00:09:14) setwindow pcb
+\i (00:09:14) zoom out -0.0907 0.1888
+\i (00:09:14) trapsize 90
+\i (00:09:14) zoom in 1 
+\i (00:09:14) setwindow pcb
+\i (00:09:14) zoom in -0.2676 0.2916
+\i (00:09:14) trapsize 45
+\i (00:09:15) pick grid -0.4155 0.2582
+\t (00:09:15) last pick:  -0.4200 0.2600
+\i (00:09:18) pick grid -0.5417 -0.1838
+\t (00:09:18) last pick:  -0.5400 -0.1800
+\i (00:09:25) pick grid -0.5156 0.2744
+\t (00:09:25) last pick:  -0.5200 0.2700
+\e (00:09:25) Symbol and Pin must be '*' when replace = old.
+\i (00:09:25) prepopup -0.5084 0.2690
+\i (00:09:26) done 
+\t (00:09:26) Performing DRC...
+\t (00:09:26) No DRC errors detected.
+\i (00:09:26) generaledit 
+\i (00:09:28) save 
+\i (00:09:30) fillin yes 
+\t (00:09:30) Symbol '1_8k_mod_erjxgn__01005_.psm' created.
+\i (00:09:31) generaledit 
+\i (00:10:47) create device 
+\i (00:10:49) setwindow form.crdevice
+\i (00:10:49) FORM crdevice dtype DISCRETE 
+\i (00:10:49) FORM crdevice done  
+\t (00:10:49) Device file "1_8k_mod_ERJXGN__01005_.txt" created.
+
+\i (00:10:49) setwindow pcb
+\i (00:10:49) generaledit 
+\i (00:10:50) exit 
+\t (00:10:50) Lic Summary:
+[16:23:58.254000] Cdslmd servers:
+[16:23:58.254000] Feature usage summary:
+
+\t (00:10:50)     Journal end - Wed May 21 16:23:58 2025

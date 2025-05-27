@@ -1,0 +1,206 @@
+\t (00:00:08) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Mon May 26 12:28:10 2025
+\t (00:00:08)         Host=PARAS_523 User=paras Pid=13244 CPUs=20
+\t (00:00:08) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\Component_Models\Bijeta\RES_2_4k--ERJ_XGNF2401Y\2_4k_mod_RES_ERJXGNF2401Y.dra
+\t (00:00:08) 
+\t (00:00:08) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "2_4k_mod_RES_ERJXGNF2401Y"
+\d (00:00:08) Design opened: F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/Component_Models/Bijeta/RES_2_4k--ERJ_XGNF2401Y/2_4k_mod_RES_ERJXGNF2401Y.dra
+\t (00:00:08) Loading cmds.cxt 
+\i (00:00:08) trapsize 63
+\i (00:00:08) trapsize 66
+\i (00:00:08) trapsize 63
+\i (00:00:09) trapsize 63
+\t (00:00:09) Loading NV GPU Plugin
+\i (00:00:09) trapsize 40
+\i (00:00:09) generaledit 
+\t (00:00:09) [12:28:11.370000] Periodic Lic check successful
+[12:28:11.370000] Feature usage summary:
+
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out 0.0176 0.0520
+\i (00:00:09) trapsize 80
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 0.0176 0.0521
+\i (00:00:10) trapsize 160
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 0.0177 0.0521
+\i (00:00:10) trapsize 319
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 0.3052 0.6590
+\i (00:00:10) trapsize 639
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 0.5543 1.6185
+\i (00:00:11) trapsize 319
+\i (00:00:59) prepopup 1.1229 1.8549
+\i (00:01:00) pop dyn_option_select @:@Move 
+\i (00:01:00) move 
+\t (00:01:00) last pick:  1.1200 1.8500
+\t (00:01:00) last pick:  -0.3000 1.4000
+\t (00:01:00) Pick new location for the element(s).
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 0.3691 -0.0233
+\i (00:01:01) trapsize 160
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 0.3692 -0.0233
+\i (00:01:01) trapsize 80
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 0.3660 -0.0233
+\i (00:01:01) trapsize 40
+\i (00:01:03) pick grid 0.1648 0.0015
+\t (00:01:03) last pick:  0.1600 0.0000
+\i (00:01:03) generaledit 
+\i (00:01:03) zoom out 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom out 0.2423 0.0854
+\i (00:01:03) trapsize 80
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 0.2422 0.0853
+\i (00:01:04) trapsize 160
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 0.2423 0.0854
+\i (00:01:04) trapsize 319
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 0.2422 0.0854
+\i (00:01:04) trapsize 639
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 0.2423 0.0855
+\i (00:01:04) trapsize 791
+\i (00:01:05) prepopup -0.1983 2.3855
+\i (00:01:06) pop dyn_option_select @:@Delete 
+\i (00:01:06) delete 
+\i (00:01:06) generaledit 
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 0.6245 0.5341
+\i (00:01:06) trapsize 396
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in 0.6246 0.5342
+\i (00:01:06) trapsize 198
+\i (00:01:07) zoom in 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom in 0.6246 0.5342
+\i (00:01:07) trapsize 99
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 0.6247 0.5343
+\i (00:01:07) trapsize 198
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 0.6247 0.5343
+\i (00:01:07) trapsize 396
+\i (00:01:10) pick grid -0.8469 1.4995
+\t (00:01:10) last pick:  -0.8500 1.5000
+\i (00:01:11) prepopup 1.0440 1.1039
+\i (00:01:14) pop dyn_option_select 'Change Text block to@:@1 (0.4064,0.6350)' 
+\i (00:01:14) text block 
+\t (00:01:14) No DRC errors detected.
+\t (00:01:14) Changed 1 items out of 1 items found.
+\i (00:01:14) generaledit 
+\i (00:01:15) zoom in 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom in 0.2924 0.2573
+\i (00:01:15) trapsize 198
+\i (00:01:15) zoom in 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom in 0.2924 0.2573
+\i (00:01:15) trapsize 99
+\i (00:01:15) zoom in 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom in 0.2924 0.2574
+\i (00:01:15) trapsize 49
+\i (00:01:17) prepopup 0.3251 0.3098
+\i (00:01:18) pop dyn_option_select @:@Move 
+\i (00:01:18) move 
+\t (00:01:18) last pick:  0.3300 0.3100
+\t (00:01:18) last pick:  0.1600 0.0000
+\t (00:01:18) Pick new location for the element(s).
+\i (00:01:20) pick grid 0.1866 -0.0017
+\t (00:01:20) last pick:  0.1900 0.0000
+\i (00:01:20) generaledit 
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 0.1579 0.5017
+\i (00:01:21) trapsize 99
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 0.1540 0.5116
+\i (00:01:21) trapsize 198
+\i (00:01:21) pick grid -0.1505 0.6975
+\t (00:01:21) last pick:  -0.1500 0.7000
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in -0.0397 0.5077
+\i (00:01:52) trapsize 99
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in -0.0397 0.5077
+\i (00:01:52) trapsize 49
+\i (00:01:52) zoom out 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom out -0.0397 0.5077
+\i (00:01:52) trapsize 99
+\i (00:02:15) prmed 
+\i (00:02:16) setwindow form.prmedit
+\i (00:02:16) FORM prmedit text  
+\i (00:02:17) FORM prmedit text_block 2 
+\i (00:02:18) FORM prmedit text_block 1 
+\i (00:02:19) FORM prmedit text_setup_button  
+\i (00:02:24) setwindow form.textblock
+\i (00:02:24) FORM textblock 1 width 0.2064 
+\i (00:02:29) FORM textblock 1 height 0.3350 
+\i (00:02:29) FORM textblock done  
+\i (00:02:31) setwindow form.prmedit
+\i (00:02:31) FORM prmedit done  
+\i (00:02:31) setwindow pcb
+\i (00:02:31) generaledit 
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out 0.3243 0.2230
+\i (00:02:33) trapsize 198
+\i (00:02:33) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in 0.3243 0.2230
+\i (00:02:33) trapsize 99
+\i (00:02:33) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in 0.3243 0.2230
+\i (00:02:33) trapsize 49
+\i (00:02:35) zoom out 1 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom out 0.3539 0.2072
+\i (00:02:35) trapsize 99
+\i (00:02:36) pick grid 0.5617 -0.2121
+\t (00:02:36) last pick:  0.5600 -0.2100
+\i (00:02:39) save 
+\i (00:02:40) fillin yes 
+\t (00:02:41) Symbol '2_4k_mod_res_erjxgnf2401y.psm' created.
+\i (00:02:41) generaledit 
+\i (00:02:42) create device 
+\i (00:02:44) setwindow form.crdevice
+\i (00:02:44) FORM crdevice dtype DISCRETE 
+\i (00:02:45) FORM crdevice done  
+\t (00:02:45) Device file "2_4k_mod_RES_ERJXGNF2401Y.txt" created.
+
+\i (00:02:45) setwindow pcb
+\i (00:02:45) generaledit 
+\i (00:02:46) exit 
+\t (00:02:46) Lic Summary:
+[12:30:48.387712] Cdslmd servers:
+[12:30:48.912000] Feature usage summary:
+
+\t (00:02:46)     Journal end - Mon May 26 12:30:48 2025

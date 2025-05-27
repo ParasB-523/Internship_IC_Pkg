@@ -1,0 +1,48 @@
+\t (00:00:00) padstack_editor 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue May 20 14:57:50 2025
+\t (00:00:00)         Host=VIJETA User=Vijetha Pid=6492 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -mpssession Vijetha -file C:/Users/Vijetha/AppData/Local/Temp/#Taaaaad11884.tmp -pname S_R28T30M28_30P28_30 -data C:/Users/Vijetha/AppData/Local/Temp/#Taaaaag11884.tmp
+\t (00:00:00) 
+\d (00:00:20) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Layer Name"
+\d (00:01:03) QtSignal MainWindow Units CurrentIndexChanged Micron
+\w (00:01:03) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:01:12) QtSignal GuidedDesignLayersTab PadWidth editingFinished "40.0"
+\d (00:01:20) QtSignal GuidedDesignLayersTab PadHeight editingFinished "40.0"
+\d (00:01:23) QtSignal MainWindow Units CurrentIndexChanged Millimeter
+\w (00:01:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:01:47) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:02:06) QtSignal MainWindow Units CurrentIndexChanged Micron
+\w (00:02:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:02:18) QtSignal GuidedMaskLayersTab PadWidth editingFinished "100.0"
+\d (00:02:25) QtSignal GuidedMaskLayersTab PadHeight editingFinished "100.0"
+\d (00:02:36) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 "Layer Name" 2 0
+\d (00:02:37) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 "Layer Name" 2 0
+\d (00:02:37) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:02:37) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 "Regular Pad" 2 1
+\d (00:02:47) QtSignal GuidedMaskLayersTab PadWidth editingFinished "100.0"
+\d (00:02:52) QtSignal GuidedMaskLayersTab PadHeight editingFinished "100.0"
+\d (00:03:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:03:29) QtSignal GuidedSummaryTab Save clicked
+\d (00:04:26) QtFillin ""
+\d (00:04:29) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:04:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:04:38) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:04:43) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:04:45) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:04:46) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:04:53) QtSignal MainWindow SaveAs triggered
+\d (00:05:02) QtFillin ""
+\d (00:05:35) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:05:36) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:05:41) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:05:46) QtSignal MainWindow UpdateToDesign triggered
+\d (00:05:48) QtSignal MainWindow UpdateToDesign triggered
+\d (00:06:15) QtSignal MainWindow SaveAs triggered
+\d (00:08:50) QtFillin "C:/Users/Vijetha/Internship/APD/symbol/S_R28T30M28_30P28_30.pad"
+\d (00:09:04) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:09:08) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
+\d (00:09:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:09:10) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:09:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:09:19) QtSignal MainWindow Exit triggered
+\t (00:09:19)     Journal end - Tue May 20 15:07:09 2025

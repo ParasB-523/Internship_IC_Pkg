@@ -1,0 +1,46 @@
+\t (00:00:05) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Wed May 21 15:58:51 2025
+\t (00:00:05)         Host=PARAS_523 User=paras Pid=3776 CPUs=20
+\t (00:00:05) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\Component_Models\CAP_0_47uF--GRM022R60J474ME15L (1)\0_47uF_mod_CAPC0402X25N.dra
+\t (00:00:05) 
+\t (00:00:05) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "0_47uF_mod_CAPC0402X25N"
+\d (00:00:08) Design opened: F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/Component_Models/CAP_0_47uF--GRM022R60J474ME15L (1)/0_47uF_mod_CAPC0402X25N.dra
+\t (00:00:08) Loading cmds.cxt 
+\i (00:00:08) trapsize 163
+\i (00:00:08) trapsize 170
+\i (00:00:08) trapsize 163
+\i (00:00:08) trapsize 163
+\t (00:00:08) Loading NV GPU Plugin
+\i (00:00:08) trapsize 103
+\i (00:00:08) generaledit 
+\t (00:00:08) [15:58:54.353712] Periodic Lic check successful
+[15:58:54.878000] Feature usage summary:
+
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out -0.1865 -0.1109
+\i (00:00:34) trapsize 205
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in -0.1126 -0.0574
+\i (00:00:35) trapsize 103
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in -0.1167 -0.0491
+\i (00:00:35) trapsize 51
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in -0.1167 -0.0471
+\i (00:00:35) trapsize 26
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in -0.1167 -0.0470
+\i (00:00:35) trapsize 13
+\i (00:00:40) exit 
+\t (00:00:40) Lic Summary:
+[15:59:26.377000] Cdslmd servers:
+[15:59:26.377000] Feature usage summary:
+
+\t (00:00:40)     Journal end - Wed May 21 15:59:26 2025

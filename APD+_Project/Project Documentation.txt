@@ -4,26 +4,33 @@ PROCEDURE:
 
 1. Firstly, create/get the Bump Maps (Excel files/csv files) of the Dies and the Substrate with alliance (and analyze it).
 
-2. Assign the Co-ordinates to the Ubumps and the Balls with a certain pitch and pad dimension. Also, keep in mind the the limits of the dies and substrate, i.e. the Dimensions of the die and the bump to edge distance for efficient design.
+2. Assign the Co-ordinates to the Ubumps and the Balls with a certain pitch and pad dimension. Also, keep in mind the limits of the dies and substrate, i.e. the Dimensions of the die and the bump to edge distance for efficient design.
 
 3. Create the text files of the Co-ordinates and the related bump information for input of Die and BGA symbol creation in Cadence APD+.
 The information needed are : Pin No., Pin Name, Padstack, Co-ordinates, Rotation, Pin Use, & Net Name. 
  
-4. Then create the mcm Files of all the dies and Substrate in APD+ using the txt files separately for visualization according to the specifications listed in the above steps.
+4. Then create the mcm Files of all the Dies and Substrate in APD+ using the txt files separately for visualization according to the specifications listed in the above steps.
 
+5. Create/Get the Padstacks, STEP Model and the Drawings of the Discrete Components, i.e. in this case, the Resistors, Capacitors and the External Clock and create its respective Device Files.
 
+6. Instantiate the Discrete Components and then manually place them with specific co-ordinates in the remaining surface of the substrate such that the routing is efficient for the concerned nets/signals. While Placement keep in mind the Package outline and the covering type so that enough space is left for it. ( Die to Substrate edge is preferred.)
+
+7. Modify the Nets of the Discrete Components and the concerned pins of the Dies and the Substrate to keep ready the Nets for Routing.
+
+8. 
 
 SPECIFICATIONS:
 
 DIES
 1. P3 Die
-	Bump Pitch : Variable um
+	Bump Pitch : Variable um ( Min. : 55.8 um )
 	Bump-edge to Die-edge : Variable um 
 	Bump Shape : Rectangle
 	Bump Pattern : Periphery
 	Bump Dimensions : 46.8 um x 46.8 um
 
-	Die Dimensions : 5054.4 um x 4788.9 um
+	Die Dimensions : 5054.4 um x 4788.9 um ( without Scribeline )
+	Scribe Line    : 60 um
 	Die Origin     : Centre
 
 	No. of Ubumps : 256
@@ -38,19 +45,21 @@ DIES
 				NC	 	: 34		
 				Signals  	: 46
 	
-	Protocols : I2C, GPIO, SPI, UART, SDIO, JTAG
-	Peripherals : ADC, DAC, PLL, XTAL_OSC
+	Protocols 	: I2C, GPIO, SPI, UART, SDIO, JTAG
+	Hardware/Tools  : ADC, DAC, PLL 
+	Peripherals 	: XTAL_OSC
 
 	Placement Co-ordinates in Multi-Chip Model : 0 1305.55
 
 2. RF Die
-	Bump Pitch : Variable um
+	Bump Pitch : Variable um ( Min. : 60 um )
 	Bump-edge to Die-edge : Variable um 
 	Bump Shape : Rectangle
 	Bump Pattern : Periphery
 	Bump Dimensions : 50 um x 50 um
 
-	Die Dimensions : 2700 um x 2500 um
+	Die Dimensions : 2700 um x 2500 um ( without Scribeline )
+	Scribe Line    : 80 um
 	Die Origin     : Centre
 
 	No. of Ubumps : 70
@@ -64,7 +73,8 @@ DIES
 				NC	 	: 10		
 				Signals  	: 24
 	
-	Protocols : I2C
+	Protocols   : I2C
+	Peripherals : XTAL_OSC
 
 	Placement Co-ordinates in Multi-Chip Model : 0 -2450
 
@@ -76,12 +86,17 @@ SUBSTRATE
 	Bump Dimensions : 250 um x 250 um
 
 	Die Dimensions : 8000 um x 8000 um
-	Die Origin     : Centre
+	Thickness : 0.4 mm ( 400 um )
+ 	Die Origin     : Centre
+
+	Material : Conductor Layers -- Copper Plate and Foiling
+		   Dielectric       -- MGC GHPL830NXA, MGC CCL-HL832NXA 
+		   Solder Mask      -- Taiyo AUS308
 
 	No. of Balls : 100
-				VDD    : 8
-				VDDE18 : 4
-				VDD18  : 1
+				VDD      : 8
+				VDDE18   : 4
+				VDD18    : 1
 				AGND     : 25
 				AVDD18   : 4
 				DVDD_1V2 : 1
@@ -89,8 +104,8 @@ SUBSTRATE
 				AVDD_3V3 : 2
 				GND	 : 2
 				VSS      : 15
-				Non-Power: 
-	Protocols : 
+				Signals  : 36
+	Protocols : I2C, SPI, JTAG, UART, SDIO
 
 	Placement Co-ordinates in Multi-Chip Model : 0 0
 
@@ -102,3 +117,25 @@ DISTANCES
 2. Die to Substrate Edge (Vertical) 		: 300 um
 3. Die (P3) to Substrate Edge (Horizontal) 	: 1472.8 um
 4. Die (RF) to Substrate Edge (Horizontal) 	: 2650 um
+
+
+
+NET COLOURS
+
+1. Light(1) Green -- Dgnd
+2. Light(2) Green -- Vss 
+3. Dark(3) Green  -- Osc_Gnd, Xtal_Gnd
+4. Dark(4) Green  -- Agnd
+
+5. Light(1) Red   -- Dvdd 
+6. Light(2) Red   -- Avdd, Vdd18, Vdde18
+7. Red            -- Vdd 
+
+8. Blue           -- I2C
+9. Orange         -- JTAG
+10. Grey          -- NC 
+11. Purple        -- SPI
+12. Dark Blue     -- SDIO
+13. Pink          -- UART
+14. White         -- Vrefh
+15. Default       -- Others

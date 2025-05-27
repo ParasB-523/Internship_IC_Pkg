@@ -2,12 +2,12 @@
 (                                                                     )
 (    Purge Unused Nets                                                )
 (                                                                     )
-(    Drawing          : T-SAT_ass_1.mcm                               )
-(    Software Version : 24.1S001                                      )
-(    Date/Time        : Thu May 15 17:23:02 2025                      )
+(    Drawing          : T-SAT_ass_1_Disc_Comp.mcm                     )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Mon May 26 10:15:00 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 No unused nets found in design.
-Thu May 15 17:23:02 2025
+Mon May 26 10:15:00 2025

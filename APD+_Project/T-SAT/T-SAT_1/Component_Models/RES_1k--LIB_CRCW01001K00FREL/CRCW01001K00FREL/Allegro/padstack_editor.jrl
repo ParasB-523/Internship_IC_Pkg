@@ -1,0 +1,24 @@
+\t (00:00:00) padstack_editor 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue May 20 21:31:33 2025
+\t (00:00:00)         Host=PARAS_523 User=paras Pid=24140 CPUs=20
+\t (00:00:00) CmdLine= padstack_editor -mpssession paras -file C:/Users/paras/AppData/Local/Temp/#Taaaaac10332.tmp -pname R52_5_35 -data C:/Users/paras/AppData/Local/Temp/#Taaaaaf10332.tmp
+\t (00:00:00) 
+\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:28) QtSignal GuidedDesignLayersTab PadWidth editingFinished "0.0400"
+\d (00:00:35) QtSignal GuidedDesignLayersTab PadHeight editingFinished "0.0400"
+\d (00:00:35) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:40) QtSignal GuidedMaskLayersTab PadWidth editingFinished "0.1000"
+\d (00:00:43) QtSignal GuidedMaskLayersTab PadHeight editingFinished "0.1000"
+\d (00:00:43) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:00:46) QtFillin Copy
+\d (00:00:47) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:47) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 "Regular Pad" 2 1
+\d (00:00:47) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 2 "Regular Pad"
+\d (00:00:48) QtFillin Paste
+\d (00:00:49) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:54) QtSignal MainWindow UpdateToDesign triggered
+\d (00:00:55) QtSignal MainWindow Exit triggered
+\t (00:00:56)     Journal end - Tue May 20 21:32:29 2025

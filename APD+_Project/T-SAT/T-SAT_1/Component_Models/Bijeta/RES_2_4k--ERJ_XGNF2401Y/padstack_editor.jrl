@@ -1,0 +1,9 @@
+\t (00:00:00) padstack_editor 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed May 21 16:43:40 2025
+\t (00:00:00)         Host=PARAS_523 User=paras Pid=17600 CPUs=20
+\t (00:00:00) CmdLine= d:\cadence\spb_24.1\tools\bin\padstack_editor.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\Component_Models\Bijeta\RES_2_4k--ERJ_XGNF2401Y\2_4kf_mod_s_r21t22m21_22p21_22.pad
+\t (00:00:00) 
+\d (00:00:04) QtSignal MainWindow SaveAs triggered
+\d (00:00:09) QtFillin "2_4kO_mod_s_r21t22m21_22p21_22.pad"
+\d (00:00:11) QtSignal MainWindow Exit triggered
+\t (00:00:11)     Journal end - Wed May 21 16:43:52 2025

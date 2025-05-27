@@ -1,0 +1,54 @@
+\t (00:00:06) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Mon May 26 14:26:59 2025
+\t (00:00:06)         Host=PARAS_523 User=paras Pid=31392 CPUs=20
+\t (00:00:06) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\symbols\100nF_mod_CAPC0402X22N_edit.dra
+\t (00:00:06) 
+\t (00:00:06) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "100nF_mod_CAPC0402X22N_edit"
+\d (00:00:09) Design opened: F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/symbols/100nF_mod_CAPC0402X22N_edit.dra
+\t (00:00:09) Loading cmds.cxt 
+\i (00:00:09) trapsize 527
+\i (00:00:09) trapsize 551
+\i (00:00:09) trapsize 527
+\i (00:00:09) trapsize 527
+\t (00:00:09) Loading NV GPU Plugin
+\i (00:00:09) trapsize 332
+\i (00:00:09) generaledit 
+\t (00:00:09) [14:27:02.364000] Periodic Lic check successful
+[14:27:02.364000] Feature usage summary:
+
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 0.4291 0.5101
+\i (00:00:11) trapsize 166
+\i (00:00:13) prmed 
+\i (00:00:14) setwindow form.prmedit
+\i (00:00:14) FORM prmedit text  
+\i (00:00:16) FORM prmedit text_setup_button  
+\i (00:00:22) setwindow form.textblock
+\i (00:00:22) FORM textblock 1 width 0.0764 
+\i (00:00:27) FORM textblock 1 height 0.1550 
+\i (00:00:27) FORM textblock done  
+\i (00:00:28) setwindow form.prmedit
+\i (00:00:28) FORM prmedit done  
+\i (00:00:28) setwindow pcb
+\i (00:00:28) generaledit 
+\i (00:00:31) save 
+\i (00:00:31) fillin yes 
+\t (00:00:32) Symbol '100nf_mod_capc0402x22n_edit.psm' created.
+\i (00:00:32) generaledit 
+\i (00:00:34) create device 
+\i (00:00:36) setwindow form.crdevice
+\i (00:00:36) FORM crdevice dtype DISCRETE 
+\i (00:00:37) FORM crdevice done  
+\t (00:00:37) Device file "100nF_mod_CAPC0402X22N_edit.txt" created.
+
+\i (00:00:37) setwindow pcb
+\i (00:00:37) generaledit 
+\i (00:00:38) exit 
+\t (00:00:38) Lic Summary:
+[14:27:30.283712] Cdslmd servers:
+[14:27:30.808000] Feature usage summary:
+
+\t (00:00:38)     Journal end - Mon May 26 14:27:30 2025

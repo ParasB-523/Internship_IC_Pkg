@@ -1,0 +1,56 @@
+\t (00:00:04) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Wed May 21 16:08:22 2025
+\t (00:00:04)         Host=PARAS_523 User=paras Pid=2056 CPUs=20
+\t (00:00:04) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\Component_Models\RES_4_7k--CRCW01004K70FREL (1)\4_7kO_mod_RESC0402X15N.dra
+\t (00:00:04) 
+\t (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "4_7kO_mod_RESC0402X15N"
+\d (00:00:07) Design opened: F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/Component_Models/RES_4_7k--CRCW01004K70FREL (1)/4_7kO_mod_RESC0402X15N.dra
+\t (00:00:07) Loading cmds.cxt 
+\i (00:00:07) trapsize 76
+\i (00:00:07) trapsize 80
+\i (00:00:07) trapsize 76
+\i (00:00:07) trapsize 76
+\t (00:00:07) Loading NV GPU Plugin
+\i (00:00:07) trapsize 48
+\i (00:00:07) generaledit 
+\t (00:00:07) [16:08:25.470712] Periodic Lic check successful
+[16:08:25.995000] Feature usage summary:
+
+\i (00:00:10) setwindow form.find
+\i (00:00:10) FORM find pins YES 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) replace padstack 
+\i (00:00:17) setwindow form.mini
+\i (00:00:17) FORM mini oldname_browse  
+\i (00:00:19) fillin "S_R28t30m28_30P28_30"
+\i (00:00:20) FORM mini newname_browse  
+\i (00:00:27) fillin "4_7Ko_Mod_S_R28t30m28_30P28_30"
+\i (00:00:29) FORM mini replace  
+\t (00:00:29) Done, updated padstack.
+\t (00:00:29) 2 out of 2 old padstack S_R28T30M28_30P28_30 were replaced with new padstack 4_7KO_MOD_S_R28T30M28_30P28_30.
+\i (00:00:29) setwindow pcb
+\i (00:00:29) prepopup 0.3652 0.2413
+\i (00:00:30) done 
+\t (00:00:30) Performing DRC...
+\t (00:00:30) No DRC errors detected.
+\i (00:00:30) generaledit 
+\i (00:00:32) save 
+\i (00:00:33) fillin yes 
+\t (00:00:33) Symbol '4_7ko_mod_resc0402x15n.psm' created.
+\i (00:00:33) generaledit 
+\i (00:00:36) create device 
+\i (00:00:37) setwindow form.crdevice
+\i (00:00:37) FORM crdevice dtype DISCRETE 
+\i (00:00:38) FORM crdevice done  
+\t (00:00:38) Device file "4_7kO_mod_RESC0402X15N.txt" created.
+
+\i (00:00:38) setwindow pcb
+\i (00:00:38) generaledit 
+\i (00:00:41) exit 
+\t (00:00:41) Lic Summary:
+[16:08:59.524000] Cdslmd servers:
+[16:08:59.524000] Feature usage summary:
+
+\t (00:00:41)     Journal end - Wed May 21 16:08:59 2025

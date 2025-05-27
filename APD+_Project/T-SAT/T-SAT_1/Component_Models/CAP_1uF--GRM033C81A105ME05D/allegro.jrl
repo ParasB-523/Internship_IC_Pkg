@@ -1,0 +1,144 @@
+\t (00:00:04) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Wed May 21 15:48:54 2025
+\t (00:00:04)         Host=PARAS_523 User=paras Pid=19164 CPUs=20
+\t (00:00:04) CmdLine= d:\cadence\spb_24.1\tools\bin\allegro.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\Component_Models\CAP_1uF--GRM033C81A105ME05D\1uF_mod_CAPC0603X39N.dra
+\t (00:00:04) 
+\t (00:00:04) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "1uF_mod_CAPC0603X39N"
+\d (00:00:04) Design opened: F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/Component_Models/CAP_1uF--GRM033C81A105ME05D/1uF_mod_CAPC0603X39N.dra
+\t (00:00:04) Loading cmds.cxt 
+\i (00:00:04) trapsize 86
+\i (00:00:04) trapsize 90
+\i (00:00:04) trapsize 86
+\i (00:00:04) trapsize 86
+\t (00:00:04) Loading NV GPU Plugin
+\i (00:00:04) trapsize 54
+\i (00:00:04) generaledit 
+\t (00:00:04) [15:48:54.335712] Periodic Lic check successful
+[15:48:54.860000] Feature usage summary:
+
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -0.2046 0.0036
+\i (00:00:05) trapsize 27
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -0.1991 0.0047
+\i (00:00:05) trapsize 14
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -0.1991 0.0047
+\i (00:00:05) trapsize 7
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -0.1990 0.0047
+\i (00:00:05) trapsize 3
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -0.1989 0.0047
+\i (00:00:05) trapsize 2
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out -0.2048 0.0021
+\i (00:00:05) trapsize 3
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out -0.2065 0.0020
+\i (00:00:05) trapsize 7
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out -0.2065 0.0021
+\i (00:00:05) trapsize 14
+\i (00:00:08) setwindow form.find
+\i (00:00:08) FORM find pins YES 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -0.1847 -0.0063
+\i (00:00:21) trapsize 27
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -0.1847 -0.0063
+\i (00:00:21) trapsize 54
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -0.1847 -0.0063
+\i (00:00:21) trapsize 109
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out -0.1847 -0.0064
+\i (00:00:21) trapsize 217
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 0.0068 0.0633
+\i (00:00:21) trapsize 109
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 0.0068 0.0633
+\i (00:00:21) trapsize 54
+\i (00:00:24) replace padstack 
+\i (00:00:26) setwindow form.mini
+\i (00:00:26) FORM mini oldname_browse  
+\i (00:00:32) fillin "S_R41t42m41_42P41_42"
+\i (00:00:34) FORM mini newname_browse  
+\i (00:00:47) fillin "1Uf_Mod_S_R41t42m41_42P41_42"
+\i (00:00:49) FORM mini replace  
+\t (00:00:49) Done, updated padstack.
+\t (00:00:49) 2 out of 2 old padstack S_R41T42M41_42P41_42 were replaced with new padstack 1UF_MOD_S_R41T42M41_42P41_42.
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 0.4581 -0.0932
+\i (00:00:56) trapsize 109
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 0.2472 -0.0367
+\i (00:00:57) trapsize 54
+\i (00:00:58) zoom in 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom in 0.0135 -0.0051
+\i (00:00:58) trapsize 27
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in 0.0005 -0.0018
+\i (00:01:02) trapsize 14
+\i (00:01:02) zoom in 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom in 0.0005 -0.0018
+\i (00:01:02) trapsize 7
+\i (00:01:02) zoom out 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom out 0.0005 -0.0018
+\i (00:01:02) trapsize 14
+\i (00:01:02) zoom out 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom out 0.0005 -0.0018
+\i (00:01:02) trapsize 27
+\i (00:01:02) zoom out 1 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) zoom out 0.0006 -0.0018
+\i (00:01:02) trapsize 54
+\i (00:01:05) prepopup -0.2572 0.4537
+\i (00:01:06) done 
+\t (00:01:06) Performing DRC...
+\t (00:01:06) No DRC errors detected.
+\i (00:01:06) generaledit 
+\i (00:01:08) save 
+\i (00:01:09) fillin yes 
+\t (00:01:09) Symbol '1uf_mod_capc0603x39n.psm' created.
+\i (00:01:09) generaledit 
+\i (00:01:11) create device 
+\i (00:01:14) setwindow form.crdevice
+\i (00:01:14) FORM crdevice dtype DISCRETE 
+\i (00:01:15) FORM crdevice done  
+\t (00:01:15) Device file "1uF_mod_CAPC0603X39N.txt" created.
+
+\i (00:01:15) setwindow pcb
+\i (00:01:15) generaledit 
+\i (00:01:17) exit 
+\t (00:01:17) Lic Summary:
+[15:50:07.085712] Cdslmd servers:
+[15:50:07.611000] Feature usage summary:
+
+\t (00:01:17)     Journal end - Wed May 21 15:50:07 2025
