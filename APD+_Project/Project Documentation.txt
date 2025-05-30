@@ -49,7 +49,7 @@ DIES
 	Hardware/Tools  : ADC, DAC, PLL 
 	Peripherals 	: XTAL_OSC
 
-	Placement Co-ordinates in Multi-Chip Model : 0 1305.55
+	Placement Co-ordinates in Multi-Chip Model : 0 1305.55             ( in T-SAT 2 : -522 1305.55 )        ( in T-SAT 3 : -522 -1305.55 )
 
 2. RF Die
 	Bump Pitch : Variable um ( Min. : 60 um )
@@ -76,7 +76,7 @@ DIES
 	Protocols   : I2C
 	Peripherals : XTAL_OSC
 
-	Placement Co-ordinates in Multi-Chip Model : 0 -2450
+	Placement Co-ordinates in Multi-Chip Model : 0 -2450             ( in T-SAT 2 : 1700 -2450 )        ( in T-SAT 3 : 1700 2450 )
 
 
 SUBSTRATE

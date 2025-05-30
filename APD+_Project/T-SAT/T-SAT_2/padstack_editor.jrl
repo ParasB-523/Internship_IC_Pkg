@@ -1,0 +1,26 @@
+\t (00:00:00) padstack_editor 24.1 S001 (4250575) [11/4/2024] Linux SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed May 28 15:39:10 2025
+\t (00:00:00)         Host=CICS2.kletech.ac.in User=01fe21bec256 Pid=18245 CPUs=24
+\t (00:00:00) CmdLine= /sl/SPB241/tools.lnx86/bin/padstack_editor.exe
+\t (00:00:00) 
+\d (00:00:02) QtSignal MainWindow Open triggered
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:09) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:12) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:12) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 "Regular Pad" 2 1
+\d (00:00:16) QtSignal GuidedMaskLayersTab PadWidth editingFinished "0.3000"
+\d (00:00:16) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:21) QtSignal GuidedMaskLayersTab PadHeight editingFinished "0.3000"
+\d (00:00:21) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:25) QtSignal MainWindow Save triggered
+\d (00:00:27) QtSignal MainWindow Open triggered
+\d (00:00:32) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:33) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:35) QtSignal MainWindow Open triggered
+\d (00:00:39) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:41) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:43) QtSignal MainWindow Open triggered
+\d (00:00:46) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:47) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:51) QtSignal MainWindow Exit triggered
+\t (00:00:51)     Journal end - Wed May 28 15:40:01 2025

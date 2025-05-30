@@ -1,0 +1,28 @@
+\t (00:00:00) padstack_editor 24.1 S001 (4250575) [11/4/2024] Linux SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed May 28 16:10:30 2025
+\t (00:00:00)         Host=CICS2.kletech.ac.in User=01fe21bec256 Pid=21742 CPUs=24
+\t (00:00:00) CmdLine= /sl/SPB241/tools.lnx86/bin/padstack_editor.exe
+\t (00:00:00) 
+\d (00:00:02) QtSignal MainWindow Open triggered
+\d (00:00:16) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:00:18) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:21) QtSignal GuidedDesignLayersTab PadWidth editingFinished "0.2500"
+\d (00:00:21) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:23) QtSignal GuidedDesignLayersTab PadHeight editingFinished "0.2500"
+\d (00:00:23) QtSignal GuidedTabsParent GuidedDesignLayersTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:25) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:29) QtSignal GuidedMaskLayersTab PadWidth editingFinished "0.3000"
+\d (00:00:29) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:33) QtSignal GuidedMaskLayersTab PadHeight editingFinished "0.3000"
+\d (00:00:33) QtSignal GuidedTabsParent GuidedMaskLayersTab keyPressEvent 16777220 0 false 1 ""
+\d (00:00:51) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 0 "Regular Pad"
+\d (00:00:52) QtFillin Copy
+\d (00:00:53) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
+\d (00:00:53) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 "Regular Pad" 2 1
+\d (00:00:53) QtSignal GuidedMaskLayersTab LayersTable customContextMenuRequest 2 "Regular Pad"
+\d (00:00:54) QtFillin Paste
+\d (00:00:55) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged
+\d (00:01:22) QtSignal MainWindow Save triggered
+\d (00:05:26) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
+\d (00:05:32) QtSignal MainWindow Exit triggered
+\t (00:05:32)     Journal end - Wed May 28 16:16:02 2025
