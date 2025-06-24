@@ -6,14 +6,14 @@
   <cft:txt-FormatVersion Name="FormatVersion">24.100</cft:txt-FormatVersion>
 
   <cft:xml-Header Name="Header">
-    <root xmlns="http://www.cadence.com/xsd/header" Key="physical" Name="T-SAT_ass_1_Comp_Place">
+    <root xmlns="http://www.cadence.com/xsd/header" Key="physical" Name="T-SAT_ass_4_Nets_Assign">
       <Contents>
         <v>Stackup</v>
         <v>Drawing</v>
         <v>Funcs</v>
         <v>Compclass</v>
       </Contents>
-      <revisionNumber logical="0" other="0" physical="8"/>
+      <revisionNumber logical="0" other="0" physical="4"/>
       <precision numberOfDecimalPlaces="2" units="um"/>
     </root>
   </cft:xml-Header>
@@ -28,7 +28,7 @@
   <cft:dir-objects Name="objects">
     <cft:xml-objects Name="Design">
       <root xmlns="http://www.cadence.com/xsd/objects">
-        <object Name="T-SAT_ass_1_Comp_Place">
+        <object Name="T-SAT_ass_4_Nets_Assign">
           <attribute Name="DRAWING_LOWER_LEFT">
             <value Value="-130000.00:-105000.00"/>
             <origin>
