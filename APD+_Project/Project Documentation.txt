@@ -207,3 +207,22 @@ DISCRETE COMPONENTS CO-ORDINATES
 				RI-4	-2600 -2130	CI-5	-1950 -2130	CI-14	-1300 -2130	CI-1	-650 -2130							
 				RI-5	-2600 -2590	CI-11	-1950 -2590	CI-7	-1300 -2590 	CI-10	-650 -2590
 				RI-7	-2600 -3050	CI-12	-1950 -3050	CI-8	-1300 -3050	CI-9	-650 -3050
+
+
+
+
+
+
+
+
+
+
+
+
+
+VIA                                                                        VIA_CORE
+
+Finished Diameter= 110um                                                 Finished Diameter= 150um
+drill symbol    type= square        size=110um                           drill symbol    type= square        size=150um
+Regular pad     geometry= circle    size=150um                           Regular pad     geometry= circle    size=210um
+Thermal pad     geometry= circle    size=220um                           Thermal pad     geometry= circle    size=310um

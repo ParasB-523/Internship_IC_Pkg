@@ -6,14 +6,14 @@
   <cft:txt-FormatVersion Name="FormatVersion">24.100</cft:txt-FormatVersion>
 
   <cft:xml-Header Name="Header">
-    <root xmlns="http://www.cadence.com/xsd/header" Key="physical" Name="BGA_100">
+    <root xmlns="http://www.cadence.com/xsd/header" Key="physical" Name="T-SAT_ass_4_Nets_Assign">
       <Contents>
         <v>Stackup</v>
         <v>Drawing</v>
         <v>Funcs</v>
         <v>Compclass</v>
       </Contents>
-      <revisionNumber logical="0" other="0" physical="2"/>
+      <revisionNumber logical="0" other="0" physical="4"/>
       <precision numberOfDecimalPlaces="2" units="um"/>
     </root>
   </cft:xml-Header>
@@ -28,7 +28,7 @@
   <cft:dir-objects Name="objects">
     <cft:xml-objects Name="Design">
       <root xmlns="http://www.cadence.com/xsd/objects">
-        <object Name="BGA_100">
+        <object Name="T-SAT_ass_4_Nets_Assign">
           <attribute Name="DRAWING_LOWER_LEFT">
             <value Value="-130000.00:-105000.00"/>
             <origin>
@@ -113,6 +113,24 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="20"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="10"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="10"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
                 <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
                   <value Value="0"/>
                   <origin>
@@ -131,26 +149,14 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="30"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
                 <attribute Name="CDS_LAYER_FUNCTION">
                   <value Value="SOLDER_MASK"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -188,19 +194,19 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="27"/>
+                  <value Value="21"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
+                  <value Value="6"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
+                  <value Value="6"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -241,10 +247,34 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
               </object>
               <object Type="Dielectric">
                 <attribute Name="CDS_LAYER_MATERIAL">
                   <value Value="MGC GHPL830NXA"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="15"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="15"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -262,24 +292,6 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_LOSS_TANGENT">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="55"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
                   <value Value="0"/>
                   <origin>
                     <v>BE</v>
@@ -324,19 +336,19 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="26"/>
+                  <value Value="19"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -377,10 +389,34 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
               </object>
               <object Type="Dielectric">
                 <attribute Name="CDS_LAYER_MATERIAL">
                   <value Value="MGC GHPL830NXA"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="15"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="15"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -398,24 +434,6 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_LOSS_TANGENT">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="55"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
                   <value Value="0"/>
                   <origin>
                     <v>BE</v>
@@ -460,19 +478,19 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="26"/>
+                  <value Value="19"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -513,10 +531,34 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
               </object>
               <object Type="Dielectric">
                 <attribute Name="CDS_LAYER_MATERIAL">
                   <value Value="MGC CCL-HL832NXA"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="60"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="15"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="15"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -535,24 +577,6 @@
                 </attribute>
                 <attribute Name="CDS_LAYER_LOSS_TANGENT">
                   <value Value="0.011"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="75"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -596,19 +620,19 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="26"/>
+                  <value Value="19"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -649,10 +673,34 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
               </object>
               <object Type="Dielectric">
                 <attribute Name="CDS_LAYER_MATERIAL">
                   <value Value="MGC GHPL830NXA"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="15"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="15"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -670,24 +718,6 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_LOSS_TANGENT">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="55"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
                   <value Value="0"/>
                   <origin>
                     <v>BE</v>
@@ -732,19 +762,19 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="26"/>
+                  <value Value="19"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
+                  <value Value="7"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -785,10 +815,34 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
               </object>
               <object Type="Dielectric">
                 <attribute Name="CDS_LAYER_MATERIAL">
                   <value Value="MGC GHPL830NXA"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="40"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="15"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="15"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -806,24 +860,6 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_LOSS_TANGENT">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="55"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
                   <value Value="0"/>
                   <origin>
                     <v>BE</v>
@@ -868,19 +904,19 @@
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="27"/>
+                  <value Value="21"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
+                  <value Value="6"/>
                   <origin>
                     <v>BE</v>
                   </origin>
                 </attribute>
                 <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
+                  <value Value="6"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -921,6 +957,12 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
               </object>
               <object Type="Mask">
                 <attribute Name="CDS_LAYER_NAME">
@@ -931,6 +973,24 @@
                 </attribute>
                 <attribute Name="CDS_LAYER_MATERIAL">
                   <value Value="TAIYO AUS308"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="20"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="10"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="10"/>
                   <origin>
                     <v>BE</v>
                   </origin>
@@ -953,26 +1013,14 @@
                     <v>BE</v>
                   </origin>
                 </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS">
-                  <value Value="30"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
-                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
-                  <value Value="0"/>
-                  <origin>
-                    <v>BE</v>
-                  </origin>
-                </attribute>
                 <attribute Name="CDS_LAYER_FUNCTION">
                   <value Value="SOLDER_MASK"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_BIAS_INFO">
+                  <value Value="MASTER:0 UM,0 UM,0 UM,0 UM,0 UM,0 UM;"/>
                   <origin>
                     <v>BE</v>
                   </origin>
