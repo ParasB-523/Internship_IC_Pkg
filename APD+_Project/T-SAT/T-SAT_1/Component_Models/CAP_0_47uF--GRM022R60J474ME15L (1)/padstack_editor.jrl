@@ -1,9 +1,0 @@
-\t (00:00:00) padstack_editor 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Wed May 21 15:43:34 2025
-\t (00:00:00)         Host=PARAS_523 User=paras Pid=16304 CPUs=20
-\t (00:00:00) CmdLine= padstack_editor -mpssession paras -file F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/Component_Models/CAP_0_47uF--GRM022R60J474ME15L (1)/0_47uf_mod_s_r28t30m28_30p28_30.pad -tempout C:/Users/paras/AppData/Local/Temp/#Taaaaah08148.tmp -p F:/KLETU/SEM 8/Internship Project/Github/Internship_IC_Pkg/APD+_Project/T-SAT/T-SAT_1/Component_Models/CAP_0_47uF--GRM022R60J474ME15L (1)
-\t (00:00:00) 
-\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
-\d (00:00:07) QtSignal MainWindow UpdateToDesign triggered
-\d (00:00:13) QtSignal MainWindow Exit triggered
-\t (00:00:13)     Journal end - Wed May 21 15:43:47 2025

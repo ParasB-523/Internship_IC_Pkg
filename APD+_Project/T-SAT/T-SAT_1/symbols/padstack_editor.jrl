@@ -1,7 +1,0 @@
-\t (00:00:00) padstack_editor 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Mon May 26 11:51:58 2025
-\t (00:00:00)         Host=PARAS_523 User=paras Pid=13884 CPUs=20
-\t (00:00:00) CmdLine= d:\cadence\spb_24.1\tools\bin\padstack_editor.exe F:\KLETU\SEM 8\Internship Project\Github\Internship_IC_Pkg\APD+_Project\T-SAT\T-SAT_1\symbols\1ko_mod_r52_5_35.pad
-\t (00:00:00) 
-\d (00:00:01) QtSignal MainWindow Exit triggered
-\t (00:00:01)     Journal end - Mon May 26 11:51:59 2025
