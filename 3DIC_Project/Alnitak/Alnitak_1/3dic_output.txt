@@ -22,10 +22,10 @@
                         https://solvnetplus.synopsys.com)
 
 Information: Term was not able to be set up using xterm-256color . Using "xterm" by default instead. (CLE-10)
-3dic_shell> create_lib -technology tech.tf -ref_libs {C4BUMP.ndm/ UBUMP.ndm/ interposer.ndm/ eridani.ndm/ maia.ndm/ vega.ndm/} top_alnitak_11.ndm
-Error: Directory '/home/01fe21bec256/1.Internship_Project/Github/Internship_IC_Pkg/3DIC_Project/Alnitak/Alnitak_1/top_alnitak_11.ndm' already exists (FILE-008)
-Error: problem in create_lib
-        Use error_info for more info. (CMD-013)
-3dic_shell> create_block top_alnitak_11 -origin_type bottom_left -dimensions {2422 5018} -design_type 3dic
-Error: Current library is not defined. (LIB-001)
+3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Github/Internship_IC_Pkg/3DIC_Project/Alnitak/Alnitak_1/interposer.ndm:interposer_15_43_ucie_route.design
+Error: 'open_block' failed. Block 'interposer.ndm:interposer_15_43_ucie_route.design' is being edited by process 271065 01fe21bec256@CICS13.kletech.a. (NDM-029)
+3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Github/Internship_IC_Pkg/3DIC_Project/Alnitak/Alnitak_1/interposer.ndm:interposer_15_43_detail_route.design
+Error: 'open_block' failed. Block 'interposer.ndm:interposer_15_43_detail_route.design' is being edited by process 271065 01fe21bec256@CICS13.kletech.a. (NDM-029)
+3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Github/Internship_IC_Pkg/3DIC_Project/Alnitak/Alnitak_1/interposer.ndm:interposer_15_43_eco_route.design
+Error: 'open_block' failed. Block 'interposer.ndm:interposer_15_43_eco_route.design' is being edited by process 274480 01fe21bec256@CICS13.kletech.a. (NDM-029)
 3dic_shell> 
