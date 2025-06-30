@@ -1,1 +1,1 @@
-T-SAT_ass_1_route_clk_comm.mcm
+T-SAT_ass_1_Soldermask.mcm

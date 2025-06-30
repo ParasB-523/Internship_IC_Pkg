@@ -2,9 +2,9 @@
 (                                                                     )
 (    Dangling Line, Via and Antenna Report                            )
 (                                                                     )
-(    Drawing          : T-SAT_ass_1.mcm                               )
-(    Software Version : 24.1S001                                      )
-(    Date/Time        : Mon May 19 11:31:42 2025                      )
+(    Drawing          : T-SAT_ass_1_route_VSS.mcm                     )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Mon Jun 30 15:32:03 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,8 +22,27 @@ Report methodology:
   - To suppress items in dangle report add the OK_DANGLE property to the via
     or connect line.
 
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  VDD                  BOTTOM                 89.00      (-975.00 2925.00) to *(-975.00 2836.00)
+  VDD                  BOTTOM                 93.34      (-1625.00 2925.00) to *(-1559.00 2859.00)
+  AGND                 BOTTOM                701.31     *(115.00 -3429.00) to  (685.00 -3112.00)
+  VSS                  LAYER_1                 8.00     *(-587.12 -1113.88) to  (-579.12 -1113.88)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  VSS                  VIA_L3_BOTTOM        (-1312.00 -662.00) LAYER_3/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  VSS                  VIA_L3_BOTTOM        (-1312.00 -662.00) LAYER_3/BOTTOM 
 
 << Summary >>
-  Total dangling lines:       0
-  Total dangling vias:        0
-  Total antenna vias:         0
+  Total dangling lines:       4
+  Total dangling vias:        1
+  Total antenna vias:         1

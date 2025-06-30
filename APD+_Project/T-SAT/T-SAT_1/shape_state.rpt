@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Dynamic Status Report                                      )
+(                                                                     )
+(    Drawing          : T-SAT_ass_1_route_VSS.mcm                     )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Mon Jun 30 15:30:45 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 3 out of 19
+  Current fill mode         : SMOOTH
+
+
+  <<<  CONDUCTOR  >>>
+
+    Layer = LAYER_2
+       State: Out of date  Point on shape: (-526.00 -3387.00)  Net: AVDD_1V2
+       State: Out of date  Point on shape: (-3260.00 1520.00)  Net: AVDD10_PLL
+
+    Layer = LAYER_3
+       State: Out of date  Point on shape: (-1282.00 -426.00)  Net: AGND_DAC
