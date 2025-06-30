@@ -21,13 +21,11 @@
             Inclusivity and Diversity" (Refer to article 000036315 at
                         https://solvnetplus.synopsys.com)
 
-Loading user preference file /home/01fe21bec256/.synopsys_3dic_gui/preferences.tcl
 Information: Term was not able to be set up using xterm-256color . Using "xterm" by default instead. (CLE-10)
-3dic_shell> open_lib interposer.ndm/
-Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_1/interposer.ndm/' (FILE-007)
-Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_1/C4BUMP.ndm' (FILE-007)
-Information: Loading library file '/home/01fe21bec256/1.Internship_Project/Alnitak/Alnitak_1/UBUMP.ndm' (FILE-007)
-{interposer.ndm}
-3dic_shell> open_b interposer
-Error: 'open_block' failed. Block 'interposer.ndm:interposer.design' is being edited by process 22806 01fe21bec256@CICS2.kletech.ac. (NDM-029)
+3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Github/Internship_IC_Pkg/3DIC_Project/Alnitak/Alnitak_1/interposer.ndm:interposer_15_43_ucie_route.design
+Error: 'open_block' failed. Block 'interposer.ndm:interposer_15_43_ucie_route.design' is being edited by process 271065 01fe21bec256@CICS13.kletech.a. (NDM-029)
+3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Github/Internship_IC_Pkg/3DIC_Project/Alnitak/Alnitak_1/interposer.ndm:interposer_15_43_detail_route.design
+Error: 'open_block' failed. Block 'interposer.ndm:interposer_15_43_detail_route.design' is being edited by process 271065 01fe21bec256@CICS13.kletech.a. (NDM-029)
+3dic_shell> open_block -ref_libs_for_edit /home/01fe21bec256/1.Internship_Project/Github/Internship_IC_Pkg/3DIC_Project/Alnitak/Alnitak_1/interposer.ndm:interposer_15_43_eco_route.design
+Error: 'open_block' failed. Block 'interposer.ndm:interposer_15_43_eco_route.design' is being edited by process 274480 01fe21bec256@CICS13.kletech.a. (NDM-029)
 3dic_shell> 
